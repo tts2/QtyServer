@@ -1,0 +1,116 @@
+syntax = "proto3";
+option optimize_for = SPEED; // 加快解析
+option java_package="com.javacgo.remote.qt.common.protocol";   //指定生成到哪个包下
+option java_outer_classname="BigPack"; // 外部类名
+
+//protobuf 可以使用message 管理其他的message 
+message Exchange {
+
+    //定义一个枚举类型
+    enum DataType {
+        TypeHost = 0; //在proto3 要求enum的编号从0开始
+		//查询主机
+		TypeQueryHost = 1 ;
+		//请求认证
+        TypeRequestAuth = 2 ;
+		//回复认证
+		TypeResponseAuth = 3 ;
+		//请求桌面
+		TypeRequestDesk = 4 ;
+		//桌面命令
+		TypeCommandDesk = 5 ;
+		//桌面参数
+		TypeImageParameters = 6 ;
+		//截屏图片数据
+		TypeImage = 7 ;
+		//接收的瓷块
+		TypeImageReceived = 8 ;
+		//鼠标移动
+		TypeMouseMove = 9 ;
+    }
+
+    //用data_type 来标识传的是哪一个枚举类型
+    DataType dataType = 1;
+	string resourceId = 2 ;
+	string targetId = 3 ;
+	
+    //表示每次枚举类型最多只能出现其中的一个, 节省空间
+    oneof dataBody {
+        WMHostInfo HostInfo = 4;
+        CsRequestAuth requestAuth = 5 ;
+		ScResponseAuth responseAuth = 6 ;
+		CsDeskRequest  requestDesk = 7 ;
+		
+		DSDeskCommand  commandDesk = 8 ;
+		
+		ScImageParameters imageParameters = 9 ;
+		ScImageInfo image = 10 ;
+		CsImageReceived imageReceived = 11 ;
+		CsMouseMove mouseMove = 12 ;
+    }
+
+}
+
+
+message WMHostInfo {
+    //电脑名称
+    string pcName = 1; 
+    //mac地址
+    string mac = 2;
+	//主控或者被控 1为主 2为被
+	int32 activeOrpassive = 3 ; 
+}
+
+message CsRequestAuth {
+	string targetPasswd = 1  ;
+}
+
+message ScResponseAuth {
+	int32 success = 1 ;
+	int32 errorCode = 2 ;
+}
+
+message CsDeskRequest{
+
+	//清晰度
+	int32 degreeClarity = 1;
+	//比特率
+	int32 rc_target_bitrate = 2 ;
+	int32 rc_min_quantizer  = 3;
+	int32 rc_max_quantizer = 4;
+	
+}
+//double side
+message DSDeskCommand{
+	//开启或者关闭
+	int32 openOrClose = 1 ;
+	//清晰度
+	int32 degreeClarity = 2;
+	
+	int32 rc_target_bitrate = 3 ;
+	int32 rc_min_quantizer  = 4;
+	int32 rc_max_quantizer = 5;
+	
+}
+
+
+
+message ScImageParameters{
+	int32 imageWidth = 1 ;
+	int32 imageHeight =2 ;
+	int32 rectWidth = 3;
+}
+message ScImageInfo {
+    int32 posX = 1 ;
+    int32 posY = 2 ;
+    int32 tileNum = 3;   
+	bytes m_data = 4 ;
+}
+message CsImageReceived{
+	int32 TileNum = 1;
+}
+
+message CsMouseMove{
+	int32 posX = 1;
+	int32 posY = 2;
+}
