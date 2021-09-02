@@ -29,7 +29,12 @@ public class NettyChannelManager {
         }
         deviceId_Host_Map.put(deviceID, host);
         channelId_DeviceID_Map.put(host.getChannel().id(), deviceID);
-        logger.info("[add][新设备 {} 登录]", deviceID);
+        if(host.isActive()){
+            logger.info("[add][主控连接 {} 登录]", deviceID);
+        }else{
+            logger.info("[add][被控连接 {} 登录]", deviceID);
+        }
+
     }
 
     public void connet(String resourceId, String targetId) {
@@ -83,21 +88,22 @@ public class NettyChannelManager {
         }
     }
 
-    public boolean ifTargetUserExistDeal(String resourceId, String targetUser) {
+    public void dealQuestHost(String resourceId, String targetUser) {
         // 获得用户对应的 Channel
         KeskHost targetHost = deviceId_Host_Map.get(targetUser);
         KeskHost resourceHost = deviceId_Host_Map.get(resourceId);
+        BigPack.Exchange.Builder exB = BigPack.Exchange.newBuilder();
+        exB.setDataType(BigPack.Exchange.DataType.TypeResponseHost);
+        exB.setResourceId(resourceId);
+        exB.setTargetId(targetUser);
         if (targetHost == null) {
             logger.error("[ifTargetUserExistDeal]不存在]{}", targetUser);
-            BigPack.Exchange.Builder exB = BigPack.Exchange.newBuilder();
-            exB.setDataType(BigPack.Exchange.DataType.TypeResponseAuth);
-            exB.setResourceId(resourceId);
-            exB.setTargetId(targetUser);
-            exB.setResponseAuth(BigPack.ScResponseAuth.newBuilder().setSuccess(0));
-            resourceHost.getChannel().writeAndFlush(exB.build());
-            return true;
+            exB.setResponseHost(BigPack.ScResponseHost.newBuilder().setIsExist(false));
+        }else{
+            exB.setResponseHost(BigPack.ScResponseHost.newBuilder().setIsExist(true));
         }
-        return false;
+        resourceHost.getChannel().writeAndFlush(exB.build());
+
     }
 
     public void send(String targetUser, BigPack.Exchange msg) {

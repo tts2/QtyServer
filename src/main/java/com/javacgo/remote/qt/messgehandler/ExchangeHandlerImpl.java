@@ -44,10 +44,10 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
             }
         }
         switch (dataType) {
+            case TypeQueryHost:
+                nettyChnnelManager.dealQuestHost(resourceId, targetId);
+                break;
             case TypeRequestAuth:
-                if (nettyChnnelManager.ifTargetUserExistDeal(resourceId, targetId)) {
-                    break;
-                }
                 logger.info("{} 请求 {} 认证", resourceId, targetId);
                 nettyChnnelManager.send(targetId, msg);
                 break;

@@ -7,46 +7,52 @@ option java_outer_classname="BigPack"; // 外部类名
 message Exchange {
 
     //定义一个枚举类型
+    //在proto3 要求enum的编号从0开始
     enum DataType {
-        TypeHost = 0; //在proto3 要求enum的编号从0开始
+        TypeHost = 0;
 		//查询主机
 		TypeQueryHost = 1 ;
+		//主机发现回复
+		TypeResponseHost = 2;
 		//请求认证
-        TypeRequestAuth = 2 ;
+        TypeRequestAuth = 3 ;
 		//回复认证
-		TypeResponseAuth = 3 ;
+		TypeResponseAuth = 4 ;
 		//请求桌面
-		TypeRequestDesk = 4 ;
+		TypeRequestDesk = 5 ;
 		//桌面命令
-		TypeCommandDesk = 5 ;
+		TypeCommandDesk = 6 ;
 		//桌面参数
-		TypeImageParameters = 6 ;
+		TypeImageParameters = 7 ;
 		//截屏图片数据
-		TypeImage = 7 ;
+		TypeImage = 8 ;
 		//接收的瓷块
-		TypeImageReceived = 8 ;
+		TypeImageReceived = 9 ;
 		//鼠标移动
-		TypeMouseMove = 9 ;
+		TypeMouseMove = 10 ;
     }
 
     //用data_type 来标识传的是哪一个枚举类型
     DataType dataType = 1;
 	string resourceId = 2 ;
 	string targetId = 3 ;
-	
+	int32 errorCode = 4 ;
+
     //表示每次枚举类型最多只能出现其中的一个, 节省空间
     oneof dataBody {
-        WMHostInfo HostInfo = 4;
-        CsRequestAuth requestAuth = 5 ;
-		ScResponseAuth responseAuth = 6 ;
-		CsDeskRequest  requestDesk = 7 ;
+        WMHostInfo HostInfo = 5;
+        CsQueryHost questHost = 6 ;
+        ScResponseHost responseHost = 7 ;
+        CsRequestAuth requestAuth = 8 ;
+		ScResponseAuth responseAuth = 9 ;
+		CsDeskRequest  requestDesk = 10 ;
 		
-		DSDeskCommand  commandDesk = 8 ;
+		DSDeskCommand  commandDesk = 11 ;
 		
-		ScImageParameters imageParameters = 9 ;
-		ScImageInfo image = 10 ;
-		CsImageReceived imageReceived = 11 ;
-		CsMouseMove mouseMove = 12 ;
+		ScImageParameters imageParameters = 12 ;
+		ScImageInfo image = 13 ;
+		CsImageReceived imageReceived = 14 ;
+		CsMouseMove mouseMove = 15 ;
     }
 
 }
@@ -60,14 +66,19 @@ message WMHostInfo {
 	//主控或者被控 1为主 2为被
 	int32 activeOrpassive = 3 ; 
 }
+message CsQueryHost{
+}
 
+message ScResponseHost{
+    bool isExist = 1 ;
+}
 message CsRequestAuth {
 	string targetPasswd = 1  ;
 }
 
 message ScResponseAuth {
 	int32 success = 1 ;
-	int32 errorCode = 2 ;
+
 }
 
 message CsDeskRequest{

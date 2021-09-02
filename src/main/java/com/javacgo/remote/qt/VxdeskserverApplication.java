@@ -4,11 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KkdeskserverApplication {
+public class VxdeskserverApplication {
 
     public static void main(String[] args) {
         try {
-            SpringApplication.run(KkdeskserverApplication.class, args);
+            SpringApplication.run(VxdeskserverApplication.class, args);
         }catch (Exception e){
             e.printStackTrace();
         }

@@ -62,137 +62,173 @@ public final class BigPack {
         getTargetIdBytes();
 
     /**
-     * <code>.WMHostInfo HostInfo = 4;</code>
+     * <code>int32 errorCode = 4;</code>
+     * @return The errorCode.
+     */
+    int getErrorCode();
+
+    /**
+     * <code>.WMHostInfo HostInfo = 5;</code>
      * @return Whether the hostInfo field is set.
      */
     boolean hasHostInfo();
     /**
-     * <code>.WMHostInfo HostInfo = 4;</code>
+     * <code>.WMHostInfo HostInfo = 5;</code>
      * @return The hostInfo.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo getHostInfo();
     /**
-     * <code>.WMHostInfo HostInfo = 4;</code>
+     * <code>.WMHostInfo HostInfo = 5;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfoOrBuilder getHostInfoOrBuilder();
 
     /**
-     * <code>.CsRequestAuth requestAuth = 5;</code>
+     * <code>.CsQueryHost questHost = 6;</code>
+     * @return Whether the questHost field is set.
+     */
+    boolean hasQuestHost();
+    /**
+     * <code>.CsQueryHost questHost = 6;</code>
+     * @return The questHost.
+     */
+    com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost getQuestHost();
+    /**
+     * <code>.CsQueryHost questHost = 6;</code>
+     */
+    com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHostOrBuilder getQuestHostOrBuilder();
+
+    /**
+     * <code>.ScResponseHost responseHost = 7;</code>
+     * @return Whether the responseHost field is set.
+     */
+    boolean hasResponseHost();
+    /**
+     * <code>.ScResponseHost responseHost = 7;</code>
+     * @return The responseHost.
+     */
+    com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost getResponseHost();
+    /**
+     * <code>.ScResponseHost responseHost = 7;</code>
+     */
+    com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHostOrBuilder getResponseHostOrBuilder();
+
+    /**
+     * <code>.CsRequestAuth requestAuth = 8;</code>
      * @return Whether the requestAuth field is set.
      */
     boolean hasRequestAuth();
     /**
-     * <code>.CsRequestAuth requestAuth = 5;</code>
+     * <code>.CsRequestAuth requestAuth = 8;</code>
      * @return The requestAuth.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth getRequestAuth();
     /**
-     * <code>.CsRequestAuth requestAuth = 5;</code>
+     * <code>.CsRequestAuth requestAuth = 8;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuthOrBuilder getRequestAuthOrBuilder();
 
     /**
-     * <code>.ScResponseAuth responseAuth = 6;</code>
+     * <code>.ScResponseAuth responseAuth = 9;</code>
      * @return Whether the responseAuth field is set.
      */
     boolean hasResponseAuth();
     /**
-     * <code>.ScResponseAuth responseAuth = 6;</code>
+     * <code>.ScResponseAuth responseAuth = 9;</code>
      * @return The responseAuth.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth getResponseAuth();
     /**
-     * <code>.ScResponseAuth responseAuth = 6;</code>
+     * <code>.ScResponseAuth responseAuth = 9;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuthOrBuilder getResponseAuthOrBuilder();
 
     /**
-     * <code>.CsDeskRequest requestDesk = 7;</code>
+     * <code>.CsDeskRequest requestDesk = 10;</code>
      * @return Whether the requestDesk field is set.
      */
     boolean hasRequestDesk();
     /**
-     * <code>.CsDeskRequest requestDesk = 7;</code>
+     * <code>.CsDeskRequest requestDesk = 10;</code>
      * @return The requestDesk.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest getRequestDesk();
     /**
-     * <code>.CsDeskRequest requestDesk = 7;</code>
+     * <code>.CsDeskRequest requestDesk = 10;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequestOrBuilder getRequestDeskOrBuilder();
 
     /**
-     * <code>.DSDeskCommand commandDesk = 8;</code>
+     * <code>.DSDeskCommand commandDesk = 11;</code>
      * @return Whether the commandDesk field is set.
      */
     boolean hasCommandDesk();
     /**
-     * <code>.DSDeskCommand commandDesk = 8;</code>
+     * <code>.DSDeskCommand commandDesk = 11;</code>
      * @return The commandDesk.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand getCommandDesk();
     /**
-     * <code>.DSDeskCommand commandDesk = 8;</code>
+     * <code>.DSDeskCommand commandDesk = 11;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder getCommandDeskOrBuilder();
 
     /**
-     * <code>.ScImageParameters imageParameters = 9;</code>
+     * <code>.ScImageParameters imageParameters = 12;</code>
      * @return Whether the imageParameters field is set.
      */
     boolean hasImageParameters();
     /**
-     * <code>.ScImageParameters imageParameters = 9;</code>
+     * <code>.ScImageParameters imageParameters = 12;</code>
      * @return The imageParameters.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters getImageParameters();
     /**
-     * <code>.ScImageParameters imageParameters = 9;</code>
+     * <code>.ScImageParameters imageParameters = 12;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.ScImageParametersOrBuilder getImageParametersOrBuilder();
 
     /**
-     * <code>.ScImageInfo image = 10;</code>
+     * <code>.ScImageInfo image = 13;</code>
      * @return Whether the image field is set.
      */
     boolean hasImage();
     /**
-     * <code>.ScImageInfo image = 10;</code>
+     * <code>.ScImageInfo image = 13;</code>
      * @return The image.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo getImage();
     /**
-     * <code>.ScImageInfo image = 10;</code>
+     * <code>.ScImageInfo image = 13;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfoOrBuilder getImageOrBuilder();
 
     /**
-     * <code>.CsImageReceived imageReceived = 11;</code>
+     * <code>.CsImageReceived imageReceived = 14;</code>
      * @return Whether the imageReceived field is set.
      */
     boolean hasImageReceived();
     /**
-     * <code>.CsImageReceived imageReceived = 11;</code>
+     * <code>.CsImageReceived imageReceived = 14;</code>
      * @return The imageReceived.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived getImageReceived();
     /**
-     * <code>.CsImageReceived imageReceived = 11;</code>
+     * <code>.CsImageReceived imageReceived = 14;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceivedOrBuilder getImageReceivedOrBuilder();
 
     /**
-     * <code>.CsMouseMove mouseMove = 12;</code>
+     * <code>.CsMouseMove mouseMove = 15;</code>
      * @return Whether the mouseMove field is set.
      */
     boolean hasMouseMove();
     /**
-     * <code>.CsMouseMove mouseMove = 12;</code>
+     * <code>.CsMouseMove mouseMove = 15;</code>
      * @return The mouseMove.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove getMouseMove();
     /**
-     * <code>.CsMouseMove mouseMove = 12;</code>
+     * <code>.CsMouseMove mouseMove = 15;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMoveOrBuilder getMouseMoveOrBuilder();
 
@@ -268,9 +304,14 @@ public final class BigPack {
               targetId_ = s;
               break;
             }
-            case 34: {
+            case 32: {
+
+              errorCode_ = input.readInt32();
+              break;
+            }
+            case 42: {
               com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.Builder subBuilder = null;
-              if (dataBodyCase_ == 4) {
+              if (dataBodyCase_ == 5) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -279,12 +320,40 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 4;
+              dataBodyCase_ = 5;
               break;
             }
-            case 42: {
+            case 50: {
+              com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.Builder subBuilder = null;
+              if (dataBodyCase_ == 6) {
+                subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) dataBody_).toBuilder();
+              }
+              dataBody_ =
+                  input.readMessage(com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) dataBody_);
+                dataBody_ = subBuilder.buildPartial();
+              }
+              dataBodyCase_ = 6;
+              break;
+            }
+            case 58: {
+              com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.Builder subBuilder = null;
+              if (dataBodyCase_ == 7) {
+                subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) dataBody_).toBuilder();
+              }
+              dataBody_ =
+                  input.readMessage(com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) dataBody_);
+                dataBody_ = subBuilder.buildPartial();
+              }
+              dataBodyCase_ = 7;
+              break;
+            }
+            case 66: {
               com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.Builder subBuilder = null;
-              if (dataBodyCase_ == 5) {
+              if (dataBodyCase_ == 8) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -293,12 +362,12 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 5;
+              dataBodyCase_ = 8;
               break;
             }
-            case 50: {
+            case 74: {
               com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.Builder subBuilder = null;
-              if (dataBodyCase_ == 6) {
+              if (dataBodyCase_ == 9) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -307,12 +376,12 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 6;
+              dataBodyCase_ = 9;
               break;
             }
-            case 58: {
+            case 82: {
               com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.Builder subBuilder = null;
-              if (dataBodyCase_ == 7) {
+              if (dataBodyCase_ == 10) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -321,12 +390,12 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 7;
+              dataBodyCase_ = 10;
               break;
             }
-            case 66: {
+            case 90: {
               com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder subBuilder = null;
-              if (dataBodyCase_ == 8) {
+              if (dataBodyCase_ == 11) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -335,12 +404,12 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 8;
+              dataBodyCase_ = 11;
               break;
             }
-            case 74: {
+            case 98: {
               com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.Builder subBuilder = null;
-              if (dataBodyCase_ == 9) {
+              if (dataBodyCase_ == 12) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -349,12 +418,12 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 9;
+              dataBodyCase_ = 12;
               break;
             }
-            case 82: {
+            case 106: {
               com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.Builder subBuilder = null;
-              if (dataBodyCase_ == 10) {
+              if (dataBodyCase_ == 13) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -363,12 +432,12 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 10;
+              dataBodyCase_ = 13;
               break;
             }
-            case 90: {
+            case 114: {
               com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.Builder subBuilder = null;
-              if (dataBodyCase_ == 11) {
+              if (dataBodyCase_ == 14) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -377,12 +446,12 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 11;
+              dataBodyCase_ = 14;
               break;
             }
-            case 98: {
+            case 122: {
               com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.Builder subBuilder = null;
-              if (dataBodyCase_ == 12) {
+              if (dataBodyCase_ == 15) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -391,7 +460,7 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 12;
+              dataBodyCase_ = 15;
               break;
             }
             default: {
@@ -429,6 +498,7 @@ public final class BigPack {
     /**
      * <pre>
      *定义一个枚举类型
+     *在proto3 要求enum的编号从0开始
      * </pre>
      *
      * Protobuf enum {@code Exchange.DataType}
@@ -436,10 +506,6 @@ public final class BigPack {
     public enum DataType
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <pre>
-       *在proto3 要求enum的编号从0开始
-       * </pre>
-       *
        * <code>TypeHost = 0;</code>
        */
       TypeHost(0),
@@ -453,76 +519,80 @@ public final class BigPack {
       TypeQueryHost(1),
       /**
        * <pre>
+       *主机发现回复
+       * </pre>
+       *
+       * <code>TypeResponseHost = 2;</code>
+       */
+      TypeResponseHost(2),
+      /**
+       * <pre>
        *请求认证
        * </pre>
        *
-       * <code>TypeRequestAuth = 2;</code>
+       * <code>TypeRequestAuth = 3;</code>
        */
-      TypeRequestAuth(2),
+      TypeRequestAuth(3),
       /**
        * <pre>
        *回复认证
        * </pre>
        *
-       * <code>TypeResponseAuth = 3;</code>
+       * <code>TypeResponseAuth = 4;</code>
        */
-      TypeResponseAuth(3),
+      TypeResponseAuth(4),
       /**
        * <pre>
        *请求桌面
        * </pre>
        *
-       * <code>TypeRequestDesk = 4;</code>
+       * <code>TypeRequestDesk = 5;</code>
        */
-      TypeRequestDesk(4),
+      TypeRequestDesk(5),
       /**
        * <pre>
        *桌面命令
        * </pre>
        *
-       * <code>TypeCommandDesk = 5;</code>
+       * <code>TypeCommandDesk = 6;</code>
        */
-      TypeCommandDesk(5),
+      TypeCommandDesk(6),
       /**
        * <pre>
        *桌面参数
        * </pre>
        *
-       * <code>TypeImageParameters = 6;</code>
+       * <code>TypeImageParameters = 7;</code>
        */
-      TypeImageParameters(6),
+      TypeImageParameters(7),
       /**
        * <pre>
        *截屏图片数据
        * </pre>
        *
-       * <code>TypeImage = 7;</code>
+       * <code>TypeImage = 8;</code>
        */
-      TypeImage(7),
+      TypeImage(8),
       /**
        * <pre>
        *接收的瓷块
        * </pre>
        *
-       * <code>TypeImageReceived = 8;</code>
+       * <code>TypeImageReceived = 9;</code>
        */
-      TypeImageReceived(8),
+      TypeImageReceived(9),
       /**
        * <pre>
        *鼠标移动
        * </pre>
        *
-       * <code>TypeMouseMove = 9;</code>
+       * <code>TypeMouseMove = 10;</code>
        */
-      TypeMouseMove(9),
+      TypeMouseMove(10),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <pre>
-       *在proto3 要求enum的编号从0开始
-       * </pre>
-       *
        * <code>TypeHost = 0;</code>
        */
       public static final int TypeHost_VALUE = 0;
@@ -536,68 +606,76 @@ public final class BigPack {
       public static final int TypeQueryHost_VALUE = 1;
       /**
        * <pre>
+       *主机发现回复
+       * </pre>
+       *
+       * <code>TypeResponseHost = 2;</code>
+       */
+      public static final int TypeResponseHost_VALUE = 2;
+      /**
+       * <pre>
        *请求认证
        * </pre>
        *
-       * <code>TypeRequestAuth = 2;</code>
+       * <code>TypeRequestAuth = 3;</code>
        */
-      public static final int TypeRequestAuth_VALUE = 2;
+      public static final int TypeRequestAuth_VALUE = 3;
       /**
        * <pre>
        *回复认证
        * </pre>
        *
-       * <code>TypeResponseAuth = 3;</code>
+       * <code>TypeResponseAuth = 4;</code>
        */
-      public static final int TypeResponseAuth_VALUE = 3;
+      public static final int TypeResponseAuth_VALUE = 4;
       /**
        * <pre>
        *请求桌面
        * </pre>
        *
-       * <code>TypeRequestDesk = 4;</code>
+       * <code>TypeRequestDesk = 5;</code>
        */
-      public static final int TypeRequestDesk_VALUE = 4;
+      public static final int TypeRequestDesk_VALUE = 5;
       /**
        * <pre>
        *桌面命令
        * </pre>
        *
-       * <code>TypeCommandDesk = 5;</code>
+       * <code>TypeCommandDesk = 6;</code>
        */
-      public static final int TypeCommandDesk_VALUE = 5;
+      public static final int TypeCommandDesk_VALUE = 6;
       /**
        * <pre>
        *桌面参数
        * </pre>
        *
-       * <code>TypeImageParameters = 6;</code>
+       * <code>TypeImageParameters = 7;</code>
        */
-      public static final int TypeImageParameters_VALUE = 6;
+      public static final int TypeImageParameters_VALUE = 7;
       /**
        * <pre>
        *截屏图片数据
        * </pre>
        *
-       * <code>TypeImage = 7;</code>
+       * <code>TypeImage = 8;</code>
        */
-      public static final int TypeImage_VALUE = 7;
+      public static final int TypeImage_VALUE = 8;
       /**
        * <pre>
        *接收的瓷块
        * </pre>
        *
-       * <code>TypeImageReceived = 8;</code>
+       * <code>TypeImageReceived = 9;</code>
        */
-      public static final int TypeImageReceived_VALUE = 8;
+      public static final int TypeImageReceived_VALUE = 9;
       /**
        * <pre>
        *鼠标移动
        * </pre>
        *
-       * <code>TypeMouseMove = 9;</code>
+       * <code>TypeMouseMove = 10;</code>
        */
-      public static final int TypeMouseMove_VALUE = 9;
+      public static final int TypeMouseMove_VALUE = 10;
 
 
       public final int getNumber() {
@@ -626,14 +704,15 @@ public final class BigPack {
         switch (value) {
           case 0: return TypeHost;
           case 1: return TypeQueryHost;
-          case 2: return TypeRequestAuth;
-          case 3: return TypeResponseAuth;
-          case 4: return TypeRequestDesk;
-          case 5: return TypeCommandDesk;
-          case 6: return TypeImageParameters;
-          case 7: return TypeImage;
-          case 8: return TypeImageReceived;
-          case 9: return TypeMouseMove;
+          case 2: return TypeResponseHost;
+          case 3: return TypeRequestAuth;
+          case 4: return TypeResponseAuth;
+          case 5: return TypeRequestDesk;
+          case 6: return TypeCommandDesk;
+          case 7: return TypeImageParameters;
+          case 8: return TypeImage;
+          case 9: return TypeImageReceived;
+          case 10: return TypeMouseMove;
           default: return null;
         }
       }
@@ -695,15 +774,17 @@ public final class BigPack {
     public enum DataBodyCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      HOSTINFO(4),
-      REQUESTAUTH(5),
-      RESPONSEAUTH(6),
-      REQUESTDESK(7),
-      COMMANDDESK(8),
-      IMAGEPARAMETERS(9),
-      IMAGE(10),
-      IMAGERECEIVED(11),
-      MOUSEMOVE(12),
+      HOSTINFO(5),
+      QUESTHOST(6),
+      RESPONSEHOST(7),
+      REQUESTAUTH(8),
+      RESPONSEAUTH(9),
+      REQUESTDESK(10),
+      COMMANDDESK(11),
+      IMAGEPARAMETERS(12),
+      IMAGE(13),
+      IMAGERECEIVED(14),
+      MOUSEMOVE(15),
       DATABODY_NOT_SET(0);
       private final int value;
       private DataBodyCase(int value) {
@@ -721,15 +802,17 @@ public final class BigPack {
 
       public static DataBodyCase forNumber(int value) {
         switch (value) {
-          case 4: return HOSTINFO;
-          case 5: return REQUESTAUTH;
-          case 6: return RESPONSEAUTH;
-          case 7: return REQUESTDESK;
-          case 8: return COMMANDDESK;
-          case 9: return IMAGEPARAMETERS;
-          case 10: return IMAGE;
-          case 11: return IMAGERECEIVED;
-          case 12: return MOUSEMOVE;
+          case 5: return HOSTINFO;
+          case 6: return QUESTHOST;
+          case 7: return RESPONSEHOST;
+          case 8: return REQUESTAUTH;
+          case 9: return RESPONSEAUTH;
+          case 10: return REQUESTDESK;
+          case 11: return COMMANDDESK;
+          case 12: return IMAGEPARAMETERS;
+          case 13: return IMAGE;
+          case 14: return IMAGERECEIVED;
+          case 15: return MOUSEMOVE;
           case 0: return DATABODY_NOT_SET;
           default: return null;
         }
@@ -848,280 +931,353 @@ public final class BigPack {
       }
     }
 
-    public static final int HOSTINFO_FIELD_NUMBER = 4;
+    public static final int ERRORCODE_FIELD_NUMBER = 4;
+    private int errorCode_;
     /**
-     * <code>.WMHostInfo HostInfo = 4;</code>
+     * <code>int32 errorCode = 4;</code>
+     * @return The errorCode.
+     */
+    @java.lang.Override
+    public int getErrorCode() {
+      return errorCode_;
+    }
+
+    public static final int HOSTINFO_FIELD_NUMBER = 5;
+    /**
+     * <code>.WMHostInfo HostInfo = 5;</code>
      * @return Whether the hostInfo field is set.
      */
     @java.lang.Override
     public boolean hasHostInfo() {
-      return dataBodyCase_ == 4;
+      return dataBodyCase_ == 5;
     }
     /**
-     * <code>.WMHostInfo HostInfo = 4;</code>
+     * <code>.WMHostInfo HostInfo = 5;</code>
      * @return The hostInfo.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo getHostInfo() {
-      if (dataBodyCase_ == 4) {
+      if (dataBodyCase_ == 5) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.getDefaultInstance();
     }
     /**
-     * <code>.WMHostInfo HostInfo = 4;</code>
+     * <code>.WMHostInfo HostInfo = 5;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfoOrBuilder getHostInfoOrBuilder() {
-      if (dataBodyCase_ == 4) {
+      if (dataBodyCase_ == 5) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.getDefaultInstance();
     }
 
-    public static final int REQUESTAUTH_FIELD_NUMBER = 5;
+    public static final int QUESTHOST_FIELD_NUMBER = 6;
     /**
-     * <code>.CsRequestAuth requestAuth = 5;</code>
+     * <code>.CsQueryHost questHost = 6;</code>
+     * @return Whether the questHost field is set.
+     */
+    @java.lang.Override
+    public boolean hasQuestHost() {
+      return dataBodyCase_ == 6;
+    }
+    /**
+     * <code>.CsQueryHost questHost = 6;</code>
+     * @return The questHost.
+     */
+    @java.lang.Override
+    public com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost getQuestHost() {
+      if (dataBodyCase_ == 6) {
+         return (com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) dataBody_;
+      }
+      return com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.getDefaultInstance();
+    }
+    /**
+     * <code>.CsQueryHost questHost = 6;</code>
+     */
+    @java.lang.Override
+    public com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHostOrBuilder getQuestHostOrBuilder() {
+      if (dataBodyCase_ == 6) {
+         return (com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) dataBody_;
+      }
+      return com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.getDefaultInstance();
+    }
+
+    public static final int RESPONSEHOST_FIELD_NUMBER = 7;
+    /**
+     * <code>.ScResponseHost responseHost = 7;</code>
+     * @return Whether the responseHost field is set.
+     */
+    @java.lang.Override
+    public boolean hasResponseHost() {
+      return dataBodyCase_ == 7;
+    }
+    /**
+     * <code>.ScResponseHost responseHost = 7;</code>
+     * @return The responseHost.
+     */
+    @java.lang.Override
+    public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost getResponseHost() {
+      if (dataBodyCase_ == 7) {
+         return (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) dataBody_;
+      }
+      return com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.getDefaultInstance();
+    }
+    /**
+     * <code>.ScResponseHost responseHost = 7;</code>
+     */
+    @java.lang.Override
+    public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHostOrBuilder getResponseHostOrBuilder() {
+      if (dataBodyCase_ == 7) {
+         return (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) dataBody_;
+      }
+      return com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.getDefaultInstance();
+    }
+
+    public static final int REQUESTAUTH_FIELD_NUMBER = 8;
+    /**
+     * <code>.CsRequestAuth requestAuth = 8;</code>
      * @return Whether the requestAuth field is set.
      */
     @java.lang.Override
     public boolean hasRequestAuth() {
-      return dataBodyCase_ == 5;
+      return dataBodyCase_ == 8;
     }
     /**
-     * <code>.CsRequestAuth requestAuth = 5;</code>
+     * <code>.CsRequestAuth requestAuth = 8;</code>
      * @return The requestAuth.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth getRequestAuth() {
-      if (dataBodyCase_ == 5) {
+      if (dataBodyCase_ == 8) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.getDefaultInstance();
     }
     /**
-     * <code>.CsRequestAuth requestAuth = 5;</code>
+     * <code>.CsRequestAuth requestAuth = 8;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuthOrBuilder getRequestAuthOrBuilder() {
-      if (dataBodyCase_ == 5) {
+      if (dataBodyCase_ == 8) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.getDefaultInstance();
     }
 
-    public static final int RESPONSEAUTH_FIELD_NUMBER = 6;
+    public static final int RESPONSEAUTH_FIELD_NUMBER = 9;
     /**
-     * <code>.ScResponseAuth responseAuth = 6;</code>
+     * <code>.ScResponseAuth responseAuth = 9;</code>
      * @return Whether the responseAuth field is set.
      */
     @java.lang.Override
     public boolean hasResponseAuth() {
-      return dataBodyCase_ == 6;
+      return dataBodyCase_ == 9;
     }
     /**
-     * <code>.ScResponseAuth responseAuth = 6;</code>
+     * <code>.ScResponseAuth responseAuth = 9;</code>
      * @return The responseAuth.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth getResponseAuth() {
-      if (dataBodyCase_ == 6) {
+      if (dataBodyCase_ == 9) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.getDefaultInstance();
     }
     /**
-     * <code>.ScResponseAuth responseAuth = 6;</code>
+     * <code>.ScResponseAuth responseAuth = 9;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuthOrBuilder getResponseAuthOrBuilder() {
-      if (dataBodyCase_ == 6) {
+      if (dataBodyCase_ == 9) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.getDefaultInstance();
     }
 
-    public static final int REQUESTDESK_FIELD_NUMBER = 7;
+    public static final int REQUESTDESK_FIELD_NUMBER = 10;
     /**
-     * <code>.CsDeskRequest requestDesk = 7;</code>
+     * <code>.CsDeskRequest requestDesk = 10;</code>
      * @return Whether the requestDesk field is set.
      */
     @java.lang.Override
     public boolean hasRequestDesk() {
-      return dataBodyCase_ == 7;
+      return dataBodyCase_ == 10;
     }
     /**
-     * <code>.CsDeskRequest requestDesk = 7;</code>
+     * <code>.CsDeskRequest requestDesk = 10;</code>
      * @return The requestDesk.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest getRequestDesk() {
-      if (dataBodyCase_ == 7) {
+      if (dataBodyCase_ == 10) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.getDefaultInstance();
     }
     /**
-     * <code>.CsDeskRequest requestDesk = 7;</code>
+     * <code>.CsDeskRequest requestDesk = 10;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequestOrBuilder getRequestDeskOrBuilder() {
-      if (dataBodyCase_ == 7) {
+      if (dataBodyCase_ == 10) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.getDefaultInstance();
     }
 
-    public static final int COMMANDDESK_FIELD_NUMBER = 8;
+    public static final int COMMANDDESK_FIELD_NUMBER = 11;
     /**
-     * <code>.DSDeskCommand commandDesk = 8;</code>
+     * <code>.DSDeskCommand commandDesk = 11;</code>
      * @return Whether the commandDesk field is set.
      */
     @java.lang.Override
     public boolean hasCommandDesk() {
-      return dataBodyCase_ == 8;
+      return dataBodyCase_ == 11;
     }
     /**
-     * <code>.DSDeskCommand commandDesk = 8;</code>
+     * <code>.DSDeskCommand commandDesk = 11;</code>
      * @return The commandDesk.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand getCommandDesk() {
-      if (dataBodyCase_ == 8) {
+      if (dataBodyCase_ == 11) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
     }
     /**
-     * <code>.DSDeskCommand commandDesk = 8;</code>
+     * <code>.DSDeskCommand commandDesk = 11;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder getCommandDeskOrBuilder() {
-      if (dataBodyCase_ == 8) {
+      if (dataBodyCase_ == 11) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
     }
 
-    public static final int IMAGEPARAMETERS_FIELD_NUMBER = 9;
+    public static final int IMAGEPARAMETERS_FIELD_NUMBER = 12;
     /**
-     * <code>.ScImageParameters imageParameters = 9;</code>
+     * <code>.ScImageParameters imageParameters = 12;</code>
      * @return Whether the imageParameters field is set.
      */
     @java.lang.Override
     public boolean hasImageParameters() {
-      return dataBodyCase_ == 9;
+      return dataBodyCase_ == 12;
     }
     /**
-     * <code>.ScImageParameters imageParameters = 9;</code>
+     * <code>.ScImageParameters imageParameters = 12;</code>
      * @return The imageParameters.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters getImageParameters() {
-      if (dataBodyCase_ == 9) {
+      if (dataBodyCase_ == 12) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
     }
     /**
-     * <code>.ScImageParameters imageParameters = 9;</code>
+     * <code>.ScImageParameters imageParameters = 12;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.ScImageParametersOrBuilder getImageParametersOrBuilder() {
-      if (dataBodyCase_ == 9) {
+      if (dataBodyCase_ == 12) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
     }
 
-    public static final int IMAGE_FIELD_NUMBER = 10;
+    public static final int IMAGE_FIELD_NUMBER = 13;
     /**
-     * <code>.ScImageInfo image = 10;</code>
+     * <code>.ScImageInfo image = 13;</code>
      * @return Whether the image field is set.
      */
     @java.lang.Override
     public boolean hasImage() {
-      return dataBodyCase_ == 10;
+      return dataBodyCase_ == 13;
     }
     /**
-     * <code>.ScImageInfo image = 10;</code>
+     * <code>.ScImageInfo image = 13;</code>
      * @return The image.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo getImage() {
-      if (dataBodyCase_ == 10) {
+      if (dataBodyCase_ == 13) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
     }
     /**
-     * <code>.ScImageInfo image = 10;</code>
+     * <code>.ScImageInfo image = 13;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfoOrBuilder getImageOrBuilder() {
-      if (dataBodyCase_ == 10) {
+      if (dataBodyCase_ == 13) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
     }
 
-    public static final int IMAGERECEIVED_FIELD_NUMBER = 11;
+    public static final int IMAGERECEIVED_FIELD_NUMBER = 14;
     /**
-     * <code>.CsImageReceived imageReceived = 11;</code>
+     * <code>.CsImageReceived imageReceived = 14;</code>
      * @return Whether the imageReceived field is set.
      */
     @java.lang.Override
     public boolean hasImageReceived() {
-      return dataBodyCase_ == 11;
+      return dataBodyCase_ == 14;
     }
     /**
-     * <code>.CsImageReceived imageReceived = 11;</code>
+     * <code>.CsImageReceived imageReceived = 14;</code>
      * @return The imageReceived.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived getImageReceived() {
-      if (dataBodyCase_ == 11) {
+      if (dataBodyCase_ == 14) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
     }
     /**
-     * <code>.CsImageReceived imageReceived = 11;</code>
+     * <code>.CsImageReceived imageReceived = 14;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceivedOrBuilder getImageReceivedOrBuilder() {
-      if (dataBodyCase_ == 11) {
+      if (dataBodyCase_ == 14) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
     }
 
-    public static final int MOUSEMOVE_FIELD_NUMBER = 12;
+    public static final int MOUSEMOVE_FIELD_NUMBER = 15;
     /**
-     * <code>.CsMouseMove mouseMove = 12;</code>
+     * <code>.CsMouseMove mouseMove = 15;</code>
      * @return Whether the mouseMove field is set.
      */
     @java.lang.Override
     public boolean hasMouseMove() {
-      return dataBodyCase_ == 12;
+      return dataBodyCase_ == 15;
     }
     /**
-     * <code>.CsMouseMove mouseMove = 12;</code>
+     * <code>.CsMouseMove mouseMove = 15;</code>
      * @return The mouseMove.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove getMouseMove() {
-      if (dataBodyCase_ == 12) {
+      if (dataBodyCase_ == 15) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
     }
     /**
-     * <code>.CsMouseMove mouseMove = 12;</code>
+     * <code>.CsMouseMove mouseMove = 15;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMoveOrBuilder getMouseMoveOrBuilder() {
-      if (dataBodyCase_ == 12) {
+      if (dataBodyCase_ == 15) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
@@ -1150,32 +1306,41 @@ public final class BigPack {
       if (!getTargetIdBytes().isEmpty()) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 3, targetId_);
       }
-      if (dataBodyCase_ == 4) {
-        output.writeMessage(4, (com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo) dataBody_);
+      if (errorCode_ != 0) {
+        output.writeInt32(4, errorCode_);
       }
       if (dataBodyCase_ == 5) {
-        output.writeMessage(5, (com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth) dataBody_);
+        output.writeMessage(5, (com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo) dataBody_);
       }
       if (dataBodyCase_ == 6) {
-        output.writeMessage(6, (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth) dataBody_);
+        output.writeMessage(6, (com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) dataBody_);
       }
       if (dataBodyCase_ == 7) {
-        output.writeMessage(7, (com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_);
+        output.writeMessage(7, (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) dataBody_);
       }
       if (dataBodyCase_ == 8) {
-        output.writeMessage(8, (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_);
+        output.writeMessage(8, (com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth) dataBody_);
       }
       if (dataBodyCase_ == 9) {
-        output.writeMessage(9, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_);
+        output.writeMessage(9, (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth) dataBody_);
       }
       if (dataBodyCase_ == 10) {
-        output.writeMessage(10, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_);
+        output.writeMessage(10, (com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_);
       }
       if (dataBodyCase_ == 11) {
-        output.writeMessage(11, (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_);
+        output.writeMessage(11, (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_);
       }
       if (dataBodyCase_ == 12) {
-        output.writeMessage(12, (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_);
+        output.writeMessage(12, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_);
+      }
+      if (dataBodyCase_ == 13) {
+        output.writeMessage(13, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_);
+      }
+      if (dataBodyCase_ == 14) {
+        output.writeMessage(14, (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_);
+      }
+      if (dataBodyCase_ == 15) {
+        output.writeMessage(15, (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_);
       }
       unknownFields.writeTo(output);
     }
@@ -1196,41 +1361,53 @@ public final class BigPack {
       if (!getTargetIdBytes().isEmpty()) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, targetId_);
       }
-      if (dataBodyCase_ == 4) {
+      if (errorCode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo) dataBody_);
+          .computeInt32Size(4, errorCode_);
       }
       if (dataBodyCase_ == 5) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, (com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth) dataBody_);
+          .computeMessageSize(5, (com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo) dataBody_);
       }
       if (dataBodyCase_ == 6) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth) dataBody_);
+          .computeMessageSize(6, (com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) dataBody_);
       }
       if (dataBodyCase_ == 7) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, (com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_);
+          .computeMessageSize(7, (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) dataBody_);
       }
       if (dataBodyCase_ == 8) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_);
+          .computeMessageSize(8, (com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth) dataBody_);
       }
       if (dataBodyCase_ == 9) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_);
+          .computeMessageSize(9, (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth) dataBody_);
       }
       if (dataBodyCase_ == 10) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_);
+          .computeMessageSize(10, (com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_);
       }
       if (dataBodyCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_);
+          .computeMessageSize(11, (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_);
       }
       if (dataBodyCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_);
+          .computeMessageSize(12, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_);
+      }
+      if (dataBodyCase_ == 13) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_);
+      }
+      if (dataBodyCase_ == 14) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(14, (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_);
+      }
+      if (dataBodyCase_ == 15) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(15, (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1252,41 +1429,51 @@ public final class BigPack {
           .equals(other.getResourceId())) return false;
       if (!getTargetId()
           .equals(other.getTargetId())) return false;
+      if (getErrorCode()
+          != other.getErrorCode()) return false;
       if (!getDataBodyCase().equals(other.getDataBodyCase())) return false;
       switch (dataBodyCase_) {
-        case 4:
+        case 5:
           if (!getHostInfo()
               .equals(other.getHostInfo())) return false;
           break;
-        case 5:
+        case 6:
+          if (!getQuestHost()
+              .equals(other.getQuestHost())) return false;
+          break;
+        case 7:
+          if (!getResponseHost()
+              .equals(other.getResponseHost())) return false;
+          break;
+        case 8:
           if (!getRequestAuth()
               .equals(other.getRequestAuth())) return false;
           break;
-        case 6:
+        case 9:
           if (!getResponseAuth()
               .equals(other.getResponseAuth())) return false;
           break;
-        case 7:
+        case 10:
           if (!getRequestDesk()
               .equals(other.getRequestDesk())) return false;
           break;
-        case 8:
+        case 11:
           if (!getCommandDesk()
               .equals(other.getCommandDesk())) return false;
           break;
-        case 9:
+        case 12:
           if (!getImageParameters()
               .equals(other.getImageParameters())) return false;
           break;
-        case 10:
+        case 13:
           if (!getImage()
               .equals(other.getImage())) return false;
           break;
-        case 11:
+        case 14:
           if (!getImageReceived()
               .equals(other.getImageReceived())) return false;
           break;
-        case 12:
+        case 15:
           if (!getMouseMove()
               .equals(other.getMouseMove())) return false;
           break;
@@ -1310,40 +1497,50 @@ public final class BigPack {
       hash = (53 * hash) + getResourceId().hashCode();
       hash = (37 * hash) + TARGETID_FIELD_NUMBER;
       hash = (53 * hash) + getTargetId().hashCode();
+      hash = (37 * hash) + ERRORCODE_FIELD_NUMBER;
+      hash = (53 * hash) + getErrorCode();
       switch (dataBodyCase_) {
-        case 4:
+        case 5:
           hash = (37 * hash) + HOSTINFO_FIELD_NUMBER;
           hash = (53 * hash) + getHostInfo().hashCode();
           break;
-        case 5:
+        case 6:
+          hash = (37 * hash) + QUESTHOST_FIELD_NUMBER;
+          hash = (53 * hash) + getQuestHost().hashCode();
+          break;
+        case 7:
+          hash = (37 * hash) + RESPONSEHOST_FIELD_NUMBER;
+          hash = (53 * hash) + getResponseHost().hashCode();
+          break;
+        case 8:
           hash = (37 * hash) + REQUESTAUTH_FIELD_NUMBER;
           hash = (53 * hash) + getRequestAuth().hashCode();
           break;
-        case 6:
+        case 9:
           hash = (37 * hash) + RESPONSEAUTH_FIELD_NUMBER;
           hash = (53 * hash) + getResponseAuth().hashCode();
           break;
-        case 7:
+        case 10:
           hash = (37 * hash) + REQUESTDESK_FIELD_NUMBER;
           hash = (53 * hash) + getRequestDesk().hashCode();
           break;
-        case 8:
+        case 11:
           hash = (37 * hash) + COMMANDDESK_FIELD_NUMBER;
           hash = (53 * hash) + getCommandDesk().hashCode();
           break;
-        case 9:
+        case 12:
           hash = (37 * hash) + IMAGEPARAMETERS_FIELD_NUMBER;
           hash = (53 * hash) + getImageParameters().hashCode();
           break;
-        case 10:
+        case 13:
           hash = (37 * hash) + IMAGE_FIELD_NUMBER;
           hash = (53 * hash) + getImage().hashCode();
           break;
-        case 11:
+        case 14:
           hash = (37 * hash) + IMAGERECEIVED_FIELD_NUMBER;
           hash = (53 * hash) + getImageReceived().hashCode();
           break;
-        case 12:
+        case 15:
           hash = (37 * hash) + MOUSEMOVE_FIELD_NUMBER;
           hash = (53 * hash) + getMouseMove().hashCode();
           break;
@@ -1493,6 +1690,8 @@ public final class BigPack {
 
         targetId_ = "";
 
+        errorCode_ = 0;
+
         dataBodyCase_ = 0;
         dataBody_ = null;
         return this;
@@ -1524,63 +1723,78 @@ public final class BigPack {
         result.dataType_ = dataType_;
         result.resourceId_ = resourceId_;
         result.targetId_ = targetId_;
-        if (dataBodyCase_ == 4) {
+        result.errorCode_ = errorCode_;
+        if (dataBodyCase_ == 5) {
           if (hostInfoBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
             result.dataBody_ = hostInfoBuilder_.build();
           }
         }
-        if (dataBodyCase_ == 5) {
+        if (dataBodyCase_ == 6) {
+          if (questHostBuilder_ == null) {
+            result.dataBody_ = dataBody_;
+          } else {
+            result.dataBody_ = questHostBuilder_.build();
+          }
+        }
+        if (dataBodyCase_ == 7) {
+          if (responseHostBuilder_ == null) {
+            result.dataBody_ = dataBody_;
+          } else {
+            result.dataBody_ = responseHostBuilder_.build();
+          }
+        }
+        if (dataBodyCase_ == 8) {
           if (requestAuthBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
             result.dataBody_ = requestAuthBuilder_.build();
           }
         }
-        if (dataBodyCase_ == 6) {
+        if (dataBodyCase_ == 9) {
           if (responseAuthBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
             result.dataBody_ = responseAuthBuilder_.build();
           }
         }
-        if (dataBodyCase_ == 7) {
+        if (dataBodyCase_ == 10) {
           if (requestDeskBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
             result.dataBody_ = requestDeskBuilder_.build();
           }
         }
-        if (dataBodyCase_ == 8) {
+        if (dataBodyCase_ == 11) {
           if (commandDeskBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
             result.dataBody_ = commandDeskBuilder_.build();
           }
         }
-        if (dataBodyCase_ == 9) {
+        if (dataBodyCase_ == 12) {
           if (imageParametersBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
             result.dataBody_ = imageParametersBuilder_.build();
           }
         }
-        if (dataBodyCase_ == 10) {
+        if (dataBodyCase_ == 13) {
           if (imageBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
             result.dataBody_ = imageBuilder_.build();
           }
         }
-        if (dataBodyCase_ == 11) {
+        if (dataBodyCase_ == 14) {
           if (imageReceivedBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
             result.dataBody_ = imageReceivedBuilder_.build();
           }
         }
-        if (dataBodyCase_ == 12) {
+        if (dataBodyCase_ == 15) {
           if (mouseMoveBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
@@ -1647,9 +1861,20 @@ public final class BigPack {
           targetId_ = other.targetId_;
           onChanged();
         }
+        if (other.getErrorCode() != 0) {
+          setErrorCode(other.getErrorCode());
+        }
         switch (other.getDataBodyCase()) {
           case HOSTINFO: {
             mergeHostInfo(other.getHostInfo());
+            break;
+          }
+          case QUESTHOST: {
+            mergeQuestHost(other.getQuestHost());
+            break;
+          }
+          case RESPONSEHOST: {
+            mergeResponseHost(other.getResponseHost());
             break;
           }
           case REQUESTAUTH: {
@@ -1958,36 +2183,67 @@ public final class BigPack {
         return this;
       }
 
+      private int errorCode_ ;
+      /**
+       * <code>int32 errorCode = 4;</code>
+       * @return The errorCode.
+       */
+      @java.lang.Override
+      public int getErrorCode() {
+        return errorCode_;
+      }
+      /**
+       * <code>int32 errorCode = 4;</code>
+       * @param value The errorCode to set.
+       * @return This builder for chaining.
+       */
+      public Builder setErrorCode(int value) {
+        
+        errorCode_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 errorCode = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearErrorCode() {
+        
+        errorCode_ = 0;
+        onChanged();
+        return this;
+      }
+
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo, com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.Builder, com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfoOrBuilder> hostInfoBuilder_;
       /**
-       * <code>.WMHostInfo HostInfo = 4;</code>
+       * <code>.WMHostInfo HostInfo = 5;</code>
        * @return Whether the hostInfo field is set.
        */
       @java.lang.Override
       public boolean hasHostInfo() {
-        return dataBodyCase_ == 4;
+        return dataBodyCase_ == 5;
       }
       /**
-       * <code>.WMHostInfo HostInfo = 4;</code>
+       * <code>.WMHostInfo HostInfo = 5;</code>
        * @return The hostInfo.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo getHostInfo() {
         if (hostInfoBuilder_ == null) {
-          if (dataBodyCase_ == 4) {
+          if (dataBodyCase_ == 5) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 4) {
+          if (dataBodyCase_ == 5) {
             return hostInfoBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.WMHostInfo HostInfo = 4;</code>
+       * <code>.WMHostInfo HostInfo = 5;</code>
        */
       public Builder setHostInfo(com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo value) {
         if (hostInfoBuilder_ == null) {
@@ -1999,11 +2255,11 @@ public final class BigPack {
         } else {
           hostInfoBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 4;
+        dataBodyCase_ = 5;
         return this;
       }
       /**
-       * <code>.WMHostInfo HostInfo = 4;</code>
+       * <code>.WMHostInfo HostInfo = 5;</code>
        */
       public Builder setHostInfo(
           com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.Builder builderForValue) {
@@ -2013,15 +2269,15 @@ public final class BigPack {
         } else {
           hostInfoBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 4;
+        dataBodyCase_ = 5;
         return this;
       }
       /**
-       * <code>.WMHostInfo HostInfo = 4;</code>
+       * <code>.WMHostInfo HostInfo = 5;</code>
        */
       public Builder mergeHostInfo(com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo value) {
         if (hostInfoBuilder_ == null) {
-          if (dataBodyCase_ == 4 &&
+          if (dataBodyCase_ == 5 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -2030,26 +2286,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 4) {
+          if (dataBodyCase_ == 5) {
             hostInfoBuilder_.mergeFrom(value);
           }
           hostInfoBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 4;
+        dataBodyCase_ = 5;
         return this;
       }
       /**
-       * <code>.WMHostInfo HostInfo = 4;</code>
+       * <code>.WMHostInfo HostInfo = 5;</code>
        */
       public Builder clearHostInfo() {
         if (hostInfoBuilder_ == null) {
-          if (dataBodyCase_ == 4) {
+          if (dataBodyCase_ == 5) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 4) {
+          if (dataBodyCase_ == 5) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -2058,33 +2314,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.WMHostInfo HostInfo = 4;</code>
+       * <code>.WMHostInfo HostInfo = 5;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.Builder getHostInfoBuilder() {
         return getHostInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.WMHostInfo HostInfo = 4;</code>
+       * <code>.WMHostInfo HostInfo = 5;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfoOrBuilder getHostInfoOrBuilder() {
-        if ((dataBodyCase_ == 4) && (hostInfoBuilder_ != null)) {
+        if ((dataBodyCase_ == 5) && (hostInfoBuilder_ != null)) {
           return hostInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 4) {
+          if (dataBodyCase_ == 5) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.WMHostInfo HostInfo = 4;</code>
+       * <code>.WMHostInfo HostInfo = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo, com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.Builder, com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfoOrBuilder> 
           getHostInfoFieldBuilder() {
         if (hostInfoBuilder_ == null) {
-          if (!(dataBodyCase_ == 4)) {
+          if (!(dataBodyCase_ == 5)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.WMHostInfo.getDefaultInstance();
           }
           hostInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2094,41 +2350,323 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 4;
+        dataBodyCase_ = 5;
         onChanged();;
         return hostInfoBuilder_;
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
+          com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost, com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHostOrBuilder> questHostBuilder_;
+      /**
+       * <code>.CsQueryHost questHost = 6;</code>
+       * @return Whether the questHost field is set.
+       */
+      @java.lang.Override
+      public boolean hasQuestHost() {
+        return dataBodyCase_ == 6;
+      }
+      /**
+       * <code>.CsQueryHost questHost = 6;</code>
+       * @return The questHost.
+       */
+      @java.lang.Override
+      public com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost getQuestHost() {
+        if (questHostBuilder_ == null) {
+          if (dataBodyCase_ == 6) {
+            return (com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) dataBody_;
+          }
+          return com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.getDefaultInstance();
+        } else {
+          if (dataBodyCase_ == 6) {
+            return questHostBuilder_.getMessage();
+          }
+          return com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.CsQueryHost questHost = 6;</code>
+       */
+      public Builder setQuestHost(com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost value) {
+        if (questHostBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          dataBody_ = value;
+          onChanged();
+        } else {
+          questHostBuilder_.setMessage(value);
+        }
+        dataBodyCase_ = 6;
+        return this;
+      }
+      /**
+       * <code>.CsQueryHost questHost = 6;</code>
+       */
+      public Builder setQuestHost(
+          com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.Builder builderForValue) {
+        if (questHostBuilder_ == null) {
+          dataBody_ = builderForValue.build();
+          onChanged();
+        } else {
+          questHostBuilder_.setMessage(builderForValue.build());
+        }
+        dataBodyCase_ = 6;
+        return this;
+      }
+      /**
+       * <code>.CsQueryHost questHost = 6;</code>
+       */
+      public Builder mergeQuestHost(com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost value) {
+        if (questHostBuilder_ == null) {
+          if (dataBodyCase_ == 6 &&
+              dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.getDefaultInstance()) {
+            dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) dataBody_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            dataBody_ = value;
+          }
+          onChanged();
+        } else {
+          if (dataBodyCase_ == 6) {
+            questHostBuilder_.mergeFrom(value);
+          }
+          questHostBuilder_.setMessage(value);
+        }
+        dataBodyCase_ = 6;
+        return this;
+      }
+      /**
+       * <code>.CsQueryHost questHost = 6;</code>
+       */
+      public Builder clearQuestHost() {
+        if (questHostBuilder_ == null) {
+          if (dataBodyCase_ == 6) {
+            dataBodyCase_ = 0;
+            dataBody_ = null;
+            onChanged();
+          }
+        } else {
+          if (dataBodyCase_ == 6) {
+            dataBodyCase_ = 0;
+            dataBody_ = null;
+          }
+          questHostBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>.CsQueryHost questHost = 6;</code>
+       */
+      public com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.Builder getQuestHostBuilder() {
+        return getQuestHostFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.CsQueryHost questHost = 6;</code>
+       */
+      @java.lang.Override
+      public com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHostOrBuilder getQuestHostOrBuilder() {
+        if ((dataBodyCase_ == 6) && (questHostBuilder_ != null)) {
+          return questHostBuilder_.getMessageOrBuilder();
+        } else {
+          if (dataBodyCase_ == 6) {
+            return (com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) dataBody_;
+          }
+          return com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.CsQueryHost questHost = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost, com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHostOrBuilder> 
+          getQuestHostFieldBuilder() {
+        if (questHostBuilder_ == null) {
+          if (!(dataBodyCase_ == 6)) {
+            dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.getDefaultInstance();
+          }
+          questHostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost, com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHostOrBuilder>(
+                  (com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) dataBody_,
+                  getParentForChildren(),
+                  isClean());
+          dataBody_ = null;
+        }
+        dataBodyCase_ = 6;
+        onChanged();;
+        return questHostBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHostOrBuilder> responseHostBuilder_;
+      /**
+       * <code>.ScResponseHost responseHost = 7;</code>
+       * @return Whether the responseHost field is set.
+       */
+      @java.lang.Override
+      public boolean hasResponseHost() {
+        return dataBodyCase_ == 7;
+      }
+      /**
+       * <code>.ScResponseHost responseHost = 7;</code>
+       * @return The responseHost.
+       */
+      @java.lang.Override
+      public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost getResponseHost() {
+        if (responseHostBuilder_ == null) {
+          if (dataBodyCase_ == 7) {
+            return (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) dataBody_;
+          }
+          return com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.getDefaultInstance();
+        } else {
+          if (dataBodyCase_ == 7) {
+            return responseHostBuilder_.getMessage();
+          }
+          return com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.ScResponseHost responseHost = 7;</code>
+       */
+      public Builder setResponseHost(com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost value) {
+        if (responseHostBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          dataBody_ = value;
+          onChanged();
+        } else {
+          responseHostBuilder_.setMessage(value);
+        }
+        dataBodyCase_ = 7;
+        return this;
+      }
+      /**
+       * <code>.ScResponseHost responseHost = 7;</code>
+       */
+      public Builder setResponseHost(
+          com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.Builder builderForValue) {
+        if (responseHostBuilder_ == null) {
+          dataBody_ = builderForValue.build();
+          onChanged();
+        } else {
+          responseHostBuilder_.setMessage(builderForValue.build());
+        }
+        dataBodyCase_ = 7;
+        return this;
+      }
+      /**
+       * <code>.ScResponseHost responseHost = 7;</code>
+       */
+      public Builder mergeResponseHost(com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost value) {
+        if (responseHostBuilder_ == null) {
+          if (dataBodyCase_ == 7 &&
+              dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.getDefaultInstance()) {
+            dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) dataBody_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            dataBody_ = value;
+          }
+          onChanged();
+        } else {
+          if (dataBodyCase_ == 7) {
+            responseHostBuilder_.mergeFrom(value);
+          }
+          responseHostBuilder_.setMessage(value);
+        }
+        dataBodyCase_ = 7;
+        return this;
+      }
+      /**
+       * <code>.ScResponseHost responseHost = 7;</code>
+       */
+      public Builder clearResponseHost() {
+        if (responseHostBuilder_ == null) {
+          if (dataBodyCase_ == 7) {
+            dataBodyCase_ = 0;
+            dataBody_ = null;
+            onChanged();
+          }
+        } else {
+          if (dataBodyCase_ == 7) {
+            dataBodyCase_ = 0;
+            dataBody_ = null;
+          }
+          responseHostBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>.ScResponseHost responseHost = 7;</code>
+       */
+      public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.Builder getResponseHostBuilder() {
+        return getResponseHostFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.ScResponseHost responseHost = 7;</code>
+       */
+      @java.lang.Override
+      public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHostOrBuilder getResponseHostOrBuilder() {
+        if ((dataBodyCase_ == 7) && (responseHostBuilder_ != null)) {
+          return responseHostBuilder_.getMessageOrBuilder();
+        } else {
+          if (dataBodyCase_ == 7) {
+            return (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) dataBody_;
+          }
+          return com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.ScResponseHost responseHost = 7;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHostOrBuilder> 
+          getResponseHostFieldBuilder() {
+        if (responseHostBuilder_ == null) {
+          if (!(dataBodyCase_ == 7)) {
+            dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.getDefaultInstance();
+          }
+          responseHostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHostOrBuilder>(
+                  (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) dataBody_,
+                  getParentForChildren(),
+                  isClean());
+          dataBody_ = null;
+        }
+        dataBodyCase_ = 7;
+        onChanged();;
+        return responseHostBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth, com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuthOrBuilder> requestAuthBuilder_;
       /**
-       * <code>.CsRequestAuth requestAuth = 5;</code>
+       * <code>.CsRequestAuth requestAuth = 8;</code>
        * @return Whether the requestAuth field is set.
        */
       @java.lang.Override
       public boolean hasRequestAuth() {
-        return dataBodyCase_ == 5;
+        return dataBodyCase_ == 8;
       }
       /**
-       * <code>.CsRequestAuth requestAuth = 5;</code>
+       * <code>.CsRequestAuth requestAuth = 8;</code>
        * @return The requestAuth.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth getRequestAuth() {
         if (requestAuthBuilder_ == null) {
-          if (dataBodyCase_ == 5) {
+          if (dataBodyCase_ == 8) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 5) {
+          if (dataBodyCase_ == 8) {
             return requestAuthBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsRequestAuth requestAuth = 5;</code>
+       * <code>.CsRequestAuth requestAuth = 8;</code>
        */
       public Builder setRequestAuth(com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth value) {
         if (requestAuthBuilder_ == null) {
@@ -2140,11 +2678,11 @@ public final class BigPack {
         } else {
           requestAuthBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 5;
+        dataBodyCase_ = 8;
         return this;
       }
       /**
-       * <code>.CsRequestAuth requestAuth = 5;</code>
+       * <code>.CsRequestAuth requestAuth = 8;</code>
        */
       public Builder setRequestAuth(
           com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.Builder builderForValue) {
@@ -2154,15 +2692,15 @@ public final class BigPack {
         } else {
           requestAuthBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 5;
+        dataBodyCase_ = 8;
         return this;
       }
       /**
-       * <code>.CsRequestAuth requestAuth = 5;</code>
+       * <code>.CsRequestAuth requestAuth = 8;</code>
        */
       public Builder mergeRequestAuth(com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth value) {
         if (requestAuthBuilder_ == null) {
-          if (dataBodyCase_ == 5 &&
+          if (dataBodyCase_ == 8 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -2171,26 +2709,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 5) {
+          if (dataBodyCase_ == 8) {
             requestAuthBuilder_.mergeFrom(value);
           }
           requestAuthBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 5;
+        dataBodyCase_ = 8;
         return this;
       }
       /**
-       * <code>.CsRequestAuth requestAuth = 5;</code>
+       * <code>.CsRequestAuth requestAuth = 8;</code>
        */
       public Builder clearRequestAuth() {
         if (requestAuthBuilder_ == null) {
-          if (dataBodyCase_ == 5) {
+          if (dataBodyCase_ == 8) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 5) {
+          if (dataBodyCase_ == 8) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -2199,33 +2737,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.CsRequestAuth requestAuth = 5;</code>
+       * <code>.CsRequestAuth requestAuth = 8;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.Builder getRequestAuthBuilder() {
         return getRequestAuthFieldBuilder().getBuilder();
       }
       /**
-       * <code>.CsRequestAuth requestAuth = 5;</code>
+       * <code>.CsRequestAuth requestAuth = 8;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuthOrBuilder getRequestAuthOrBuilder() {
-        if ((dataBodyCase_ == 5) && (requestAuthBuilder_ != null)) {
+        if ((dataBodyCase_ == 8) && (requestAuthBuilder_ != null)) {
           return requestAuthBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 5) {
+          if (dataBodyCase_ == 8) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsRequestAuth requestAuth = 5;</code>
+       * <code>.CsRequestAuth requestAuth = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth, com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuthOrBuilder> 
           getRequestAuthFieldBuilder() {
         if (requestAuthBuilder_ == null) {
-          if (!(dataBodyCase_ == 5)) {
+          if (!(dataBodyCase_ == 8)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsRequestAuth.getDefaultInstance();
           }
           requestAuthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2235,7 +2773,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 5;
+        dataBodyCase_ = 8;
         onChanged();;
         return requestAuthBuilder_;
       }
@@ -2243,33 +2781,33 @@ public final class BigPack {
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuthOrBuilder> responseAuthBuilder_;
       /**
-       * <code>.ScResponseAuth responseAuth = 6;</code>
+       * <code>.ScResponseAuth responseAuth = 9;</code>
        * @return Whether the responseAuth field is set.
        */
       @java.lang.Override
       public boolean hasResponseAuth() {
-        return dataBodyCase_ == 6;
+        return dataBodyCase_ == 9;
       }
       /**
-       * <code>.ScResponseAuth responseAuth = 6;</code>
+       * <code>.ScResponseAuth responseAuth = 9;</code>
        * @return The responseAuth.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth getResponseAuth() {
         if (responseAuthBuilder_ == null) {
-          if (dataBodyCase_ == 6) {
+          if (dataBodyCase_ == 9) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 6) {
+          if (dataBodyCase_ == 9) {
             return responseAuthBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.getDefaultInstance();
         }
       }
       /**
-       * <code>.ScResponseAuth responseAuth = 6;</code>
+       * <code>.ScResponseAuth responseAuth = 9;</code>
        */
       public Builder setResponseAuth(com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth value) {
         if (responseAuthBuilder_ == null) {
@@ -2281,11 +2819,11 @@ public final class BigPack {
         } else {
           responseAuthBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 6;
+        dataBodyCase_ = 9;
         return this;
       }
       /**
-       * <code>.ScResponseAuth responseAuth = 6;</code>
+       * <code>.ScResponseAuth responseAuth = 9;</code>
        */
       public Builder setResponseAuth(
           com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.Builder builderForValue) {
@@ -2295,15 +2833,15 @@ public final class BigPack {
         } else {
           responseAuthBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 6;
+        dataBodyCase_ = 9;
         return this;
       }
       /**
-       * <code>.ScResponseAuth responseAuth = 6;</code>
+       * <code>.ScResponseAuth responseAuth = 9;</code>
        */
       public Builder mergeResponseAuth(com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth value) {
         if (responseAuthBuilder_ == null) {
-          if (dataBodyCase_ == 6 &&
+          if (dataBodyCase_ == 9 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -2312,26 +2850,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 6) {
+          if (dataBodyCase_ == 9) {
             responseAuthBuilder_.mergeFrom(value);
           }
           responseAuthBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 6;
+        dataBodyCase_ = 9;
         return this;
       }
       /**
-       * <code>.ScResponseAuth responseAuth = 6;</code>
+       * <code>.ScResponseAuth responseAuth = 9;</code>
        */
       public Builder clearResponseAuth() {
         if (responseAuthBuilder_ == null) {
-          if (dataBodyCase_ == 6) {
+          if (dataBodyCase_ == 9) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 6) {
+          if (dataBodyCase_ == 9) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -2340,33 +2878,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.ScResponseAuth responseAuth = 6;</code>
+       * <code>.ScResponseAuth responseAuth = 9;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.Builder getResponseAuthBuilder() {
         return getResponseAuthFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ScResponseAuth responseAuth = 6;</code>
+       * <code>.ScResponseAuth responseAuth = 9;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuthOrBuilder getResponseAuthOrBuilder() {
-        if ((dataBodyCase_ == 6) && (responseAuthBuilder_ != null)) {
+        if ((dataBodyCase_ == 9) && (responseAuthBuilder_ != null)) {
           return responseAuthBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 6) {
+          if (dataBodyCase_ == 9) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.getDefaultInstance();
         }
       }
       /**
-       * <code>.ScResponseAuth responseAuth = 6;</code>
+       * <code>.ScResponseAuth responseAuth = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuthOrBuilder> 
           getResponseAuthFieldBuilder() {
         if (responseAuthBuilder_ == null) {
-          if (!(dataBodyCase_ == 6)) {
+          if (!(dataBodyCase_ == 9)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.getDefaultInstance();
           }
           responseAuthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2376,7 +2914,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 6;
+        dataBodyCase_ = 9;
         onChanged();;
         return responseAuthBuilder_;
       }
@@ -2384,33 +2922,33 @@ public final class BigPack {
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest, com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequestOrBuilder> requestDeskBuilder_;
       /**
-       * <code>.CsDeskRequest requestDesk = 7;</code>
+       * <code>.CsDeskRequest requestDesk = 10;</code>
        * @return Whether the requestDesk field is set.
        */
       @java.lang.Override
       public boolean hasRequestDesk() {
-        return dataBodyCase_ == 7;
+        return dataBodyCase_ == 10;
       }
       /**
-       * <code>.CsDeskRequest requestDesk = 7;</code>
+       * <code>.CsDeskRequest requestDesk = 10;</code>
        * @return The requestDesk.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest getRequestDesk() {
         if (requestDeskBuilder_ == null) {
-          if (dataBodyCase_ == 7) {
+          if (dataBodyCase_ == 10) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 7) {
+          if (dataBodyCase_ == 10) {
             return requestDeskBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsDeskRequest requestDesk = 7;</code>
+       * <code>.CsDeskRequest requestDesk = 10;</code>
        */
       public Builder setRequestDesk(com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest value) {
         if (requestDeskBuilder_ == null) {
@@ -2422,11 +2960,11 @@ public final class BigPack {
         } else {
           requestDeskBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 7;
+        dataBodyCase_ = 10;
         return this;
       }
       /**
-       * <code>.CsDeskRequest requestDesk = 7;</code>
+       * <code>.CsDeskRequest requestDesk = 10;</code>
        */
       public Builder setRequestDesk(
           com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.Builder builderForValue) {
@@ -2436,15 +2974,15 @@ public final class BigPack {
         } else {
           requestDeskBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 7;
+        dataBodyCase_ = 10;
         return this;
       }
       /**
-       * <code>.CsDeskRequest requestDesk = 7;</code>
+       * <code>.CsDeskRequest requestDesk = 10;</code>
        */
       public Builder mergeRequestDesk(com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest value) {
         if (requestDeskBuilder_ == null) {
-          if (dataBodyCase_ == 7 &&
+          if (dataBodyCase_ == 10 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -2453,26 +2991,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 7) {
+          if (dataBodyCase_ == 10) {
             requestDeskBuilder_.mergeFrom(value);
           }
           requestDeskBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 7;
+        dataBodyCase_ = 10;
         return this;
       }
       /**
-       * <code>.CsDeskRequest requestDesk = 7;</code>
+       * <code>.CsDeskRequest requestDesk = 10;</code>
        */
       public Builder clearRequestDesk() {
         if (requestDeskBuilder_ == null) {
-          if (dataBodyCase_ == 7) {
+          if (dataBodyCase_ == 10) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 7) {
+          if (dataBodyCase_ == 10) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -2481,33 +3019,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.CsDeskRequest requestDesk = 7;</code>
+       * <code>.CsDeskRequest requestDesk = 10;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.Builder getRequestDeskBuilder() {
         return getRequestDeskFieldBuilder().getBuilder();
       }
       /**
-       * <code>.CsDeskRequest requestDesk = 7;</code>
+       * <code>.CsDeskRequest requestDesk = 10;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequestOrBuilder getRequestDeskOrBuilder() {
-        if ((dataBodyCase_ == 7) && (requestDeskBuilder_ != null)) {
+        if ((dataBodyCase_ == 10) && (requestDeskBuilder_ != null)) {
           return requestDeskBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 7) {
+          if (dataBodyCase_ == 10) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsDeskRequest requestDesk = 7;</code>
+       * <code>.CsDeskRequest requestDesk = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest, com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequestOrBuilder> 
           getRequestDeskFieldBuilder() {
         if (requestDeskBuilder_ == null) {
-          if (!(dataBodyCase_ == 7)) {
+          if (!(dataBodyCase_ == 10)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.getDefaultInstance();
           }
           requestDeskBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2517,7 +3055,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 7;
+        dataBodyCase_ = 10;
         onChanged();;
         return requestDeskBuilder_;
       }
@@ -2525,33 +3063,33 @@ public final class BigPack {
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder> commandDeskBuilder_;
       /**
-       * <code>.DSDeskCommand commandDesk = 8;</code>
+       * <code>.DSDeskCommand commandDesk = 11;</code>
        * @return Whether the commandDesk field is set.
        */
       @java.lang.Override
       public boolean hasCommandDesk() {
-        return dataBodyCase_ == 8;
+        return dataBodyCase_ == 11;
       }
       /**
-       * <code>.DSDeskCommand commandDesk = 8;</code>
+       * <code>.DSDeskCommand commandDesk = 11;</code>
        * @return The commandDesk.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand getCommandDesk() {
         if (commandDeskBuilder_ == null) {
-          if (dataBodyCase_ == 8) {
+          if (dataBodyCase_ == 11) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 8) {
+          if (dataBodyCase_ == 11) {
             return commandDeskBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
         }
       }
       /**
-       * <code>.DSDeskCommand commandDesk = 8;</code>
+       * <code>.DSDeskCommand commandDesk = 11;</code>
        */
       public Builder setCommandDesk(com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand value) {
         if (commandDeskBuilder_ == null) {
@@ -2563,11 +3101,11 @@ public final class BigPack {
         } else {
           commandDeskBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 8;
+        dataBodyCase_ = 11;
         return this;
       }
       /**
-       * <code>.DSDeskCommand commandDesk = 8;</code>
+       * <code>.DSDeskCommand commandDesk = 11;</code>
        */
       public Builder setCommandDesk(
           com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder builderForValue) {
@@ -2577,15 +3115,15 @@ public final class BigPack {
         } else {
           commandDeskBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 8;
+        dataBodyCase_ = 11;
         return this;
       }
       /**
-       * <code>.DSDeskCommand commandDesk = 8;</code>
+       * <code>.DSDeskCommand commandDesk = 11;</code>
        */
       public Builder mergeCommandDesk(com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand value) {
         if (commandDeskBuilder_ == null) {
-          if (dataBodyCase_ == 8 &&
+          if (dataBodyCase_ == 11 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -2594,26 +3132,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 8) {
+          if (dataBodyCase_ == 11) {
             commandDeskBuilder_.mergeFrom(value);
           }
           commandDeskBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 8;
+        dataBodyCase_ = 11;
         return this;
       }
       /**
-       * <code>.DSDeskCommand commandDesk = 8;</code>
+       * <code>.DSDeskCommand commandDesk = 11;</code>
        */
       public Builder clearCommandDesk() {
         if (commandDeskBuilder_ == null) {
-          if (dataBodyCase_ == 8) {
+          if (dataBodyCase_ == 11) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 8) {
+          if (dataBodyCase_ == 11) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -2622,33 +3160,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.DSDeskCommand commandDesk = 8;</code>
+       * <code>.DSDeskCommand commandDesk = 11;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder getCommandDeskBuilder() {
         return getCommandDeskFieldBuilder().getBuilder();
       }
       /**
-       * <code>.DSDeskCommand commandDesk = 8;</code>
+       * <code>.DSDeskCommand commandDesk = 11;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder getCommandDeskOrBuilder() {
-        if ((dataBodyCase_ == 8) && (commandDeskBuilder_ != null)) {
+        if ((dataBodyCase_ == 11) && (commandDeskBuilder_ != null)) {
           return commandDeskBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 8) {
+          if (dataBodyCase_ == 11) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
         }
       }
       /**
-       * <code>.DSDeskCommand commandDesk = 8;</code>
+       * <code>.DSDeskCommand commandDesk = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder> 
           getCommandDeskFieldBuilder() {
         if (commandDeskBuilder_ == null) {
-          if (!(dataBodyCase_ == 8)) {
+          if (!(dataBodyCase_ == 11)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
           }
           commandDeskBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2658,7 +3196,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 8;
+        dataBodyCase_ = 11;
         onChanged();;
         return commandDeskBuilder_;
       }
@@ -2666,33 +3204,33 @@ public final class BigPack {
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters, com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScImageParametersOrBuilder> imageParametersBuilder_;
       /**
-       * <code>.ScImageParameters imageParameters = 9;</code>
+       * <code>.ScImageParameters imageParameters = 12;</code>
        * @return Whether the imageParameters field is set.
        */
       @java.lang.Override
       public boolean hasImageParameters() {
-        return dataBodyCase_ == 9;
+        return dataBodyCase_ == 12;
       }
       /**
-       * <code>.ScImageParameters imageParameters = 9;</code>
+       * <code>.ScImageParameters imageParameters = 12;</code>
        * @return The imageParameters.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters getImageParameters() {
         if (imageParametersBuilder_ == null) {
-          if (dataBodyCase_ == 9) {
+          if (dataBodyCase_ == 12) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 9) {
+          if (dataBodyCase_ == 12) {
             return imageParametersBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
         }
       }
       /**
-       * <code>.ScImageParameters imageParameters = 9;</code>
+       * <code>.ScImageParameters imageParameters = 12;</code>
        */
       public Builder setImageParameters(com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters value) {
         if (imageParametersBuilder_ == null) {
@@ -2704,11 +3242,11 @@ public final class BigPack {
         } else {
           imageParametersBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 9;
+        dataBodyCase_ = 12;
         return this;
       }
       /**
-       * <code>.ScImageParameters imageParameters = 9;</code>
+       * <code>.ScImageParameters imageParameters = 12;</code>
        */
       public Builder setImageParameters(
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.Builder builderForValue) {
@@ -2718,15 +3256,15 @@ public final class BigPack {
         } else {
           imageParametersBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 9;
+        dataBodyCase_ = 12;
         return this;
       }
       /**
-       * <code>.ScImageParameters imageParameters = 9;</code>
+       * <code>.ScImageParameters imageParameters = 12;</code>
        */
       public Builder mergeImageParameters(com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters value) {
         if (imageParametersBuilder_ == null) {
-          if (dataBodyCase_ == 9 &&
+          if (dataBodyCase_ == 12 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -2735,26 +3273,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 9) {
+          if (dataBodyCase_ == 12) {
             imageParametersBuilder_.mergeFrom(value);
           }
           imageParametersBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 9;
+        dataBodyCase_ = 12;
         return this;
       }
       /**
-       * <code>.ScImageParameters imageParameters = 9;</code>
+       * <code>.ScImageParameters imageParameters = 12;</code>
        */
       public Builder clearImageParameters() {
         if (imageParametersBuilder_ == null) {
-          if (dataBodyCase_ == 9) {
+          if (dataBodyCase_ == 12) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 9) {
+          if (dataBodyCase_ == 12) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -2763,33 +3301,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.ScImageParameters imageParameters = 9;</code>
+       * <code>.ScImageParameters imageParameters = 12;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.Builder getImageParametersBuilder() {
         return getImageParametersFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ScImageParameters imageParameters = 9;</code>
+       * <code>.ScImageParameters imageParameters = 12;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageParametersOrBuilder getImageParametersOrBuilder() {
-        if ((dataBodyCase_ == 9) && (imageParametersBuilder_ != null)) {
+        if ((dataBodyCase_ == 12) && (imageParametersBuilder_ != null)) {
           return imageParametersBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 9) {
+          if (dataBodyCase_ == 12) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
         }
       }
       /**
-       * <code>.ScImageParameters imageParameters = 9;</code>
+       * <code>.ScImageParameters imageParameters = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters, com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScImageParametersOrBuilder> 
           getImageParametersFieldBuilder() {
         if (imageParametersBuilder_ == null) {
-          if (!(dataBodyCase_ == 9)) {
+          if (!(dataBodyCase_ == 12)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
           }
           imageParametersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2799,7 +3337,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 9;
+        dataBodyCase_ = 12;
         onChanged();;
         return imageParametersBuilder_;
       }
@@ -2807,33 +3345,33 @@ public final class BigPack {
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo, com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfoOrBuilder> imageBuilder_;
       /**
-       * <code>.ScImageInfo image = 10;</code>
+       * <code>.ScImageInfo image = 13;</code>
        * @return Whether the image field is set.
        */
       @java.lang.Override
       public boolean hasImage() {
-        return dataBodyCase_ == 10;
+        return dataBodyCase_ == 13;
       }
       /**
-       * <code>.ScImageInfo image = 10;</code>
+       * <code>.ScImageInfo image = 13;</code>
        * @return The image.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo getImage() {
         if (imageBuilder_ == null) {
-          if (dataBodyCase_ == 10) {
+          if (dataBodyCase_ == 13) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 10) {
+          if (dataBodyCase_ == 13) {
             return imageBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.ScImageInfo image = 10;</code>
+       * <code>.ScImageInfo image = 13;</code>
        */
       public Builder setImage(com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo value) {
         if (imageBuilder_ == null) {
@@ -2845,11 +3383,11 @@ public final class BigPack {
         } else {
           imageBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 10;
+        dataBodyCase_ = 13;
         return this;
       }
       /**
-       * <code>.ScImageInfo image = 10;</code>
+       * <code>.ScImageInfo image = 13;</code>
        */
       public Builder setImage(
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.Builder builderForValue) {
@@ -2859,15 +3397,15 @@ public final class BigPack {
         } else {
           imageBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 10;
+        dataBodyCase_ = 13;
         return this;
       }
       /**
-       * <code>.ScImageInfo image = 10;</code>
+       * <code>.ScImageInfo image = 13;</code>
        */
       public Builder mergeImage(com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo value) {
         if (imageBuilder_ == null) {
-          if (dataBodyCase_ == 10 &&
+          if (dataBodyCase_ == 13 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -2876,26 +3414,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 10) {
+          if (dataBodyCase_ == 13) {
             imageBuilder_.mergeFrom(value);
           }
           imageBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 10;
+        dataBodyCase_ = 13;
         return this;
       }
       /**
-       * <code>.ScImageInfo image = 10;</code>
+       * <code>.ScImageInfo image = 13;</code>
        */
       public Builder clearImage() {
         if (imageBuilder_ == null) {
-          if (dataBodyCase_ == 10) {
+          if (dataBodyCase_ == 13) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 10) {
+          if (dataBodyCase_ == 13) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -2904,33 +3442,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.ScImageInfo image = 10;</code>
+       * <code>.ScImageInfo image = 13;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.Builder getImageBuilder() {
         return getImageFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ScImageInfo image = 10;</code>
+       * <code>.ScImageInfo image = 13;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfoOrBuilder getImageOrBuilder() {
-        if ((dataBodyCase_ == 10) && (imageBuilder_ != null)) {
+        if ((dataBodyCase_ == 13) && (imageBuilder_ != null)) {
           return imageBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 10) {
+          if (dataBodyCase_ == 13) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.ScImageInfo image = 10;</code>
+       * <code>.ScImageInfo image = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo, com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfoOrBuilder> 
           getImageFieldBuilder() {
         if (imageBuilder_ == null) {
-          if (!(dataBodyCase_ == 10)) {
+          if (!(dataBodyCase_ == 13)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
           }
           imageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2940,7 +3478,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 10;
+        dataBodyCase_ = 13;
         onChanged();;
         return imageBuilder_;
       }
@@ -2948,33 +3486,33 @@ public final class BigPack {
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived, com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceivedOrBuilder> imageReceivedBuilder_;
       /**
-       * <code>.CsImageReceived imageReceived = 11;</code>
+       * <code>.CsImageReceived imageReceived = 14;</code>
        * @return Whether the imageReceived field is set.
        */
       @java.lang.Override
       public boolean hasImageReceived() {
-        return dataBodyCase_ == 11;
+        return dataBodyCase_ == 14;
       }
       /**
-       * <code>.CsImageReceived imageReceived = 11;</code>
+       * <code>.CsImageReceived imageReceived = 14;</code>
        * @return The imageReceived.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived getImageReceived() {
         if (imageReceivedBuilder_ == null) {
-          if (dataBodyCase_ == 11) {
+          if (dataBodyCase_ == 14) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 11) {
+          if (dataBodyCase_ == 14) {
             return imageReceivedBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsImageReceived imageReceived = 11;</code>
+       * <code>.CsImageReceived imageReceived = 14;</code>
        */
       public Builder setImageReceived(com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived value) {
         if (imageReceivedBuilder_ == null) {
@@ -2986,11 +3524,11 @@ public final class BigPack {
         } else {
           imageReceivedBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 11;
+        dataBodyCase_ = 14;
         return this;
       }
       /**
-       * <code>.CsImageReceived imageReceived = 11;</code>
+       * <code>.CsImageReceived imageReceived = 14;</code>
        */
       public Builder setImageReceived(
           com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.Builder builderForValue) {
@@ -3000,15 +3538,15 @@ public final class BigPack {
         } else {
           imageReceivedBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 11;
+        dataBodyCase_ = 14;
         return this;
       }
       /**
-       * <code>.CsImageReceived imageReceived = 11;</code>
+       * <code>.CsImageReceived imageReceived = 14;</code>
        */
       public Builder mergeImageReceived(com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived value) {
         if (imageReceivedBuilder_ == null) {
-          if (dataBodyCase_ == 11 &&
+          if (dataBodyCase_ == 14 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -3017,26 +3555,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 11) {
+          if (dataBodyCase_ == 14) {
             imageReceivedBuilder_.mergeFrom(value);
           }
           imageReceivedBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 11;
+        dataBodyCase_ = 14;
         return this;
       }
       /**
-       * <code>.CsImageReceived imageReceived = 11;</code>
+       * <code>.CsImageReceived imageReceived = 14;</code>
        */
       public Builder clearImageReceived() {
         if (imageReceivedBuilder_ == null) {
-          if (dataBodyCase_ == 11) {
+          if (dataBodyCase_ == 14) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 11) {
+          if (dataBodyCase_ == 14) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -3045,33 +3583,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.CsImageReceived imageReceived = 11;</code>
+       * <code>.CsImageReceived imageReceived = 14;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.Builder getImageReceivedBuilder() {
         return getImageReceivedFieldBuilder().getBuilder();
       }
       /**
-       * <code>.CsImageReceived imageReceived = 11;</code>
+       * <code>.CsImageReceived imageReceived = 14;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceivedOrBuilder getImageReceivedOrBuilder() {
-        if ((dataBodyCase_ == 11) && (imageReceivedBuilder_ != null)) {
+        if ((dataBodyCase_ == 14) && (imageReceivedBuilder_ != null)) {
           return imageReceivedBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 11) {
+          if (dataBodyCase_ == 14) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsImageReceived imageReceived = 11;</code>
+       * <code>.CsImageReceived imageReceived = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived, com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceivedOrBuilder> 
           getImageReceivedFieldBuilder() {
         if (imageReceivedBuilder_ == null) {
-          if (!(dataBodyCase_ == 11)) {
+          if (!(dataBodyCase_ == 14)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
           }
           imageReceivedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3081,7 +3619,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 11;
+        dataBodyCase_ = 14;
         onChanged();;
         return imageReceivedBuilder_;
       }
@@ -3089,33 +3627,33 @@ public final class BigPack {
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove, com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMoveOrBuilder> mouseMoveBuilder_;
       /**
-       * <code>.CsMouseMove mouseMove = 12;</code>
+       * <code>.CsMouseMove mouseMove = 15;</code>
        * @return Whether the mouseMove field is set.
        */
       @java.lang.Override
       public boolean hasMouseMove() {
-        return dataBodyCase_ == 12;
+        return dataBodyCase_ == 15;
       }
       /**
-       * <code>.CsMouseMove mouseMove = 12;</code>
+       * <code>.CsMouseMove mouseMove = 15;</code>
        * @return The mouseMove.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove getMouseMove() {
         if (mouseMoveBuilder_ == null) {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 15) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 15) {
             return mouseMoveBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsMouseMove mouseMove = 12;</code>
+       * <code>.CsMouseMove mouseMove = 15;</code>
        */
       public Builder setMouseMove(com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove value) {
         if (mouseMoveBuilder_ == null) {
@@ -3127,11 +3665,11 @@ public final class BigPack {
         } else {
           mouseMoveBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 12;
+        dataBodyCase_ = 15;
         return this;
       }
       /**
-       * <code>.CsMouseMove mouseMove = 12;</code>
+       * <code>.CsMouseMove mouseMove = 15;</code>
        */
       public Builder setMouseMove(
           com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.Builder builderForValue) {
@@ -3141,15 +3679,15 @@ public final class BigPack {
         } else {
           mouseMoveBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 12;
+        dataBodyCase_ = 15;
         return this;
       }
       /**
-       * <code>.CsMouseMove mouseMove = 12;</code>
+       * <code>.CsMouseMove mouseMove = 15;</code>
        */
       public Builder mergeMouseMove(com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove value) {
         if (mouseMoveBuilder_ == null) {
-          if (dataBodyCase_ == 12 &&
+          if (dataBodyCase_ == 15 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -3158,26 +3696,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 15) {
             mouseMoveBuilder_.mergeFrom(value);
           }
           mouseMoveBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 12;
+        dataBodyCase_ = 15;
         return this;
       }
       /**
-       * <code>.CsMouseMove mouseMove = 12;</code>
+       * <code>.CsMouseMove mouseMove = 15;</code>
        */
       public Builder clearMouseMove() {
         if (mouseMoveBuilder_ == null) {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 15) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 15) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -3186,33 +3724,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.CsMouseMove mouseMove = 12;</code>
+       * <code>.CsMouseMove mouseMove = 15;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.Builder getMouseMoveBuilder() {
         return getMouseMoveFieldBuilder().getBuilder();
       }
       /**
-       * <code>.CsMouseMove mouseMove = 12;</code>
+       * <code>.CsMouseMove mouseMove = 15;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMoveOrBuilder getMouseMoveOrBuilder() {
-        if ((dataBodyCase_ == 12) && (mouseMoveBuilder_ != null)) {
+        if ((dataBodyCase_ == 15) && (mouseMoveBuilder_ != null)) {
           return mouseMoveBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 15) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsMouseMove mouseMove = 12;</code>
+       * <code>.CsMouseMove mouseMove = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove, com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMoveOrBuilder> 
           getMouseMoveFieldBuilder() {
         if (mouseMoveBuilder_ == null) {
-          if (!(dataBodyCase_ == 12)) {
+          if (!(dataBodyCase_ == 15)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
           }
           mouseMoveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3222,7 +3760,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 12;
+        dataBodyCase_ = 15;
         onChanged();;
         return mouseMoveBuilder_;
       }
@@ -4159,6 +4697,913 @@ public final class BigPack {
 
   }
 
+  public interface CsQueryHostOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:CsQueryHost)
+      com.google.protobuf.MessageOrBuilder {
+  }
+  /**
+   * Protobuf type {@code CsQueryHost}
+   */
+  public static final class CsQueryHost extends
+      com.google.protobuf.GeneratedMessageV3 implements
+      // @@protoc_insertion_point(message_implements:CsQueryHost)
+      CsQueryHostOrBuilder {
+  private static final long serialVersionUID = 0L;
+    // Use CsQueryHost.newBuilder() to construct.
+    private CsQueryHost(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+      super(builder);
+    }
+    private CsQueryHost() {
+    }
+
+    @java.lang.Override
+    @SuppressWarnings({"unused"})
+    protected java.lang.Object newInstance(
+        UnusedPrivateParameter unused) {
+      return new CsQueryHost();
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return this.unknownFields;
+    }
+    private CsQueryHost(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      this();
+      if (extensionRegistry == null) {
+        throw new java.lang.NullPointerException();
+      }
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(
+                  input, unknownFields, extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_CsQueryHost_descriptor;
+    }
+
+    @java.lang.Override
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_CsQueryHost_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.class, com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.Builder.class);
+    }
+
+    private byte memoizedIsInitialized = -1;
+    @java.lang.Override
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    @java.lang.Override
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      unknownFields.writeTo(output);
+    }
+
+    @java.lang.Override
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      size += unknownFields.getSerializedSize();
+      memoizedSize = size;
+      return size;
+    }
+
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost)) {
+        return super.equals(obj);
+      }
+      com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost other = (com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) obj;
+
+      if (!unknownFields.equals(other.unknownFields)) return false;
+      return true;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseFrom(
+        java.nio.ByteBuffer data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseFrom(
+        java.nio.ByteBuffer data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    @java.lang.Override
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    @java.lang.Override
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code CsQueryHost}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:CsQueryHost)
+        com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHostOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_CsQueryHost_descriptor;
+      }
+
+      @java.lang.Override
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_CsQueryHost_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.class, com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.Builder.class);
+      }
+
+      // Construct using com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
+        }
+      }
+      @java.lang.Override
+      public Builder clear() {
+        super.clear();
+        return this;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_CsQueryHost_descriptor;
+      }
+
+      @java.lang.Override
+      public com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost getDefaultInstanceForType() {
+        return com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.getDefaultInstance();
+      }
+
+      @java.lang.Override
+      public com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost build() {
+        com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost buildPartial() {
+        com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost result = new com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost(this);
+        onBuilt();
+        return result;
+      }
+
+      @java.lang.Override
+      public Builder clone() {
+        return super.clone();
+      }
+      @java.lang.Override
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.setField(field, value);
+      }
+      @java.lang.Override
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return super.clearField(field);
+      }
+      @java.lang.Override
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return super.clearOneof(oneof);
+      }
+      @java.lang.Override
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, java.lang.Object value) {
+        return super.setRepeatedField(field, index, value);
+      }
+      @java.lang.Override
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.addRepeatedField(field, value);
+      }
+      @java.lang.Override
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) {
+          return mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost other) {
+        if (other == com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost.getDefaultInstance()) return this;
+        this.mergeUnknownFields(other.unknownFields);
+        onChanged();
+        return this;
+      }
+
+      @java.lang.Override
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      @java.lang.Override
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost) e.getUnfinishedMessage();
+          throw e.unwrapIOException();
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      @java.lang.Override
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.setUnknownFields(unknownFields);
+      }
+
+      @java.lang.Override
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.mergeUnknownFields(unknownFields);
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:CsQueryHost)
+    }
+
+    // @@protoc_insertion_point(class_scope:CsQueryHost)
+    private static final com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost();
+    }
+
+    public static com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<CsQueryHost>
+        PARSER = new com.google.protobuf.AbstractParser<CsQueryHost>() {
+      @java.lang.Override
+      public CsQueryHost parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new CsQueryHost(input, extensionRegistry);
+      }
+    };
+
+    public static com.google.protobuf.Parser<CsQueryHost> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<CsQueryHost> getParserForType() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.javacgo.remote.qt.common.protocol.BigPack.CsQueryHost getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
+  public interface ScResponseHostOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:ScResponseHost)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>bool isExist = 1;</code>
+     * @return The isExist.
+     */
+    boolean getIsExist();
+  }
+  /**
+   * Protobuf type {@code ScResponseHost}
+   */
+  public static final class ScResponseHost extends
+      com.google.protobuf.GeneratedMessageV3 implements
+      // @@protoc_insertion_point(message_implements:ScResponseHost)
+      ScResponseHostOrBuilder {
+  private static final long serialVersionUID = 0L;
+    // Use ScResponseHost.newBuilder() to construct.
+    private ScResponseHost(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+      super(builder);
+    }
+    private ScResponseHost() {
+    }
+
+    @java.lang.Override
+    @SuppressWarnings({"unused"})
+    protected java.lang.Object newInstance(
+        UnusedPrivateParameter unused) {
+      return new ScResponseHost();
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return this.unknownFields;
+    }
+    private ScResponseHost(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      this();
+      if (extensionRegistry == null) {
+        throw new java.lang.NullPointerException();
+      }
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            case 8: {
+
+              isExist_ = input.readBool();
+              break;
+            }
+            default: {
+              if (!parseUnknownField(
+                  input, unknownFields, extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_ScResponseHost_descriptor;
+    }
+
+    @java.lang.Override
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_ScResponseHost_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.class, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.Builder.class);
+    }
+
+    public static final int ISEXIST_FIELD_NUMBER = 1;
+    private boolean isExist_;
+    /**
+     * <code>bool isExist = 1;</code>
+     * @return The isExist.
+     */
+    @java.lang.Override
+    public boolean getIsExist() {
+      return isExist_;
+    }
+
+    private byte memoizedIsInitialized = -1;
+    @java.lang.Override
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    @java.lang.Override
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      if (isExist_ != false) {
+        output.writeBool(1, isExist_);
+      }
+      unknownFields.writeTo(output);
+    }
+
+    @java.lang.Override
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (isExist_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1, isExist_);
+      }
+      size += unknownFields.getSerializedSize();
+      memoizedSize = size;
+      return size;
+    }
+
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost)) {
+        return super.equals(obj);
+      }
+      com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost other = (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) obj;
+
+      if (getIsExist()
+          != other.getIsExist()) return false;
+      if (!unknownFields.equals(other.unknownFields)) return false;
+      return true;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + ISEXIST_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsExist());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseFrom(
+        java.nio.ByteBuffer data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseFrom(
+        java.nio.ByteBuffer data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    @java.lang.Override
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    @java.lang.Override
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code ScResponseHost}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:ScResponseHost)
+        com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHostOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_ScResponseHost_descriptor;
+      }
+
+      @java.lang.Override
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_ScResponseHost_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.class, com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.Builder.class);
+      }
+
+      // Construct using com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
+        }
+      }
+      @java.lang.Override
+      public Builder clear() {
+        super.clear();
+        isExist_ = false;
+
+        return this;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_ScResponseHost_descriptor;
+      }
+
+      @java.lang.Override
+      public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost getDefaultInstanceForType() {
+        return com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.getDefaultInstance();
+      }
+
+      @java.lang.Override
+      public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost build() {
+        com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost buildPartial() {
+        com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost result = new com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost(this);
+        result.isExist_ = isExist_;
+        onBuilt();
+        return result;
+      }
+
+      @java.lang.Override
+      public Builder clone() {
+        return super.clone();
+      }
+      @java.lang.Override
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.setField(field, value);
+      }
+      @java.lang.Override
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return super.clearField(field);
+      }
+      @java.lang.Override
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return super.clearOneof(oneof);
+      }
+      @java.lang.Override
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, java.lang.Object value) {
+        return super.setRepeatedField(field, index, value);
+      }
+      @java.lang.Override
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.addRepeatedField(field, value);
+      }
+      @java.lang.Override
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) {
+          return mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost other) {
+        if (other == com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost.getDefaultInstance()) return this;
+        if (other.getIsExist() != false) {
+          setIsExist(other.getIsExist());
+        }
+        this.mergeUnknownFields(other.unknownFields);
+        onChanged();
+        return this;
+      }
+
+      @java.lang.Override
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      @java.lang.Override
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost) e.getUnfinishedMessage();
+          throw e.unwrapIOException();
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+
+      private boolean isExist_ ;
+      /**
+       * <code>bool isExist = 1;</code>
+       * @return The isExist.
+       */
+      @java.lang.Override
+      public boolean getIsExist() {
+        return isExist_;
+      }
+      /**
+       * <code>bool isExist = 1;</code>
+       * @param value The isExist to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsExist(boolean value) {
+        
+        isExist_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool isExist = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsExist() {
+        
+        isExist_ = false;
+        onChanged();
+        return this;
+      }
+      @java.lang.Override
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.setUnknownFields(unknownFields);
+      }
+
+      @java.lang.Override
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.mergeUnknownFields(unknownFields);
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:ScResponseHost)
+    }
+
+    // @@protoc_insertion_point(class_scope:ScResponseHost)
+    private static final com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost();
+    }
+
+    public static com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<ScResponseHost>
+        PARSER = new com.google.protobuf.AbstractParser<ScResponseHost>() {
+      @java.lang.Override
+      public ScResponseHost parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new ScResponseHost(input, extensionRegistry);
+      }
+    };
+
+    public static com.google.protobuf.Parser<ScResponseHost> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<ScResponseHost> getParserForType() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseHost getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
   public interface CsRequestAuthOrBuilder extends
       // @@protoc_insertion_point(interface_extends:CsRequestAuth)
       com.google.protobuf.MessageOrBuilder {
@@ -4736,12 +6181,6 @@ public final class BigPack {
      * @return The success.
      */
     int getSuccess();
-
-    /**
-     * <code>int32 errorCode = 2;</code>
-     * @return The errorCode.
-     */
-    int getErrorCode();
   }
   /**
    * Protobuf type {@code ScResponseAuth}
@@ -4793,11 +6232,6 @@ public final class BigPack {
               success_ = input.readInt32();
               break;
             }
-            case 16: {
-
-              errorCode_ = input.readInt32();
-              break;
-            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -4841,17 +6275,6 @@ public final class BigPack {
       return success_;
     }
 
-    public static final int ERRORCODE_FIELD_NUMBER = 2;
-    private int errorCode_;
-    /**
-     * <code>int32 errorCode = 2;</code>
-     * @return The errorCode.
-     */
-    @java.lang.Override
-    public int getErrorCode() {
-      return errorCode_;
-    }
-
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -4869,9 +6292,6 @@ public final class BigPack {
       if (success_ != 0) {
         output.writeInt32(1, success_);
       }
-      if (errorCode_ != 0) {
-        output.writeInt32(2, errorCode_);
-      }
       unknownFields.writeTo(output);
     }
 
@@ -4884,10 +6304,6 @@ public final class BigPack {
       if (success_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(1, success_);
-      }
-      if (errorCode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, errorCode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -4906,8 +6322,6 @@ public final class BigPack {
 
       if (getSuccess()
           != other.getSuccess()) return false;
-      if (getErrorCode()
-          != other.getErrorCode()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -4921,8 +6335,6 @@ public final class BigPack {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + SUCCESS_FIELD_NUMBER;
       hash = (53 * hash) + getSuccess();
-      hash = (37 * hash) + ERRORCODE_FIELD_NUMBER;
-      hash = (53 * hash) + getErrorCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -5058,8 +6470,6 @@ public final class BigPack {
         super.clear();
         success_ = 0;
 
-        errorCode_ = 0;
-
         return this;
       }
 
@@ -5087,7 +6497,6 @@ public final class BigPack {
       public com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth buildPartial() {
         com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth result = new com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth(this);
         result.success_ = success_;
-        result.errorCode_ = errorCode_;
         onBuilt();
         return result;
       }
@@ -5138,9 +6547,6 @@ public final class BigPack {
         if (other == com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.getDefaultInstance()) return this;
         if (other.getSuccess() != 0) {
           setSuccess(other.getSuccess());
-        }
-        if (other.getErrorCode() != 0) {
-          setErrorCode(other.getErrorCode());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -5198,37 +6604,6 @@ public final class BigPack {
       public Builder clearSuccess() {
         
         success_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int errorCode_ ;
-      /**
-       * <code>int32 errorCode = 2;</code>
-       * @return The errorCode.
-       */
-      @java.lang.Override
-      public int getErrorCode() {
-        return errorCode_;
-      }
-      /**
-       * <code>int32 errorCode = 2;</code>
-       * @param value The errorCode to set.
-       * @return This builder for chaining.
-       */
-      public Builder setErrorCode(int value) {
-        
-        errorCode_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 errorCode = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearErrorCode() {
-        
-        errorCode_ = 0;
         onChanged();
         return this;
       }
@@ -9226,6 +10601,16 @@ public final class BigPack {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WMHostInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_CsQueryHost_descriptor;
+  private static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_CsQueryHost_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_ScResponseHost_descriptor;
+  private static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_ScResponseHost_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CsRequestAuth_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
@@ -9274,41 +10659,45 @@ public final class BigPack {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016Exchange.proto\"\222\005\n\010Exchange\022$\n\010dataTyp" +
+      "\n\016Exchange.proto\"\207\006\n\010Exchange\022$\n\010dataTyp" +
       "e\030\001 \001(\0162\022.Exchange.DataType\022\022\n\nresourceI" +
-      "d\030\002 \001(\t\022\020\n\010targetId\030\003 \001(\t\022\037\n\010HostInfo\030\004 " +
-      "\001(\0132\013.WMHostInfoH\000\022%\n\013requestAuth\030\005 \001(\0132" +
-      "\016.CsRequestAuthH\000\022\'\n\014responseAuth\030\006 \001(\0132" +
-      "\017.ScResponseAuthH\000\022%\n\013requestDesk\030\007 \001(\0132" +
-      "\016.CsDeskRequestH\000\022%\n\013commandDesk\030\010 \001(\0132\016" +
-      ".DSDeskCommandH\000\022-\n\017imageParameters\030\t \001(" +
-      "\0132\022.ScImageParametersH\000\022\035\n\005image\030\n \001(\0132\014" +
-      ".ScImageInfoH\000\022)\n\rimageReceived\030\013 \001(\0132\020." +
-      "CsImageReceivedH\000\022!\n\tmouseMove\030\014 \001(\0132\014.C" +
-      "sMouseMoveH\000\"\322\001\n\010DataType\022\014\n\010TypeHost\020\000\022" +
-      "\021\n\rTypeQueryHost\020\001\022\023\n\017TypeRequestAuth\020\002\022" +
-      "\024\n\020TypeResponseAuth\020\003\022\023\n\017TypeRequestDesk" +
-      "\020\004\022\023\n\017TypeCommandDesk\020\005\022\027\n\023TypeImagePara" +
-      "meters\020\006\022\r\n\tTypeImage\020\007\022\025\n\021TypeImageRece" +
-      "ived\020\010\022\021\n\rTypeMouseMove\020\tB\n\n\010dataBody\"B\n" +
-      "\nWMHostInfo\022\016\n\006pcName\030\001 \001(\t\022\013\n\003mac\030\002 \001(\t" +
-      "\022\027\n\017activeOrpassive\030\003 \001(\005\"%\n\rCsRequestAu" +
-      "th\022\024\n\014targetPasswd\030\001 \001(\t\"4\n\016ScResponseAu" +
-      "th\022\017\n\007success\030\001 \001(\005\022\021\n\terrorCode\030\002 \001(\005\"u" +
-      "\n\rCsDeskRequest\022\025\n\rdegreeClarity\030\001 \001(\005\022\031" +
-      "\n\021rc_target_bitrate\030\002 \001(\005\022\030\n\020rc_min_quan" +
-      "tizer\030\003 \001(\005\022\030\n\020rc_max_quantizer\030\004 \001(\005\"\212\001" +
-      "\n\rDSDeskCommand\022\023\n\013openOrClose\030\001 \001(\005\022\025\n\r" +
-      "degreeClarity\030\002 \001(\005\022\031\n\021rc_target_bitrate" +
-      "\030\003 \001(\005\022\030\n\020rc_min_quantizer\030\004 \001(\005\022\030\n\020rc_m" +
-      "ax_quantizer\030\005 \001(\005\"O\n\021ScImageParameters\022" +
-      "\022\n\nimageWidth\030\001 \001(\005\022\023\n\013imageHeight\030\002 \001(\005" +
-      "\022\021\n\trectWidth\030\003 \001(\005\"J\n\013ScImageInfo\022\014\n\004po" +
-      "sX\030\001 \001(\005\022\014\n\004posY\030\002 \001(\005\022\017\n\007tileNum\030\003 \001(\005\022" +
-      "\016\n\006m_data\030\004 \001(\014\"\"\n\017CsImageReceived\022\017\n\007Ti" +
-      "leNum\030\001 \001(\005\")\n\013CsMouseMove\022\014\n\004posX\030\001 \001(\005" +
-      "\022\014\n\004posY\030\002 \001(\005B2\n%com.javacgo.remote.qt." +
-      "common.protocolB\007BigPackH\001b\006proto3"
+      "d\030\002 \001(\t\022\020\n\010targetId\030\003 \001(\t\022\021\n\terrorCode\030\004" +
+      " \001(\005\022\037\n\010HostInfo\030\005 \001(\0132\013.WMHostInfoH\000\022!\n" +
+      "\tquestHost\030\006 \001(\0132\014.CsQueryHostH\000\022\'\n\014resp" +
+      "onseHost\030\007 \001(\0132\017.ScResponseHostH\000\022%\n\013req" +
+      "uestAuth\030\010 \001(\0132\016.CsRequestAuthH\000\022\'\n\014resp" +
+      "onseAuth\030\t \001(\0132\017.ScResponseAuthH\000\022%\n\013req" +
+      "uestDesk\030\n \001(\0132\016.CsDeskRequestH\000\022%\n\013comm" +
+      "andDesk\030\013 \001(\0132\016.DSDeskCommandH\000\022-\n\017image" +
+      "Parameters\030\014 \001(\0132\022.ScImageParametersH\000\022\035" +
+      "\n\005image\030\r \001(\0132\014.ScImageInfoH\000\022)\n\rimageRe" +
+      "ceived\030\016 \001(\0132\020.CsImageReceivedH\000\022!\n\tmous" +
+      "eMove\030\017 \001(\0132\014.CsMouseMoveH\000\"\350\001\n\010DataType" +
+      "\022\014\n\010TypeHost\020\000\022\021\n\rTypeQueryHost\020\001\022\024\n\020Typ" +
+      "eResponseHost\020\002\022\023\n\017TypeRequestAuth\020\003\022\024\n\020" +
+      "TypeResponseAuth\020\004\022\023\n\017TypeRequestDesk\020\005\022" +
+      "\023\n\017TypeCommandDesk\020\006\022\027\n\023TypeImageParamet" +
+      "ers\020\007\022\r\n\tTypeImage\020\010\022\025\n\021TypeImageReceive" +
+      "d\020\t\022\021\n\rTypeMouseMove\020\nB\n\n\010dataBody\"B\n\nWM" +
+      "HostInfo\022\016\n\006pcName\030\001 \001(\t\022\013\n\003mac\030\002 \001(\t\022\027\n" +
+      "\017activeOrpassive\030\003 \001(\005\"\r\n\013CsQueryHost\"!\n" +
+      "\016ScResponseHost\022\017\n\007isExist\030\001 \001(\010\"%\n\rCsRe" +
+      "questAuth\022\024\n\014targetPasswd\030\001 \001(\t\"!\n\016ScRes" +
+      "ponseAuth\022\017\n\007success\030\001 \001(\005\"u\n\rCsDeskRequ" +
+      "est\022\025\n\rdegreeClarity\030\001 \001(\005\022\031\n\021rc_target_" +
+      "bitrate\030\002 \001(\005\022\030\n\020rc_min_quantizer\030\003 \001(\005\022" +
+      "\030\n\020rc_max_quantizer\030\004 \001(\005\"\212\001\n\rDSDeskComm" +
+      "and\022\023\n\013openOrClose\030\001 \001(\005\022\025\n\rdegreeClarit" +
+      "y\030\002 \001(\005\022\031\n\021rc_target_bitrate\030\003 \001(\005\022\030\n\020rc" +
+      "_min_quantizer\030\004 \001(\005\022\030\n\020rc_max_quantizer" +
+      "\030\005 \001(\005\"O\n\021ScImageParameters\022\022\n\nimageWidt" +
+      "h\030\001 \001(\005\022\023\n\013imageHeight\030\002 \001(\005\022\021\n\trectWidt" +
+      "h\030\003 \001(\005\"J\n\013ScImageInfo\022\014\n\004posX\030\001 \001(\005\022\014\n\004" +
+      "posY\030\002 \001(\005\022\017\n\007tileNum\030\003 \001(\005\022\016\n\006m_data\030\004 " +
+      "\001(\014\"\"\n\017CsImageReceived\022\017\n\007TileNum\030\001 \001(\005\"" +
+      ")\n\013CsMouseMove\022\014\n\004posX\030\001 \001(\005\022\014\n\004posY\030\002 \001" +
+      "(\005B2\n%com.javacgo.remote.qt.common.proto" +
+      "colB\007BigPackH\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -9319,57 +10708,69 @@ public final class BigPack {
     internal_static_Exchange_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Exchange_descriptor,
-        new java.lang.String[] { "DataType", "ResourceId", "TargetId", "HostInfo", "RequestAuth", "ResponseAuth", "RequestDesk", "CommandDesk", "ImageParameters", "Image", "ImageReceived", "MouseMove", "DataBody", });
+        new java.lang.String[] { "DataType", "ResourceId", "TargetId", "ErrorCode", "HostInfo", "QuestHost", "ResponseHost", "RequestAuth", "ResponseAuth", "RequestDesk", "CommandDesk", "ImageParameters", "Image", "ImageReceived", "MouseMove", "DataBody", });
     internal_static_WMHostInfo_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_WMHostInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WMHostInfo_descriptor,
         new java.lang.String[] { "PcName", "Mac", "ActiveOrpassive", });
-    internal_static_CsRequestAuth_descriptor =
+    internal_static_CsQueryHost_descriptor =
       getDescriptor().getMessageTypes().get(2);
+    internal_static_CsQueryHost_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_CsQueryHost_descriptor,
+        new java.lang.String[] { });
+    internal_static_ScResponseHost_descriptor =
+      getDescriptor().getMessageTypes().get(3);
+    internal_static_ScResponseHost_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_ScResponseHost_descriptor,
+        new java.lang.String[] { "IsExist", });
+    internal_static_CsRequestAuth_descriptor =
+      getDescriptor().getMessageTypes().get(4);
     internal_static_CsRequestAuth_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CsRequestAuth_descriptor,
         new java.lang.String[] { "TargetPasswd", });
     internal_static_ScResponseAuth_descriptor =
-      getDescriptor().getMessageTypes().get(3);
+      getDescriptor().getMessageTypes().get(5);
     internal_static_ScResponseAuth_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ScResponseAuth_descriptor,
-        new java.lang.String[] { "Success", "ErrorCode", });
+        new java.lang.String[] { "Success", });
     internal_static_CsDeskRequest_descriptor =
-      getDescriptor().getMessageTypes().get(4);
+      getDescriptor().getMessageTypes().get(6);
     internal_static_CsDeskRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CsDeskRequest_descriptor,
         new java.lang.String[] { "DegreeClarity", "RcTargetBitrate", "RcMinQuantizer", "RcMaxQuantizer", });
     internal_static_DSDeskCommand_descriptor =
-      getDescriptor().getMessageTypes().get(5);
+      getDescriptor().getMessageTypes().get(7);
     internal_static_DSDeskCommand_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DSDeskCommand_descriptor,
         new java.lang.String[] { "OpenOrClose", "DegreeClarity", "RcTargetBitrate", "RcMinQuantizer", "RcMaxQuantizer", });
     internal_static_ScImageParameters_descriptor =
-      getDescriptor().getMessageTypes().get(6);
+      getDescriptor().getMessageTypes().get(8);
     internal_static_ScImageParameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ScImageParameters_descriptor,
         new java.lang.String[] { "ImageWidth", "ImageHeight", "RectWidth", });
     internal_static_ScImageInfo_descriptor =
-      getDescriptor().getMessageTypes().get(7);
+      getDescriptor().getMessageTypes().get(9);
     internal_static_ScImageInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ScImageInfo_descriptor,
         new java.lang.String[] { "PosX", "PosY", "TileNum", "MData", });
     internal_static_CsImageReceived_descriptor =
-      getDescriptor().getMessageTypes().get(8);
+      getDescriptor().getMessageTypes().get(10);
     internal_static_CsImageReceived_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CsImageReceived_descriptor,
         new java.lang.String[] { "TileNum", });
     internal_static_CsMouseMove_descriptor =
-      getDescriptor().getMessageTypes().get(9);
+      getDescriptor().getMessageTypes().get(11);
     internal_static_CsMouseMove_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CsMouseMove_descriptor,
