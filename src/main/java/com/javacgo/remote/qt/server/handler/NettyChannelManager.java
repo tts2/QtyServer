@@ -37,7 +37,7 @@ public class NettyChannelManager {
 
     }
 
-    public void connet(String resourceId, String targetId) {
+    public void connect(String resourceId, String targetId) {
         KeskHost resourceHost = deviceId_Host_Map.get(resourceId);
         KeskHost targetHost = deviceId_Host_Map.get(targetId);
         if (resourceHost == null || targetHost == null) {
@@ -67,7 +67,7 @@ public class NettyChannelManager {
                 if (relations.isEmpty()) {
                     value.getChannel().writeAndFlush(BigPack.Exchange.newBuilder()
                             .setDataType(BigPack.Exchange.DataType.TypeRequestDesk)
-                            .setCommandDesk(BigPack.DSDeskCommand.newBuilder().setOpenOrClose(0))
+                            .setRequestDesk(BigPack.CsDeskRequest.newBuilder().setOpenOrClose(false))
                             .build());
                 }
             }

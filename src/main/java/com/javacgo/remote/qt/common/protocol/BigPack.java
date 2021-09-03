@@ -158,77 +158,62 @@ public final class BigPack {
     com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequestOrBuilder getRequestDeskOrBuilder();
 
     /**
-     * <code>.DSDeskCommand commandDesk = 11;</code>
-     * @return Whether the commandDesk field is set.
-     */
-    boolean hasCommandDesk();
-    /**
-     * <code>.DSDeskCommand commandDesk = 11;</code>
-     * @return The commandDesk.
-     */
-    com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand getCommandDesk();
-    /**
-     * <code>.DSDeskCommand commandDesk = 11;</code>
-     */
-    com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder getCommandDeskOrBuilder();
-
-    /**
-     * <code>.ScImageParameters imageParameters = 12;</code>
+     * <code>.ScImageParameters imageParameters = 11;</code>
      * @return Whether the imageParameters field is set.
      */
     boolean hasImageParameters();
     /**
-     * <code>.ScImageParameters imageParameters = 12;</code>
+     * <code>.ScImageParameters imageParameters = 11;</code>
      * @return The imageParameters.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters getImageParameters();
     /**
-     * <code>.ScImageParameters imageParameters = 12;</code>
+     * <code>.ScImageParameters imageParameters = 11;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.ScImageParametersOrBuilder getImageParametersOrBuilder();
 
     /**
-     * <code>.ScImageInfo image = 13;</code>
+     * <code>.ScImageInfo image = 12;</code>
      * @return Whether the image field is set.
      */
     boolean hasImage();
     /**
-     * <code>.ScImageInfo image = 13;</code>
+     * <code>.ScImageInfo image = 12;</code>
      * @return The image.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo getImage();
     /**
-     * <code>.ScImageInfo image = 13;</code>
+     * <code>.ScImageInfo image = 12;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfoOrBuilder getImageOrBuilder();
 
     /**
-     * <code>.CsImageReceived imageReceived = 14;</code>
+     * <code>.CsImageReceived imageReceived = 13;</code>
      * @return Whether the imageReceived field is set.
      */
     boolean hasImageReceived();
     /**
-     * <code>.CsImageReceived imageReceived = 14;</code>
+     * <code>.CsImageReceived imageReceived = 13;</code>
      * @return The imageReceived.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived getImageReceived();
     /**
-     * <code>.CsImageReceived imageReceived = 14;</code>
+     * <code>.CsImageReceived imageReceived = 13;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceivedOrBuilder getImageReceivedOrBuilder();
 
     /**
-     * <code>.CsMouseMove mouseMove = 15;</code>
+     * <code>.CsMouseMove mouseMove = 14;</code>
      * @return Whether the mouseMove field is set.
      */
     boolean hasMouseMove();
     /**
-     * <code>.CsMouseMove mouseMove = 15;</code>
+     * <code>.CsMouseMove mouseMove = 14;</code>
      * @return The mouseMove.
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove getMouseMove();
     /**
-     * <code>.CsMouseMove mouseMove = 15;</code>
+     * <code>.CsMouseMove mouseMove = 14;</code>
      */
     com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMoveOrBuilder getMouseMoveOrBuilder();
 
@@ -394,22 +379,8 @@ public final class BigPack {
               break;
             }
             case 90: {
-              com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder subBuilder = null;
-              if (dataBodyCase_ == 11) {
-                subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_).toBuilder();
-              }
-              dataBody_ =
-                  input.readMessage(com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_);
-                dataBody_ = subBuilder.buildPartial();
-              }
-              dataBodyCase_ = 11;
-              break;
-            }
-            case 98: {
               com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.Builder subBuilder = null;
-              if (dataBodyCase_ == 12) {
+              if (dataBodyCase_ == 11) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -418,12 +389,12 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 12;
+              dataBodyCase_ = 11;
               break;
             }
-            case 106: {
+            case 98: {
               com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.Builder subBuilder = null;
-              if (dataBodyCase_ == 13) {
+              if (dataBodyCase_ == 12) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -432,12 +403,12 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 13;
+              dataBodyCase_ = 12;
               break;
             }
-            case 114: {
+            case 106: {
               com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.Builder subBuilder = null;
-              if (dataBodyCase_ == 14) {
+              if (dataBodyCase_ == 13) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -446,12 +417,12 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 14;
+              dataBodyCase_ = 13;
               break;
             }
-            case 122: {
+            case 114: {
               com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.Builder subBuilder = null;
-              if (dataBodyCase_ == 15) {
+              if (dataBodyCase_ == 14) {
                 subBuilder = ((com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_).toBuilder();
               }
               dataBody_ =
@@ -460,7 +431,7 @@ public final class BigPack {
                 subBuilder.mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_);
                 dataBody_ = subBuilder.buildPartial();
               }
-              dataBodyCase_ = 15;
+              dataBodyCase_ = 14;
               break;
             }
             default: {
@@ -551,44 +522,36 @@ public final class BigPack {
       TypeRequestDesk(5),
       /**
        * <pre>
-       *桌面命令
-       * </pre>
-       *
-       * <code>TypeCommandDesk = 6;</code>
-       */
-      TypeCommandDesk(6),
-      /**
-       * <pre>
        *桌面参数
        * </pre>
        *
-       * <code>TypeImageParameters = 7;</code>
+       * <code>TypeImageParameters = 6;</code>
        */
-      TypeImageParameters(7),
+      TypeImageParameters(6),
       /**
        * <pre>
        *截屏图片数据
        * </pre>
        *
-       * <code>TypeImage = 8;</code>
+       * <code>TypeImage = 7;</code>
        */
-      TypeImage(8),
+      TypeImage(7),
       /**
        * <pre>
        *接收的瓷块
        * </pre>
        *
-       * <code>TypeImageReceived = 9;</code>
+       * <code>TypeImageReceived = 8;</code>
        */
-      TypeImageReceived(9),
+      TypeImageReceived(8),
       /**
        * <pre>
        *鼠标移动
        * </pre>
        *
-       * <code>TypeMouseMove = 10;</code>
+       * <code>TypeMouseMove = 9;</code>
        */
-      TypeMouseMove(10),
+      TypeMouseMove(9),
       UNRECOGNIZED(-1),
       ;
 
@@ -638,44 +601,36 @@ public final class BigPack {
       public static final int TypeRequestDesk_VALUE = 5;
       /**
        * <pre>
-       *桌面命令
-       * </pre>
-       *
-       * <code>TypeCommandDesk = 6;</code>
-       */
-      public static final int TypeCommandDesk_VALUE = 6;
-      /**
-       * <pre>
        *桌面参数
        * </pre>
        *
-       * <code>TypeImageParameters = 7;</code>
+       * <code>TypeImageParameters = 6;</code>
        */
-      public static final int TypeImageParameters_VALUE = 7;
+      public static final int TypeImageParameters_VALUE = 6;
       /**
        * <pre>
        *截屏图片数据
        * </pre>
        *
-       * <code>TypeImage = 8;</code>
+       * <code>TypeImage = 7;</code>
        */
-      public static final int TypeImage_VALUE = 8;
+      public static final int TypeImage_VALUE = 7;
       /**
        * <pre>
        *接收的瓷块
        * </pre>
        *
-       * <code>TypeImageReceived = 9;</code>
+       * <code>TypeImageReceived = 8;</code>
        */
-      public static final int TypeImageReceived_VALUE = 9;
+      public static final int TypeImageReceived_VALUE = 8;
       /**
        * <pre>
        *鼠标移动
        * </pre>
        *
-       * <code>TypeMouseMove = 10;</code>
+       * <code>TypeMouseMove = 9;</code>
        */
-      public static final int TypeMouseMove_VALUE = 10;
+      public static final int TypeMouseMove_VALUE = 9;
 
 
       public final int getNumber() {
@@ -708,11 +663,10 @@ public final class BigPack {
           case 3: return TypeRequestAuth;
           case 4: return TypeResponseAuth;
           case 5: return TypeRequestDesk;
-          case 6: return TypeCommandDesk;
-          case 7: return TypeImageParameters;
-          case 8: return TypeImage;
-          case 9: return TypeImageReceived;
-          case 10: return TypeMouseMove;
+          case 6: return TypeImageParameters;
+          case 7: return TypeImage;
+          case 8: return TypeImageReceived;
+          case 9: return TypeMouseMove;
           default: return null;
         }
       }
@@ -780,11 +734,10 @@ public final class BigPack {
       REQUESTAUTH(8),
       RESPONSEAUTH(9),
       REQUESTDESK(10),
-      COMMANDDESK(11),
-      IMAGEPARAMETERS(12),
-      IMAGE(13),
-      IMAGERECEIVED(14),
-      MOUSEMOVE(15),
+      IMAGEPARAMETERS(11),
+      IMAGE(12),
+      IMAGERECEIVED(13),
+      MOUSEMOVE(14),
       DATABODY_NOT_SET(0);
       private final int value;
       private DataBodyCase(int value) {
@@ -808,11 +761,10 @@ public final class BigPack {
           case 8: return REQUESTAUTH;
           case 9: return RESPONSEAUTH;
           case 10: return REQUESTDESK;
-          case 11: return COMMANDDESK;
-          case 12: return IMAGEPARAMETERS;
-          case 13: return IMAGE;
-          case 14: return IMAGERECEIVED;
-          case 15: return MOUSEMOVE;
+          case 11: return IMAGEPARAMETERS;
+          case 12: return IMAGE;
+          case 13: return IMAGERECEIVED;
+          case 14: return MOUSEMOVE;
           case 0: return DATABODY_NOT_SET;
           default: return null;
         }
@@ -1128,156 +1080,125 @@ public final class BigPack {
       return com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.getDefaultInstance();
     }
 
-    public static final int COMMANDDESK_FIELD_NUMBER = 11;
+    public static final int IMAGEPARAMETERS_FIELD_NUMBER = 11;
     /**
-     * <code>.DSDeskCommand commandDesk = 11;</code>
-     * @return Whether the commandDesk field is set.
-     */
-    @java.lang.Override
-    public boolean hasCommandDesk() {
-      return dataBodyCase_ == 11;
-    }
-    /**
-     * <code>.DSDeskCommand commandDesk = 11;</code>
-     * @return The commandDesk.
-     */
-    @java.lang.Override
-    public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand getCommandDesk() {
-      if (dataBodyCase_ == 11) {
-         return (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_;
-      }
-      return com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
-    }
-    /**
-     * <code>.DSDeskCommand commandDesk = 11;</code>
-     */
-    @java.lang.Override
-    public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder getCommandDeskOrBuilder() {
-      if (dataBodyCase_ == 11) {
-         return (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_;
-      }
-      return com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
-    }
-
-    public static final int IMAGEPARAMETERS_FIELD_NUMBER = 12;
-    /**
-     * <code>.ScImageParameters imageParameters = 12;</code>
+     * <code>.ScImageParameters imageParameters = 11;</code>
      * @return Whether the imageParameters field is set.
      */
     @java.lang.Override
     public boolean hasImageParameters() {
-      return dataBodyCase_ == 12;
+      return dataBodyCase_ == 11;
     }
     /**
-     * <code>.ScImageParameters imageParameters = 12;</code>
+     * <code>.ScImageParameters imageParameters = 11;</code>
      * @return The imageParameters.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters getImageParameters() {
-      if (dataBodyCase_ == 12) {
+      if (dataBodyCase_ == 11) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
     }
     /**
-     * <code>.ScImageParameters imageParameters = 12;</code>
+     * <code>.ScImageParameters imageParameters = 11;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.ScImageParametersOrBuilder getImageParametersOrBuilder() {
-      if (dataBodyCase_ == 12) {
+      if (dataBodyCase_ == 11) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
     }
 
-    public static final int IMAGE_FIELD_NUMBER = 13;
+    public static final int IMAGE_FIELD_NUMBER = 12;
     /**
-     * <code>.ScImageInfo image = 13;</code>
+     * <code>.ScImageInfo image = 12;</code>
      * @return Whether the image field is set.
      */
     @java.lang.Override
     public boolean hasImage() {
-      return dataBodyCase_ == 13;
+      return dataBodyCase_ == 12;
     }
     /**
-     * <code>.ScImageInfo image = 13;</code>
+     * <code>.ScImageInfo image = 12;</code>
      * @return The image.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo getImage() {
-      if (dataBodyCase_ == 13) {
+      if (dataBodyCase_ == 12) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
     }
     /**
-     * <code>.ScImageInfo image = 13;</code>
+     * <code>.ScImageInfo image = 12;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfoOrBuilder getImageOrBuilder() {
-      if (dataBodyCase_ == 13) {
+      if (dataBodyCase_ == 12) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
     }
 
-    public static final int IMAGERECEIVED_FIELD_NUMBER = 14;
+    public static final int IMAGERECEIVED_FIELD_NUMBER = 13;
     /**
-     * <code>.CsImageReceived imageReceived = 14;</code>
+     * <code>.CsImageReceived imageReceived = 13;</code>
      * @return Whether the imageReceived field is set.
      */
     @java.lang.Override
     public boolean hasImageReceived() {
-      return dataBodyCase_ == 14;
+      return dataBodyCase_ == 13;
     }
     /**
-     * <code>.CsImageReceived imageReceived = 14;</code>
+     * <code>.CsImageReceived imageReceived = 13;</code>
      * @return The imageReceived.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived getImageReceived() {
-      if (dataBodyCase_ == 14) {
+      if (dataBodyCase_ == 13) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
     }
     /**
-     * <code>.CsImageReceived imageReceived = 14;</code>
+     * <code>.CsImageReceived imageReceived = 13;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceivedOrBuilder getImageReceivedOrBuilder() {
-      if (dataBodyCase_ == 14) {
+      if (dataBodyCase_ == 13) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
     }
 
-    public static final int MOUSEMOVE_FIELD_NUMBER = 15;
+    public static final int MOUSEMOVE_FIELD_NUMBER = 14;
     /**
-     * <code>.CsMouseMove mouseMove = 15;</code>
+     * <code>.CsMouseMove mouseMove = 14;</code>
      * @return Whether the mouseMove field is set.
      */
     @java.lang.Override
     public boolean hasMouseMove() {
-      return dataBodyCase_ == 15;
+      return dataBodyCase_ == 14;
     }
     /**
-     * <code>.CsMouseMove mouseMove = 15;</code>
+     * <code>.CsMouseMove mouseMove = 14;</code>
      * @return The mouseMove.
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove getMouseMove() {
-      if (dataBodyCase_ == 15) {
+      if (dataBodyCase_ == 14) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
     }
     /**
-     * <code>.CsMouseMove mouseMove = 15;</code>
+     * <code>.CsMouseMove mouseMove = 14;</code>
      */
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMoveOrBuilder getMouseMoveOrBuilder() {
-      if (dataBodyCase_ == 15) {
+      if (dataBodyCase_ == 14) {
          return (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_;
       }
       return com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
@@ -1328,19 +1249,16 @@ public final class BigPack {
         output.writeMessage(10, (com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) dataBody_);
       }
       if (dataBodyCase_ == 11) {
-        output.writeMessage(11, (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_);
+        output.writeMessage(11, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_);
       }
       if (dataBodyCase_ == 12) {
-        output.writeMessage(12, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_);
+        output.writeMessage(12, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_);
       }
       if (dataBodyCase_ == 13) {
-        output.writeMessage(13, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_);
+        output.writeMessage(13, (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_);
       }
       if (dataBodyCase_ == 14) {
-        output.writeMessage(14, (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_);
-      }
-      if (dataBodyCase_ == 15) {
-        output.writeMessage(15, (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_);
+        output.writeMessage(14, (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_);
       }
       unknownFields.writeTo(output);
     }
@@ -1391,23 +1309,19 @@ public final class BigPack {
       }
       if (dataBodyCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_);
+          .computeMessageSize(11, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_);
       }
       if (dataBodyCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_);
+          .computeMessageSize(12, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_);
       }
       if (dataBodyCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_);
+          .computeMessageSize(13, (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_);
       }
       if (dataBodyCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_);
-      }
-      if (dataBodyCase_ == 15) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_);
+          .computeMessageSize(14, (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1458,22 +1372,18 @@ public final class BigPack {
               .equals(other.getRequestDesk())) return false;
           break;
         case 11:
-          if (!getCommandDesk()
-              .equals(other.getCommandDesk())) return false;
-          break;
-        case 12:
           if (!getImageParameters()
               .equals(other.getImageParameters())) return false;
           break;
-        case 13:
+        case 12:
           if (!getImage()
               .equals(other.getImage())) return false;
           break;
-        case 14:
+        case 13:
           if (!getImageReceived()
               .equals(other.getImageReceived())) return false;
           break;
-        case 15:
+        case 14:
           if (!getMouseMove()
               .equals(other.getMouseMove())) return false;
           break;
@@ -1525,22 +1435,18 @@ public final class BigPack {
           hash = (53 * hash) + getRequestDesk().hashCode();
           break;
         case 11:
-          hash = (37 * hash) + COMMANDDESK_FIELD_NUMBER;
-          hash = (53 * hash) + getCommandDesk().hashCode();
-          break;
-        case 12:
           hash = (37 * hash) + IMAGEPARAMETERS_FIELD_NUMBER;
           hash = (53 * hash) + getImageParameters().hashCode();
           break;
-        case 13:
+        case 12:
           hash = (37 * hash) + IMAGE_FIELD_NUMBER;
           hash = (53 * hash) + getImage().hashCode();
           break;
-        case 14:
+        case 13:
           hash = (37 * hash) + IMAGERECEIVED_FIELD_NUMBER;
           hash = (53 * hash) + getImageReceived().hashCode();
           break;
-        case 15:
+        case 14:
           hash = (37 * hash) + MOUSEMOVE_FIELD_NUMBER;
           hash = (53 * hash) + getMouseMove().hashCode();
           break;
@@ -1767,34 +1673,27 @@ public final class BigPack {
           }
         }
         if (dataBodyCase_ == 11) {
-          if (commandDeskBuilder_ == null) {
-            result.dataBody_ = dataBody_;
-          } else {
-            result.dataBody_ = commandDeskBuilder_.build();
-          }
-        }
-        if (dataBodyCase_ == 12) {
           if (imageParametersBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
             result.dataBody_ = imageParametersBuilder_.build();
           }
         }
-        if (dataBodyCase_ == 13) {
+        if (dataBodyCase_ == 12) {
           if (imageBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
             result.dataBody_ = imageBuilder_.build();
           }
         }
-        if (dataBodyCase_ == 14) {
+        if (dataBodyCase_ == 13) {
           if (imageReceivedBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
             result.dataBody_ = imageReceivedBuilder_.build();
           }
         }
-        if (dataBodyCase_ == 15) {
+        if (dataBodyCase_ == 14) {
           if (mouseMoveBuilder_ == null) {
             result.dataBody_ = dataBody_;
           } else {
@@ -1887,10 +1786,6 @@ public final class BigPack {
           }
           case REQUESTDESK: {
             mergeRequestDesk(other.getRequestDesk());
-            break;
-          }
-          case COMMANDDESK: {
-            mergeCommandDesk(other.getCommandDesk());
             break;
           }
           case IMAGEPARAMETERS: {
@@ -3061,176 +2956,35 @@ public final class BigPack {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder> commandDeskBuilder_;
-      /**
-       * <code>.DSDeskCommand commandDesk = 11;</code>
-       * @return Whether the commandDesk field is set.
-       */
-      @java.lang.Override
-      public boolean hasCommandDesk() {
-        return dataBodyCase_ == 11;
-      }
-      /**
-       * <code>.DSDeskCommand commandDesk = 11;</code>
-       * @return The commandDesk.
-       */
-      @java.lang.Override
-      public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand getCommandDesk() {
-        if (commandDeskBuilder_ == null) {
-          if (dataBodyCase_ == 11) {
-            return (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_;
-          }
-          return com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
-        } else {
-          if (dataBodyCase_ == 11) {
-            return commandDeskBuilder_.getMessage();
-          }
-          return com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>.DSDeskCommand commandDesk = 11;</code>
-       */
-      public Builder setCommandDesk(com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand value) {
-        if (commandDeskBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          dataBody_ = value;
-          onChanged();
-        } else {
-          commandDeskBuilder_.setMessage(value);
-        }
-        dataBodyCase_ = 11;
-        return this;
-      }
-      /**
-       * <code>.DSDeskCommand commandDesk = 11;</code>
-       */
-      public Builder setCommandDesk(
-          com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder builderForValue) {
-        if (commandDeskBuilder_ == null) {
-          dataBody_ = builderForValue.build();
-          onChanged();
-        } else {
-          commandDeskBuilder_.setMessage(builderForValue.build());
-        }
-        dataBodyCase_ = 11;
-        return this;
-      }
-      /**
-       * <code>.DSDeskCommand commandDesk = 11;</code>
-       */
-      public Builder mergeCommandDesk(com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand value) {
-        if (commandDeskBuilder_ == null) {
-          if (dataBodyCase_ == 11 &&
-              dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance()) {
-            dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_)
-                .mergeFrom(value).buildPartial();
-          } else {
-            dataBody_ = value;
-          }
-          onChanged();
-        } else {
-          if (dataBodyCase_ == 11) {
-            commandDeskBuilder_.mergeFrom(value);
-          }
-          commandDeskBuilder_.setMessage(value);
-        }
-        dataBodyCase_ = 11;
-        return this;
-      }
-      /**
-       * <code>.DSDeskCommand commandDesk = 11;</code>
-       */
-      public Builder clearCommandDesk() {
-        if (commandDeskBuilder_ == null) {
-          if (dataBodyCase_ == 11) {
-            dataBodyCase_ = 0;
-            dataBody_ = null;
-            onChanged();
-          }
-        } else {
-          if (dataBodyCase_ == 11) {
-            dataBodyCase_ = 0;
-            dataBody_ = null;
-          }
-          commandDeskBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>.DSDeskCommand commandDesk = 11;</code>
-       */
-      public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder getCommandDeskBuilder() {
-        return getCommandDeskFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.DSDeskCommand commandDesk = 11;</code>
-       */
-      @java.lang.Override
-      public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder getCommandDeskOrBuilder() {
-        if ((dataBodyCase_ == 11) && (commandDeskBuilder_ != null)) {
-          return commandDeskBuilder_.getMessageOrBuilder();
-        } else {
-          if (dataBodyCase_ == 11) {
-            return (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_;
-          }
-          return com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>.DSDeskCommand commandDesk = 11;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder> 
-          getCommandDeskFieldBuilder() {
-        if (commandDeskBuilder_ == null) {
-          if (!(dataBodyCase_ == 11)) {
-            dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
-          }
-          commandDeskBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder>(
-                  (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) dataBody_,
-                  getParentForChildren(),
-                  isClean());
-          dataBody_ = null;
-        }
-        dataBodyCase_ = 11;
-        onChanged();;
-        return commandDeskBuilder_;
-      }
-
-      private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters, com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScImageParametersOrBuilder> imageParametersBuilder_;
       /**
-       * <code>.ScImageParameters imageParameters = 12;</code>
+       * <code>.ScImageParameters imageParameters = 11;</code>
        * @return Whether the imageParameters field is set.
        */
       @java.lang.Override
       public boolean hasImageParameters() {
-        return dataBodyCase_ == 12;
+        return dataBodyCase_ == 11;
       }
       /**
-       * <code>.ScImageParameters imageParameters = 12;</code>
+       * <code>.ScImageParameters imageParameters = 11;</code>
        * @return The imageParameters.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters getImageParameters() {
         if (imageParametersBuilder_ == null) {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 11) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 11) {
             return imageParametersBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
         }
       }
       /**
-       * <code>.ScImageParameters imageParameters = 12;</code>
+       * <code>.ScImageParameters imageParameters = 11;</code>
        */
       public Builder setImageParameters(com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters value) {
         if (imageParametersBuilder_ == null) {
@@ -3242,11 +2996,11 @@ public final class BigPack {
         } else {
           imageParametersBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 12;
+        dataBodyCase_ = 11;
         return this;
       }
       /**
-       * <code>.ScImageParameters imageParameters = 12;</code>
+       * <code>.ScImageParameters imageParameters = 11;</code>
        */
       public Builder setImageParameters(
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.Builder builderForValue) {
@@ -3256,15 +3010,15 @@ public final class BigPack {
         } else {
           imageParametersBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 12;
+        dataBodyCase_ = 11;
         return this;
       }
       /**
-       * <code>.ScImageParameters imageParameters = 12;</code>
+       * <code>.ScImageParameters imageParameters = 11;</code>
        */
       public Builder mergeImageParameters(com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters value) {
         if (imageParametersBuilder_ == null) {
-          if (dataBodyCase_ == 12 &&
+          if (dataBodyCase_ == 11 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -3273,26 +3027,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 11) {
             imageParametersBuilder_.mergeFrom(value);
           }
           imageParametersBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 12;
+        dataBodyCase_ = 11;
         return this;
       }
       /**
-       * <code>.ScImageParameters imageParameters = 12;</code>
+       * <code>.ScImageParameters imageParameters = 11;</code>
        */
       public Builder clearImageParameters() {
         if (imageParametersBuilder_ == null) {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 11) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 11) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -3301,33 +3055,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.ScImageParameters imageParameters = 12;</code>
+       * <code>.ScImageParameters imageParameters = 11;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.Builder getImageParametersBuilder() {
         return getImageParametersFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ScImageParameters imageParameters = 12;</code>
+       * <code>.ScImageParameters imageParameters = 11;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageParametersOrBuilder getImageParametersOrBuilder() {
-        if ((dataBodyCase_ == 12) && (imageParametersBuilder_ != null)) {
+        if ((dataBodyCase_ == 11) && (imageParametersBuilder_ != null)) {
           return imageParametersBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 12) {
+          if (dataBodyCase_ == 11) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
         }
       }
       /**
-       * <code>.ScImageParameters imageParameters = 12;</code>
+       * <code>.ScImageParameters imageParameters = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters, com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScImageParametersOrBuilder> 
           getImageParametersFieldBuilder() {
         if (imageParametersBuilder_ == null) {
-          if (!(dataBodyCase_ == 12)) {
+          if (!(dataBodyCase_ == 11)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScImageParameters.getDefaultInstance();
           }
           imageParametersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3337,7 +3091,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 12;
+        dataBodyCase_ = 11;
         onChanged();;
         return imageParametersBuilder_;
       }
@@ -3345,33 +3099,33 @@ public final class BigPack {
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo, com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfoOrBuilder> imageBuilder_;
       /**
-       * <code>.ScImageInfo image = 13;</code>
+       * <code>.ScImageInfo image = 12;</code>
        * @return Whether the image field is set.
        */
       @java.lang.Override
       public boolean hasImage() {
-        return dataBodyCase_ == 13;
+        return dataBodyCase_ == 12;
       }
       /**
-       * <code>.ScImageInfo image = 13;</code>
+       * <code>.ScImageInfo image = 12;</code>
        * @return The image.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo getImage() {
         if (imageBuilder_ == null) {
-          if (dataBodyCase_ == 13) {
+          if (dataBodyCase_ == 12) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 13) {
+          if (dataBodyCase_ == 12) {
             return imageBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.ScImageInfo image = 13;</code>
+       * <code>.ScImageInfo image = 12;</code>
        */
       public Builder setImage(com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo value) {
         if (imageBuilder_ == null) {
@@ -3383,11 +3137,11 @@ public final class BigPack {
         } else {
           imageBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 13;
+        dataBodyCase_ = 12;
         return this;
       }
       /**
-       * <code>.ScImageInfo image = 13;</code>
+       * <code>.ScImageInfo image = 12;</code>
        */
       public Builder setImage(
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.Builder builderForValue) {
@@ -3397,15 +3151,15 @@ public final class BigPack {
         } else {
           imageBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 13;
+        dataBodyCase_ = 12;
         return this;
       }
       /**
-       * <code>.ScImageInfo image = 13;</code>
+       * <code>.ScImageInfo image = 12;</code>
        */
       public Builder mergeImage(com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo value) {
         if (imageBuilder_ == null) {
-          if (dataBodyCase_ == 13 &&
+          if (dataBodyCase_ == 12 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -3414,26 +3168,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 13) {
+          if (dataBodyCase_ == 12) {
             imageBuilder_.mergeFrom(value);
           }
           imageBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 13;
+        dataBodyCase_ = 12;
         return this;
       }
       /**
-       * <code>.ScImageInfo image = 13;</code>
+       * <code>.ScImageInfo image = 12;</code>
        */
       public Builder clearImage() {
         if (imageBuilder_ == null) {
-          if (dataBodyCase_ == 13) {
+          if (dataBodyCase_ == 12) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 13) {
+          if (dataBodyCase_ == 12) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -3442,33 +3196,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.ScImageInfo image = 13;</code>
+       * <code>.ScImageInfo image = 12;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.Builder getImageBuilder() {
         return getImageFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ScImageInfo image = 13;</code>
+       * <code>.ScImageInfo image = 12;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfoOrBuilder getImageOrBuilder() {
-        if ((dataBodyCase_ == 13) && (imageBuilder_ != null)) {
+        if ((dataBodyCase_ == 12) && (imageBuilder_ != null)) {
           return imageBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 13) {
+          if (dataBodyCase_ == 12) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.ScImageInfo image = 13;</code>
+       * <code>.ScImageInfo image = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo, com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.Builder, com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfoOrBuilder> 
           getImageFieldBuilder() {
         if (imageBuilder_ == null) {
-          if (!(dataBodyCase_ == 13)) {
+          if (!(dataBodyCase_ == 12)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo.getDefaultInstance();
           }
           imageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3478,7 +3232,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 13;
+        dataBodyCase_ = 12;
         onChanged();;
         return imageBuilder_;
       }
@@ -3486,33 +3240,33 @@ public final class BigPack {
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived, com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceivedOrBuilder> imageReceivedBuilder_;
       /**
-       * <code>.CsImageReceived imageReceived = 14;</code>
+       * <code>.CsImageReceived imageReceived = 13;</code>
        * @return Whether the imageReceived field is set.
        */
       @java.lang.Override
       public boolean hasImageReceived() {
-        return dataBodyCase_ == 14;
+        return dataBodyCase_ == 13;
       }
       /**
-       * <code>.CsImageReceived imageReceived = 14;</code>
+       * <code>.CsImageReceived imageReceived = 13;</code>
        * @return The imageReceived.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived getImageReceived() {
         if (imageReceivedBuilder_ == null) {
-          if (dataBodyCase_ == 14) {
+          if (dataBodyCase_ == 13) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 14) {
+          if (dataBodyCase_ == 13) {
             return imageReceivedBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsImageReceived imageReceived = 14;</code>
+       * <code>.CsImageReceived imageReceived = 13;</code>
        */
       public Builder setImageReceived(com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived value) {
         if (imageReceivedBuilder_ == null) {
@@ -3524,11 +3278,11 @@ public final class BigPack {
         } else {
           imageReceivedBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 14;
+        dataBodyCase_ = 13;
         return this;
       }
       /**
-       * <code>.CsImageReceived imageReceived = 14;</code>
+       * <code>.CsImageReceived imageReceived = 13;</code>
        */
       public Builder setImageReceived(
           com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.Builder builderForValue) {
@@ -3538,15 +3292,15 @@ public final class BigPack {
         } else {
           imageReceivedBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 14;
+        dataBodyCase_ = 13;
         return this;
       }
       /**
-       * <code>.CsImageReceived imageReceived = 14;</code>
+       * <code>.CsImageReceived imageReceived = 13;</code>
        */
       public Builder mergeImageReceived(com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived value) {
         if (imageReceivedBuilder_ == null) {
-          if (dataBodyCase_ == 14 &&
+          if (dataBodyCase_ == 13 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -3555,26 +3309,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 14) {
+          if (dataBodyCase_ == 13) {
             imageReceivedBuilder_.mergeFrom(value);
           }
           imageReceivedBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 14;
+        dataBodyCase_ = 13;
         return this;
       }
       /**
-       * <code>.CsImageReceived imageReceived = 14;</code>
+       * <code>.CsImageReceived imageReceived = 13;</code>
        */
       public Builder clearImageReceived() {
         if (imageReceivedBuilder_ == null) {
-          if (dataBodyCase_ == 14) {
+          if (dataBodyCase_ == 13) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 14) {
+          if (dataBodyCase_ == 13) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -3583,33 +3337,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.CsImageReceived imageReceived = 14;</code>
+       * <code>.CsImageReceived imageReceived = 13;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.Builder getImageReceivedBuilder() {
         return getImageReceivedFieldBuilder().getBuilder();
       }
       /**
-       * <code>.CsImageReceived imageReceived = 14;</code>
+       * <code>.CsImageReceived imageReceived = 13;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceivedOrBuilder getImageReceivedOrBuilder() {
-        if ((dataBodyCase_ == 14) && (imageReceivedBuilder_ != null)) {
+        if ((dataBodyCase_ == 13) && (imageReceivedBuilder_ != null)) {
           return imageReceivedBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 14) {
+          if (dataBodyCase_ == 13) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsImageReceived imageReceived = 14;</code>
+       * <code>.CsImageReceived imageReceived = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived, com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceivedOrBuilder> 
           getImageReceivedFieldBuilder() {
         if (imageReceivedBuilder_ == null) {
-          if (!(dataBodyCase_ == 14)) {
+          if (!(dataBodyCase_ == 13)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsImageReceived.getDefaultInstance();
           }
           imageReceivedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3619,7 +3373,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 14;
+        dataBodyCase_ = 13;
         onChanged();;
         return imageReceivedBuilder_;
       }
@@ -3627,33 +3381,33 @@ public final class BigPack {
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove, com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMoveOrBuilder> mouseMoveBuilder_;
       /**
-       * <code>.CsMouseMove mouseMove = 15;</code>
+       * <code>.CsMouseMove mouseMove = 14;</code>
        * @return Whether the mouseMove field is set.
        */
       @java.lang.Override
       public boolean hasMouseMove() {
-        return dataBodyCase_ == 15;
+        return dataBodyCase_ == 14;
       }
       /**
-       * <code>.CsMouseMove mouseMove = 15;</code>
+       * <code>.CsMouseMove mouseMove = 14;</code>
        * @return The mouseMove.
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove getMouseMove() {
         if (mouseMoveBuilder_ == null) {
-          if (dataBodyCase_ == 15) {
+          if (dataBodyCase_ == 14) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
         } else {
-          if (dataBodyCase_ == 15) {
+          if (dataBodyCase_ == 14) {
             return mouseMoveBuilder_.getMessage();
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsMouseMove mouseMove = 15;</code>
+       * <code>.CsMouseMove mouseMove = 14;</code>
        */
       public Builder setMouseMove(com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove value) {
         if (mouseMoveBuilder_ == null) {
@@ -3665,11 +3419,11 @@ public final class BigPack {
         } else {
           mouseMoveBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 15;
+        dataBodyCase_ = 14;
         return this;
       }
       /**
-       * <code>.CsMouseMove mouseMove = 15;</code>
+       * <code>.CsMouseMove mouseMove = 14;</code>
        */
       public Builder setMouseMove(
           com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.Builder builderForValue) {
@@ -3679,15 +3433,15 @@ public final class BigPack {
         } else {
           mouseMoveBuilder_.setMessage(builderForValue.build());
         }
-        dataBodyCase_ = 15;
+        dataBodyCase_ = 14;
         return this;
       }
       /**
-       * <code>.CsMouseMove mouseMove = 15;</code>
+       * <code>.CsMouseMove mouseMove = 14;</code>
        */
       public Builder mergeMouseMove(com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove value) {
         if (mouseMoveBuilder_ == null) {
-          if (dataBodyCase_ == 15 &&
+          if (dataBodyCase_ == 14 &&
               dataBody_ != com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance()) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.newBuilder((com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_)
                 .mergeFrom(value).buildPartial();
@@ -3696,26 +3450,26 @@ public final class BigPack {
           }
           onChanged();
         } else {
-          if (dataBodyCase_ == 15) {
+          if (dataBodyCase_ == 14) {
             mouseMoveBuilder_.mergeFrom(value);
           }
           mouseMoveBuilder_.setMessage(value);
         }
-        dataBodyCase_ = 15;
+        dataBodyCase_ = 14;
         return this;
       }
       /**
-       * <code>.CsMouseMove mouseMove = 15;</code>
+       * <code>.CsMouseMove mouseMove = 14;</code>
        */
       public Builder clearMouseMove() {
         if (mouseMoveBuilder_ == null) {
-          if (dataBodyCase_ == 15) {
+          if (dataBodyCase_ == 14) {
             dataBodyCase_ = 0;
             dataBody_ = null;
             onChanged();
           }
         } else {
-          if (dataBodyCase_ == 15) {
+          if (dataBodyCase_ == 14) {
             dataBodyCase_ = 0;
             dataBody_ = null;
           }
@@ -3724,33 +3478,33 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>.CsMouseMove mouseMove = 15;</code>
+       * <code>.CsMouseMove mouseMove = 14;</code>
        */
       public com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.Builder getMouseMoveBuilder() {
         return getMouseMoveFieldBuilder().getBuilder();
       }
       /**
-       * <code>.CsMouseMove mouseMove = 15;</code>
+       * <code>.CsMouseMove mouseMove = 14;</code>
        */
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMoveOrBuilder getMouseMoveOrBuilder() {
-        if ((dataBodyCase_ == 15) && (mouseMoveBuilder_ != null)) {
+        if ((dataBodyCase_ == 14) && (mouseMoveBuilder_ != null)) {
           return mouseMoveBuilder_.getMessageOrBuilder();
         } else {
-          if (dataBodyCase_ == 15) {
+          if (dataBodyCase_ == 14) {
             return (com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove) dataBody_;
           }
           return com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
         }
       }
       /**
-       * <code>.CsMouseMove mouseMove = 15;</code>
+       * <code>.CsMouseMove mouseMove = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove, com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.Builder, com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMoveOrBuilder> 
           getMouseMoveFieldBuilder() {
         if (mouseMoveBuilder_ == null) {
-          if (!(dataBodyCase_ == 15)) {
+          if (!(dataBodyCase_ == 14)) {
             dataBody_ = com.javacgo.remote.qt.common.protocol.BigPack.CsMouseMove.getDefaultInstance();
           }
           mouseMoveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3760,7 +3514,7 @@ public final class BigPack {
                   isClean());
           dataBody_ = null;
         }
-        dataBodyCase_ = 15;
+        dataBodyCase_ = 14;
         onChanged();;
         return mouseMoveBuilder_;
       }
@@ -6177,10 +5931,10 @@ public final class BigPack {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 success = 1;</code>
+     * <code>bool success = 1;</code>
      * @return The success.
      */
-    int getSuccess();
+    boolean getSuccess();
   }
   /**
    * Protobuf type {@code ScResponseAuth}
@@ -6229,7 +5983,7 @@ public final class BigPack {
               break;
             case 8: {
 
-              success_ = input.readInt32();
+              success_ = input.readBool();
               break;
             }
             default: {
@@ -6265,13 +6019,13 @@ public final class BigPack {
     }
 
     public static final int SUCCESS_FIELD_NUMBER = 1;
-    private int success_;
+    private boolean success_;
     /**
-     * <code>int32 success = 1;</code>
+     * <code>bool success = 1;</code>
      * @return The success.
      */
     @java.lang.Override
-    public int getSuccess() {
+    public boolean getSuccess() {
       return success_;
     }
 
@@ -6289,8 +6043,8 @@ public final class BigPack {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (success_ != 0) {
-        output.writeInt32(1, success_);
+      if (success_ != false) {
+        output.writeBool(1, success_);
       }
       unknownFields.writeTo(output);
     }
@@ -6301,9 +6055,9 @@ public final class BigPack {
       if (size != -1) return size;
 
       size = 0;
-      if (success_ != 0) {
+      if (success_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, success_);
+          .computeBoolSize(1, success_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -6334,7 +6088,8 @@ public final class BigPack {
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + SUCCESS_FIELD_NUMBER;
-      hash = (53 * hash) + getSuccess();
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSuccess());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -6468,7 +6223,7 @@ public final class BigPack {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        success_ = 0;
+        success_ = false;
 
         return this;
       }
@@ -6545,7 +6300,7 @@ public final class BigPack {
 
       public Builder mergeFrom(com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth other) {
         if (other == com.javacgo.remote.qt.common.protocol.BigPack.ScResponseAuth.getDefaultInstance()) return this;
-        if (other.getSuccess() != 0) {
+        if (other.getSuccess() != false) {
           setSuccess(other.getSuccess());
         }
         this.mergeUnknownFields(other.unknownFields);
@@ -6577,33 +6332,33 @@ public final class BigPack {
         return this;
       }
 
-      private int success_ ;
+      private boolean success_ ;
       /**
-       * <code>int32 success = 1;</code>
+       * <code>bool success = 1;</code>
        * @return The success.
        */
       @java.lang.Override
-      public int getSuccess() {
+      public boolean getSuccess() {
         return success_;
       }
       /**
-       * <code>int32 success = 1;</code>
+       * <code>bool success = 1;</code>
        * @param value The success to set.
        * @return This builder for chaining.
        */
-      public Builder setSuccess(int value) {
+      public Builder setSuccess(boolean value) {
         
         success_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>int32 success = 1;</code>
+       * <code>bool success = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearSuccess() {
         
-        success_ = 0;
+        success_ = false;
         onChanged();
         return this;
       }
@@ -6665,36 +6420,10 @@ public final class BigPack {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <pre>
-     *清晰度
-     * </pre>
-     *
-     * <code>int32 degreeClarity = 1;</code>
-     * @return The degreeClarity.
+     * <code>bool openOrClose = 1;</code>
+     * @return The openOrClose.
      */
-    int getDegreeClarity();
-
-    /**
-     * <pre>
-     *比特率
-     * </pre>
-     *
-     * <code>int32 rc_target_bitrate = 2;</code>
-     * @return The rcTargetBitrate.
-     */
-    int getRcTargetBitrate();
-
-    /**
-     * <code>int32 rc_min_quantizer = 3;</code>
-     * @return The rcMinQuantizer.
-     */
-    int getRcMinQuantizer();
-
-    /**
-     * <code>int32 rc_max_quantizer = 4;</code>
-     * @return The rcMaxQuantizer.
-     */
-    int getRcMaxQuantizer();
+    boolean getOpenOrClose();
   }
   /**
    * Protobuf type {@code CsDeskRequest}
@@ -6743,22 +6472,7 @@ public final class BigPack {
               break;
             case 8: {
 
-              degreeClarity_ = input.readInt32();
-              break;
-            }
-            case 16: {
-
-              rcTargetBitrate_ = input.readInt32();
-              break;
-            }
-            case 24: {
-
-              rcMinQuantizer_ = input.readInt32();
-              break;
-            }
-            case 32: {
-
-              rcMaxQuantizer_ = input.readInt32();
+              openOrClose_ = input.readBool();
               break;
             }
             default: {
@@ -6793,56 +6507,15 @@ public final class BigPack {
               com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.class, com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.Builder.class);
     }
 
-    public static final int DEGREECLARITY_FIELD_NUMBER = 1;
-    private int degreeClarity_;
+    public static final int OPENORCLOSE_FIELD_NUMBER = 1;
+    private boolean openOrClose_;
     /**
-     * <pre>
-     *清晰度
-     * </pre>
-     *
-     * <code>int32 degreeClarity = 1;</code>
-     * @return The degreeClarity.
+     * <code>bool openOrClose = 1;</code>
+     * @return The openOrClose.
      */
     @java.lang.Override
-    public int getDegreeClarity() {
-      return degreeClarity_;
-    }
-
-    public static final int RC_TARGET_BITRATE_FIELD_NUMBER = 2;
-    private int rcTargetBitrate_;
-    /**
-     * <pre>
-     *比特率
-     * </pre>
-     *
-     * <code>int32 rc_target_bitrate = 2;</code>
-     * @return The rcTargetBitrate.
-     */
-    @java.lang.Override
-    public int getRcTargetBitrate() {
-      return rcTargetBitrate_;
-    }
-
-    public static final int RC_MIN_QUANTIZER_FIELD_NUMBER = 3;
-    private int rcMinQuantizer_;
-    /**
-     * <code>int32 rc_min_quantizer = 3;</code>
-     * @return The rcMinQuantizer.
-     */
-    @java.lang.Override
-    public int getRcMinQuantizer() {
-      return rcMinQuantizer_;
-    }
-
-    public static final int RC_MAX_QUANTIZER_FIELD_NUMBER = 4;
-    private int rcMaxQuantizer_;
-    /**
-     * <code>int32 rc_max_quantizer = 4;</code>
-     * @return The rcMaxQuantizer.
-     */
-    @java.lang.Override
-    public int getRcMaxQuantizer() {
-      return rcMaxQuantizer_;
+    public boolean getOpenOrClose() {
+      return openOrClose_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -6859,17 +6532,8 @@ public final class BigPack {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (degreeClarity_ != 0) {
-        output.writeInt32(1, degreeClarity_);
-      }
-      if (rcTargetBitrate_ != 0) {
-        output.writeInt32(2, rcTargetBitrate_);
-      }
-      if (rcMinQuantizer_ != 0) {
-        output.writeInt32(3, rcMinQuantizer_);
-      }
-      if (rcMaxQuantizer_ != 0) {
-        output.writeInt32(4, rcMaxQuantizer_);
+      if (openOrClose_ != false) {
+        output.writeBool(1, openOrClose_);
       }
       unknownFields.writeTo(output);
     }
@@ -6880,21 +6544,9 @@ public final class BigPack {
       if (size != -1) return size;
 
       size = 0;
-      if (degreeClarity_ != 0) {
+      if (openOrClose_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, degreeClarity_);
-      }
-      if (rcTargetBitrate_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, rcTargetBitrate_);
-      }
-      if (rcMinQuantizer_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, rcMinQuantizer_);
-      }
-      if (rcMaxQuantizer_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(4, rcMaxQuantizer_);
+          .computeBoolSize(1, openOrClose_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -6911,14 +6563,8 @@ public final class BigPack {
       }
       com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest other = (com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest) obj;
 
-      if (getDegreeClarity()
-          != other.getDegreeClarity()) return false;
-      if (getRcTargetBitrate()
-          != other.getRcTargetBitrate()) return false;
-      if (getRcMinQuantizer()
-          != other.getRcMinQuantizer()) return false;
-      if (getRcMaxQuantizer()
-          != other.getRcMaxQuantizer()) return false;
+      if (getOpenOrClose()
+          != other.getOpenOrClose()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -6930,14 +6576,9 @@ public final class BigPack {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + DEGREECLARITY_FIELD_NUMBER;
-      hash = (53 * hash) + getDegreeClarity();
-      hash = (37 * hash) + RC_TARGET_BITRATE_FIELD_NUMBER;
-      hash = (53 * hash) + getRcTargetBitrate();
-      hash = (37 * hash) + RC_MIN_QUANTIZER_FIELD_NUMBER;
-      hash = (53 * hash) + getRcMinQuantizer();
-      hash = (37 * hash) + RC_MAX_QUANTIZER_FIELD_NUMBER;
-      hash = (53 * hash) + getRcMaxQuantizer();
+      hash = (37 * hash) + OPENORCLOSE_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOpenOrClose());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -7071,13 +6712,7 @@ public final class BigPack {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        degreeClarity_ = 0;
-
-        rcTargetBitrate_ = 0;
-
-        rcMinQuantizer_ = 0;
-
-        rcMaxQuantizer_ = 0;
+        openOrClose_ = false;
 
         return this;
       }
@@ -7105,10 +6740,7 @@ public final class BigPack {
       @java.lang.Override
       public com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest buildPartial() {
         com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest result = new com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest(this);
-        result.degreeClarity_ = degreeClarity_;
-        result.rcTargetBitrate_ = rcTargetBitrate_;
-        result.rcMinQuantizer_ = rcMinQuantizer_;
-        result.rcMaxQuantizer_ = rcMaxQuantizer_;
+        result.openOrClose_ = openOrClose_;
         onBuilt();
         return result;
       }
@@ -7157,17 +6789,8 @@ public final class BigPack {
 
       public Builder mergeFrom(com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest other) {
         if (other == com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest.getDefaultInstance()) return this;
-        if (other.getDegreeClarity() != 0) {
-          setDegreeClarity(other.getDegreeClarity());
-        }
-        if (other.getRcTargetBitrate() != 0) {
-          setRcTargetBitrate(other.getRcTargetBitrate());
-        }
-        if (other.getRcMinQuantizer() != 0) {
-          setRcMinQuantizer(other.getRcMinQuantizer());
-        }
-        if (other.getRcMaxQuantizer() != 0) {
-          setRcMaxQuantizer(other.getRcMaxQuantizer());
+        if (other.getOpenOrClose() != false) {
+          setOpenOrClose(other.getOpenOrClose());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -7198,150 +6821,33 @@ public final class BigPack {
         return this;
       }
 
-      private int degreeClarity_ ;
+      private boolean openOrClose_ ;
       /**
-       * <pre>
-       *清晰度
-       * </pre>
-       *
-       * <code>int32 degreeClarity = 1;</code>
-       * @return The degreeClarity.
+       * <code>bool openOrClose = 1;</code>
+       * @return The openOrClose.
        */
       @java.lang.Override
-      public int getDegreeClarity() {
-        return degreeClarity_;
+      public boolean getOpenOrClose() {
+        return openOrClose_;
       }
       /**
-       * <pre>
-       *清晰度
-       * </pre>
-       *
-       * <code>int32 degreeClarity = 1;</code>
-       * @param value The degreeClarity to set.
+       * <code>bool openOrClose = 1;</code>
+       * @param value The openOrClose to set.
        * @return This builder for chaining.
        */
-      public Builder setDegreeClarity(int value) {
+      public Builder setOpenOrClose(boolean value) {
         
-        degreeClarity_ = value;
+        openOrClose_ = value;
         onChanged();
         return this;
       }
       /**
-       * <pre>
-       *清晰度
-       * </pre>
-       *
-       * <code>int32 degreeClarity = 1;</code>
+       * <code>bool openOrClose = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDegreeClarity() {
+      public Builder clearOpenOrClose() {
         
-        degreeClarity_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int rcTargetBitrate_ ;
-      /**
-       * <pre>
-       *比特率
-       * </pre>
-       *
-       * <code>int32 rc_target_bitrate = 2;</code>
-       * @return The rcTargetBitrate.
-       */
-      @java.lang.Override
-      public int getRcTargetBitrate() {
-        return rcTargetBitrate_;
-      }
-      /**
-       * <pre>
-       *比特率
-       * </pre>
-       *
-       * <code>int32 rc_target_bitrate = 2;</code>
-       * @param value The rcTargetBitrate to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRcTargetBitrate(int value) {
-        
-        rcTargetBitrate_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <pre>
-       *比特率
-       * </pre>
-       *
-       * <code>int32 rc_target_bitrate = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRcTargetBitrate() {
-        
-        rcTargetBitrate_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int rcMinQuantizer_ ;
-      /**
-       * <code>int32 rc_min_quantizer = 3;</code>
-       * @return The rcMinQuantizer.
-       */
-      @java.lang.Override
-      public int getRcMinQuantizer() {
-        return rcMinQuantizer_;
-      }
-      /**
-       * <code>int32 rc_min_quantizer = 3;</code>
-       * @param value The rcMinQuantizer to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRcMinQuantizer(int value) {
-        
-        rcMinQuantizer_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 rc_min_quantizer = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRcMinQuantizer() {
-        
-        rcMinQuantizer_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int rcMaxQuantizer_ ;
-      /**
-       * <code>int32 rc_max_quantizer = 4;</code>
-       * @return The rcMaxQuantizer.
-       */
-      @java.lang.Override
-      public int getRcMaxQuantizer() {
-        return rcMaxQuantizer_;
-      }
-      /**
-       * <code>int32 rc_max_quantizer = 4;</code>
-       * @param value The rcMaxQuantizer to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRcMaxQuantizer(int value) {
-        
-        rcMaxQuantizer_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 rc_max_quantizer = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRcMaxQuantizer() {
-        
-        rcMaxQuantizer_ = 0;
+        openOrClose_ = false;
         onChanged();
         return this;
       }
@@ -7393,822 +6899,6 @@ public final class BigPack {
 
     @java.lang.Override
     public com.javacgo.remote.qt.common.protocol.BigPack.CsDeskRequest getDefaultInstanceForType() {
-      return DEFAULT_INSTANCE;
-    }
-
-  }
-
-  public interface DSDeskCommandOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:DSDeskCommand)
-      com.google.protobuf.MessageOrBuilder {
-
-    /**
-     * <pre>
-     *开启或者关闭
-     * </pre>
-     *
-     * <code>int32 openOrClose = 1;</code>
-     * @return The openOrClose.
-     */
-    int getOpenOrClose();
-
-    /**
-     * <pre>
-     *清晰度
-     * </pre>
-     *
-     * <code>int32 degreeClarity = 2;</code>
-     * @return The degreeClarity.
-     */
-    int getDegreeClarity();
-
-    /**
-     * <code>int32 rc_target_bitrate = 3;</code>
-     * @return The rcTargetBitrate.
-     */
-    int getRcTargetBitrate();
-
-    /**
-     * <code>int32 rc_min_quantizer = 4;</code>
-     * @return The rcMinQuantizer.
-     */
-    int getRcMinQuantizer();
-
-    /**
-     * <code>int32 rc_max_quantizer = 5;</code>
-     * @return The rcMaxQuantizer.
-     */
-    int getRcMaxQuantizer();
-  }
-  /**
-   * <pre>
-   *double side
-   * </pre>
-   *
-   * Protobuf type {@code DSDeskCommand}
-   */
-  public static final class DSDeskCommand extends
-      com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:DSDeskCommand)
-      DSDeskCommandOrBuilder {
-  private static final long serialVersionUID = 0L;
-    // Use DSDeskCommand.newBuilder() to construct.
-    private DSDeskCommand(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-      super(builder);
-    }
-    private DSDeskCommand() {
-    }
-
-    @java.lang.Override
-    @SuppressWarnings({"unused"})
-    protected java.lang.Object newInstance(
-        UnusedPrivateParameter unused) {
-      return new DSDeskCommand();
-    }
-
-    @java.lang.Override
-    public final com.google.protobuf.UnknownFieldSet
-    getUnknownFields() {
-      return this.unknownFields;
-    }
-    private DSDeskCommand(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      this();
-      if (extensionRegistry == null) {
-        throw new java.lang.NullPointerException();
-      }
-      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-          com.google.protobuf.UnknownFieldSet.newBuilder();
-      try {
-        boolean done = false;
-        while (!done) {
-          int tag = input.readTag();
-          switch (tag) {
-            case 0:
-              done = true;
-              break;
-            case 8: {
-
-              openOrClose_ = input.readInt32();
-              break;
-            }
-            case 16: {
-
-              degreeClarity_ = input.readInt32();
-              break;
-            }
-            case 24: {
-
-              rcTargetBitrate_ = input.readInt32();
-              break;
-            }
-            case 32: {
-
-              rcMinQuantizer_ = input.readInt32();
-              break;
-            }
-            case 40: {
-
-              rcMaxQuantizer_ = input.readInt32();
-              break;
-            }
-            default: {
-              if (!parseUnknownField(
-                  input, unknownFields, extensionRegistry, tag)) {
-                done = true;
-              }
-              break;
-            }
-          }
-        }
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw e.setUnfinishedMessage(this);
-      } catch (java.io.IOException e) {
-        throw new com.google.protobuf.InvalidProtocolBufferException(
-            e).setUnfinishedMessage(this);
-      } finally {
-        this.unknownFields = unknownFields.build();
-        makeExtensionsImmutable();
-      }
-    }
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_DSDeskCommand_descriptor;
-    }
-
-    @java.lang.Override
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_DSDeskCommand_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.class, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder.class);
-    }
-
-    public static final int OPENORCLOSE_FIELD_NUMBER = 1;
-    private int openOrClose_;
-    /**
-     * <pre>
-     *开启或者关闭
-     * </pre>
-     *
-     * <code>int32 openOrClose = 1;</code>
-     * @return The openOrClose.
-     */
-    @java.lang.Override
-    public int getOpenOrClose() {
-      return openOrClose_;
-    }
-
-    public static final int DEGREECLARITY_FIELD_NUMBER = 2;
-    private int degreeClarity_;
-    /**
-     * <pre>
-     *清晰度
-     * </pre>
-     *
-     * <code>int32 degreeClarity = 2;</code>
-     * @return The degreeClarity.
-     */
-    @java.lang.Override
-    public int getDegreeClarity() {
-      return degreeClarity_;
-    }
-
-    public static final int RC_TARGET_BITRATE_FIELD_NUMBER = 3;
-    private int rcTargetBitrate_;
-    /**
-     * <code>int32 rc_target_bitrate = 3;</code>
-     * @return The rcTargetBitrate.
-     */
-    @java.lang.Override
-    public int getRcTargetBitrate() {
-      return rcTargetBitrate_;
-    }
-
-    public static final int RC_MIN_QUANTIZER_FIELD_NUMBER = 4;
-    private int rcMinQuantizer_;
-    /**
-     * <code>int32 rc_min_quantizer = 4;</code>
-     * @return The rcMinQuantizer.
-     */
-    @java.lang.Override
-    public int getRcMinQuantizer() {
-      return rcMinQuantizer_;
-    }
-
-    public static final int RC_MAX_QUANTIZER_FIELD_NUMBER = 5;
-    private int rcMaxQuantizer_;
-    /**
-     * <code>int32 rc_max_quantizer = 5;</code>
-     * @return The rcMaxQuantizer.
-     */
-    @java.lang.Override
-    public int getRcMaxQuantizer() {
-      return rcMaxQuantizer_;
-    }
-
-    private byte memoizedIsInitialized = -1;
-    @java.lang.Override
-    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized == 1) return true;
-      if (isInitialized == 0) return false;
-
-      memoizedIsInitialized = 1;
-      return true;
-    }
-
-    @java.lang.Override
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      if (openOrClose_ != 0) {
-        output.writeInt32(1, openOrClose_);
-      }
-      if (degreeClarity_ != 0) {
-        output.writeInt32(2, degreeClarity_);
-      }
-      if (rcTargetBitrate_ != 0) {
-        output.writeInt32(3, rcTargetBitrate_);
-      }
-      if (rcMinQuantizer_ != 0) {
-        output.writeInt32(4, rcMinQuantizer_);
-      }
-      if (rcMaxQuantizer_ != 0) {
-        output.writeInt32(5, rcMaxQuantizer_);
-      }
-      unknownFields.writeTo(output);
-    }
-
-    @java.lang.Override
-    public int getSerializedSize() {
-      int size = memoizedSize;
-      if (size != -1) return size;
-
-      size = 0;
-      if (openOrClose_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, openOrClose_);
-      }
-      if (degreeClarity_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, degreeClarity_);
-      }
-      if (rcTargetBitrate_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, rcTargetBitrate_);
-      }
-      if (rcMinQuantizer_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(4, rcMinQuantizer_);
-      }
-      if (rcMaxQuantizer_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(5, rcMaxQuantizer_);
-      }
-      size += unknownFields.getSerializedSize();
-      memoizedSize = size;
-      return size;
-    }
-
-    @java.lang.Override
-    public boolean equals(final java.lang.Object obj) {
-      if (obj == this) {
-       return true;
-      }
-      if (!(obj instanceof com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand)) {
-        return super.equals(obj);
-      }
-      com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand other = (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) obj;
-
-      if (getOpenOrClose()
-          != other.getOpenOrClose()) return false;
-      if (getDegreeClarity()
-          != other.getDegreeClarity()) return false;
-      if (getRcTargetBitrate()
-          != other.getRcTargetBitrate()) return false;
-      if (getRcMinQuantizer()
-          != other.getRcMinQuantizer()) return false;
-      if (getRcMaxQuantizer()
-          != other.getRcMaxQuantizer()) return false;
-      if (!unknownFields.equals(other.unknownFields)) return false;
-      return true;
-    }
-
-    @java.lang.Override
-    public int hashCode() {
-      if (memoizedHashCode != 0) {
-        return memoizedHashCode;
-      }
-      int hash = 41;
-      hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + OPENORCLOSE_FIELD_NUMBER;
-      hash = (53 * hash) + getOpenOrClose();
-      hash = (37 * hash) + DEGREECLARITY_FIELD_NUMBER;
-      hash = (53 * hash) + getDegreeClarity();
-      hash = (37 * hash) + RC_TARGET_BITRATE_FIELD_NUMBER;
-      hash = (53 * hash) + getRcTargetBitrate();
-      hash = (37 * hash) + RC_MIN_QUANTIZER_FIELD_NUMBER;
-      hash = (53 * hash) + getRcMinQuantizer();
-      hash = (37 * hash) + RC_MAX_QUANTIZER_FIELD_NUMBER;
-      hash = (53 * hash) + getRcMaxQuantizer();
-      hash = (29 * hash) + unknownFields.hashCode();
-      memoizedHashCode = hash;
-      return hash;
-    }
-
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseFrom(
-        java.nio.ByteBuffer data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseFrom(
-        java.nio.ByteBuffer data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseFrom(
-        com.google.protobuf.ByteString data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseFrom(
-        com.google.protobuf.ByteString data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseFrom(byte[] data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseFrom(
-        byte[] data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseDelimitedFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input);
-    }
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseDelimitedFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseFrom(
-        com.google.protobuf.CodedInputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parseFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-
-    @java.lang.Override
-    public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder() {
-      return DEFAULT_INSTANCE.toBuilder();
-    }
-    public static Builder newBuilder(com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand prototype) {
-      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-    }
-    @java.lang.Override
-    public Builder toBuilder() {
-      return this == DEFAULT_INSTANCE
-          ? new Builder() : new Builder().mergeFrom(this);
-    }
-
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
-    /**
-     * <pre>
-     *double side
-     * </pre>
-     *
-     * Protobuf type {@code DSDeskCommand}
-     */
-    public static final class Builder extends
-        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:DSDeskCommand)
-        com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommandOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_DSDeskCommand_descriptor;
-      }
-
-      @java.lang.Override
-      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_DSDeskCommand_fieldAccessorTable
-            .ensureFieldAccessorsInitialized(
-                com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.class, com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.Builder.class);
-      }
-
-      // Construct using com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
-      }
-
-      private Builder(
-          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessageV3
-                .alwaysUseFieldBuilders) {
-        }
-      }
-      @java.lang.Override
-      public Builder clear() {
-        super.clear();
-        openOrClose_ = 0;
-
-        degreeClarity_ = 0;
-
-        rcTargetBitrate_ = 0;
-
-        rcMinQuantizer_ = 0;
-
-        rcMaxQuantizer_ = 0;
-
-        return this;
-      }
-
-      @java.lang.Override
-      public com.google.protobuf.Descriptors.Descriptor
-          getDescriptorForType() {
-        return com.javacgo.remote.qt.common.protocol.BigPack.internal_static_DSDeskCommand_descriptor;
-      }
-
-      @java.lang.Override
-      public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand getDefaultInstanceForType() {
-        return com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance();
-      }
-
-      @java.lang.Override
-      public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand build() {
-        com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand result = buildPartial();
-        if (!result.isInitialized()) {
-          throw newUninitializedMessageException(result);
-        }
-        return result;
-      }
-
-      @java.lang.Override
-      public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand buildPartial() {
-        com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand result = new com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand(this);
-        result.openOrClose_ = openOrClose_;
-        result.degreeClarity_ = degreeClarity_;
-        result.rcTargetBitrate_ = rcTargetBitrate_;
-        result.rcMinQuantizer_ = rcMinQuantizer_;
-        result.rcMaxQuantizer_ = rcMaxQuantizer_;
-        onBuilt();
-        return result;
-      }
-
-      @java.lang.Override
-      public Builder clone() {
-        return super.clone();
-      }
-      @java.lang.Override
-      public Builder setField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.setField(field, value);
-      }
-      @java.lang.Override
-      public Builder clearField(
-          com.google.protobuf.Descriptors.FieldDescriptor field) {
-        return super.clearField(field);
-      }
-      @java.lang.Override
-      public Builder clearOneof(
-          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-        return super.clearOneof(oneof);
-      }
-      @java.lang.Override
-      public Builder setRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          int index, java.lang.Object value) {
-        return super.setRepeatedField(field, index, value);
-      }
-      @java.lang.Override
-      public Builder addRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.addRepeatedField(field, value);
-      }
-      @java.lang.Override
-      public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) {
-          return mergeFrom((com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand)other);
-        } else {
-          super.mergeFrom(other);
-          return this;
-        }
-      }
-
-      public Builder mergeFrom(com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand other) {
-        if (other == com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand.getDefaultInstance()) return this;
-        if (other.getOpenOrClose() != 0) {
-          setOpenOrClose(other.getOpenOrClose());
-        }
-        if (other.getDegreeClarity() != 0) {
-          setDegreeClarity(other.getDegreeClarity());
-        }
-        if (other.getRcTargetBitrate() != 0) {
-          setRcTargetBitrate(other.getRcTargetBitrate());
-        }
-        if (other.getRcMinQuantizer() != 0) {
-          setRcMinQuantizer(other.getRcMinQuantizer());
-        }
-        if (other.getRcMaxQuantizer() != 0) {
-          setRcMaxQuantizer(other.getRcMaxQuantizer());
-        }
-        this.mergeUnknownFields(other.unknownFields);
-        onChanged();
-        return this;
-      }
-
-      @java.lang.Override
-      public final boolean isInitialized() {
-        return true;
-      }
-
-      @java.lang.Override
-      public Builder mergeFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws java.io.IOException {
-        com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand parsedMessage = null;
-        try {
-          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand) e.getUnfinishedMessage();
-          throw e.unwrapIOException();
-        } finally {
-          if (parsedMessage != null) {
-            mergeFrom(parsedMessage);
-          }
-        }
-        return this;
-      }
-
-      private int openOrClose_ ;
-      /**
-       * <pre>
-       *开启或者关闭
-       * </pre>
-       *
-       * <code>int32 openOrClose = 1;</code>
-       * @return The openOrClose.
-       */
-      @java.lang.Override
-      public int getOpenOrClose() {
-        return openOrClose_;
-      }
-      /**
-       * <pre>
-       *开启或者关闭
-       * </pre>
-       *
-       * <code>int32 openOrClose = 1;</code>
-       * @param value The openOrClose to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOpenOrClose(int value) {
-        
-        openOrClose_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <pre>
-       *开启或者关闭
-       * </pre>
-       *
-       * <code>int32 openOrClose = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOpenOrClose() {
-        
-        openOrClose_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int degreeClarity_ ;
-      /**
-       * <pre>
-       *清晰度
-       * </pre>
-       *
-       * <code>int32 degreeClarity = 2;</code>
-       * @return The degreeClarity.
-       */
-      @java.lang.Override
-      public int getDegreeClarity() {
-        return degreeClarity_;
-      }
-      /**
-       * <pre>
-       *清晰度
-       * </pre>
-       *
-       * <code>int32 degreeClarity = 2;</code>
-       * @param value The degreeClarity to set.
-       * @return This builder for chaining.
-       */
-      public Builder setDegreeClarity(int value) {
-        
-        degreeClarity_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <pre>
-       *清晰度
-       * </pre>
-       *
-       * <code>int32 degreeClarity = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearDegreeClarity() {
-        
-        degreeClarity_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int rcTargetBitrate_ ;
-      /**
-       * <code>int32 rc_target_bitrate = 3;</code>
-       * @return The rcTargetBitrate.
-       */
-      @java.lang.Override
-      public int getRcTargetBitrate() {
-        return rcTargetBitrate_;
-      }
-      /**
-       * <code>int32 rc_target_bitrate = 3;</code>
-       * @param value The rcTargetBitrate to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRcTargetBitrate(int value) {
-        
-        rcTargetBitrate_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 rc_target_bitrate = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRcTargetBitrate() {
-        
-        rcTargetBitrate_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int rcMinQuantizer_ ;
-      /**
-       * <code>int32 rc_min_quantizer = 4;</code>
-       * @return The rcMinQuantizer.
-       */
-      @java.lang.Override
-      public int getRcMinQuantizer() {
-        return rcMinQuantizer_;
-      }
-      /**
-       * <code>int32 rc_min_quantizer = 4;</code>
-       * @param value The rcMinQuantizer to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRcMinQuantizer(int value) {
-        
-        rcMinQuantizer_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 rc_min_quantizer = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRcMinQuantizer() {
-        
-        rcMinQuantizer_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int rcMaxQuantizer_ ;
-      /**
-       * <code>int32 rc_max_quantizer = 5;</code>
-       * @return The rcMaxQuantizer.
-       */
-      @java.lang.Override
-      public int getRcMaxQuantizer() {
-        return rcMaxQuantizer_;
-      }
-      /**
-       * <code>int32 rc_max_quantizer = 5;</code>
-       * @param value The rcMaxQuantizer to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRcMaxQuantizer(int value) {
-        
-        rcMaxQuantizer_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 rc_max_quantizer = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRcMaxQuantizer() {
-        
-        rcMaxQuantizer_ = 0;
-        onChanged();
-        return this;
-      }
-      @java.lang.Override
-      public final Builder setUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.setUnknownFields(unknownFields);
-      }
-
-      @java.lang.Override
-      public final Builder mergeUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.mergeUnknownFields(unknownFields);
-      }
-
-
-      // @@protoc_insertion_point(builder_scope:DSDeskCommand)
-    }
-
-    // @@protoc_insertion_point(class_scope:DSDeskCommand)
-    private static final com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand DEFAULT_INSTANCE;
-    static {
-      DEFAULT_INSTANCE = new com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand();
-    }
-
-    public static com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand getDefaultInstance() {
-      return DEFAULT_INSTANCE;
-    }
-
-    private static final com.google.protobuf.Parser<DSDeskCommand>
-        PARSER = new com.google.protobuf.AbstractParser<DSDeskCommand>() {
-      @java.lang.Override
-      public DSDeskCommand parsePartialFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws com.google.protobuf.InvalidProtocolBufferException {
-        return new DSDeskCommand(input, extensionRegistry);
-      }
-    };
-
-    public static com.google.protobuf.Parser<DSDeskCommand> parser() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Parser<DSDeskCommand> getParserForType() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.javacgo.remote.qt.common.protocol.BigPack.DSDeskCommand getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -10626,11 +9316,6 @@ public final class BigPack {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CsDeskRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_DSDeskCommand_descriptor;
-  private static final 
-    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_DSDeskCommand_fieldAccessorTable;
-  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ScImageParameters_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
@@ -10659,7 +9344,7 @@ public final class BigPack {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016Exchange.proto\"\207\006\n\010Exchange\022$\n\010dataTyp" +
+      "\n\016Exchange.proto\"\313\005\n\010Exchange\022$\n\010dataTyp" +
       "e\030\001 \001(\0162\022.Exchange.DataType\022\022\n\nresourceI" +
       "d\030\002 \001(\t\022\020\n\010targetId\030\003 \001(\t\022\021\n\terrorCode\030\004" +
       " \001(\005\022\037\n\010HostInfo\030\005 \001(\0132\013.WMHostInfoH\000\022!\n" +
@@ -10667,37 +9352,30 @@ public final class BigPack {
       "onseHost\030\007 \001(\0132\017.ScResponseHostH\000\022%\n\013req" +
       "uestAuth\030\010 \001(\0132\016.CsRequestAuthH\000\022\'\n\014resp" +
       "onseAuth\030\t \001(\0132\017.ScResponseAuthH\000\022%\n\013req" +
-      "uestDesk\030\n \001(\0132\016.CsDeskRequestH\000\022%\n\013comm" +
-      "andDesk\030\013 \001(\0132\016.DSDeskCommandH\000\022-\n\017image" +
-      "Parameters\030\014 \001(\0132\022.ScImageParametersH\000\022\035" +
-      "\n\005image\030\r \001(\0132\014.ScImageInfoH\000\022)\n\rimageRe" +
-      "ceived\030\016 \001(\0132\020.CsImageReceivedH\000\022!\n\tmous" +
-      "eMove\030\017 \001(\0132\014.CsMouseMoveH\000\"\350\001\n\010DataType" +
-      "\022\014\n\010TypeHost\020\000\022\021\n\rTypeQueryHost\020\001\022\024\n\020Typ" +
-      "eResponseHost\020\002\022\023\n\017TypeRequestAuth\020\003\022\024\n\020" +
-      "TypeResponseAuth\020\004\022\023\n\017TypeRequestDesk\020\005\022" +
-      "\023\n\017TypeCommandDesk\020\006\022\027\n\023TypeImageParamet" +
-      "ers\020\007\022\r\n\tTypeImage\020\010\022\025\n\021TypeImageReceive" +
-      "d\020\t\022\021\n\rTypeMouseMove\020\nB\n\n\010dataBody\"B\n\nWM" +
-      "HostInfo\022\016\n\006pcName\030\001 \001(\t\022\013\n\003mac\030\002 \001(\t\022\027\n" +
-      "\017activeOrpassive\030\003 \001(\005\"\r\n\013CsQueryHost\"!\n" +
-      "\016ScResponseHost\022\017\n\007isExist\030\001 \001(\010\"%\n\rCsRe" +
-      "questAuth\022\024\n\014targetPasswd\030\001 \001(\t\"!\n\016ScRes" +
-      "ponseAuth\022\017\n\007success\030\001 \001(\005\"u\n\rCsDeskRequ" +
-      "est\022\025\n\rdegreeClarity\030\001 \001(\005\022\031\n\021rc_target_" +
-      "bitrate\030\002 \001(\005\022\030\n\020rc_min_quantizer\030\003 \001(\005\022" +
-      "\030\n\020rc_max_quantizer\030\004 \001(\005\"\212\001\n\rDSDeskComm" +
-      "and\022\023\n\013openOrClose\030\001 \001(\005\022\025\n\rdegreeClarit" +
-      "y\030\002 \001(\005\022\031\n\021rc_target_bitrate\030\003 \001(\005\022\030\n\020rc" +
-      "_min_quantizer\030\004 \001(\005\022\030\n\020rc_max_quantizer" +
-      "\030\005 \001(\005\"O\n\021ScImageParameters\022\022\n\nimageWidt" +
-      "h\030\001 \001(\005\022\023\n\013imageHeight\030\002 \001(\005\022\021\n\trectWidt" +
-      "h\030\003 \001(\005\"J\n\013ScImageInfo\022\014\n\004posX\030\001 \001(\005\022\014\n\004" +
-      "posY\030\002 \001(\005\022\017\n\007tileNum\030\003 \001(\005\022\016\n\006m_data\030\004 " +
-      "\001(\014\"\"\n\017CsImageReceived\022\017\n\007TileNum\030\001 \001(\005\"" +
-      ")\n\013CsMouseMove\022\014\n\004posX\030\001 \001(\005\022\014\n\004posY\030\002 \001" +
-      "(\005B2\n%com.javacgo.remote.qt.common.proto" +
-      "colB\007BigPackH\001b\006proto3"
+      "uestDesk\030\n \001(\0132\016.CsDeskRequestH\000\022-\n\017imag" +
+      "eParameters\030\013 \001(\0132\022.ScImageParametersH\000\022" +
+      "\035\n\005image\030\014 \001(\0132\014.ScImageInfoH\000\022)\n\rimageR" +
+      "eceived\030\r \001(\0132\020.CsImageReceivedH\000\022!\n\tmou" +
+      "seMove\030\016 \001(\0132\014.CsMouseMoveH\000\"\323\001\n\010DataTyp" +
+      "e\022\014\n\010TypeHost\020\000\022\021\n\rTypeQueryHost\020\001\022\024\n\020Ty" +
+      "peResponseHost\020\002\022\023\n\017TypeRequestAuth\020\003\022\024\n" +
+      "\020TypeResponseAuth\020\004\022\023\n\017TypeRequestDesk\020\005" +
+      "\022\027\n\023TypeImageParameters\020\006\022\r\n\tTypeImage\020\007" +
+      "\022\025\n\021TypeImageReceived\020\010\022\021\n\rTypeMouseMove" +
+      "\020\tB\n\n\010dataBody\"B\n\nWMHostInfo\022\016\n\006pcName\030\001" +
+      " \001(\t\022\013\n\003mac\030\002 \001(\t\022\027\n\017activeOrpassive\030\003 \001" +
+      "(\005\"\r\n\013CsQueryHost\"!\n\016ScResponseHost\022\017\n\007i" +
+      "sExist\030\001 \001(\010\"%\n\rCsRequestAuth\022\024\n\014targetP" +
+      "asswd\030\001 \001(\t\"!\n\016ScResponseAuth\022\017\n\007success" +
+      "\030\001 \001(\010\"$\n\rCsDeskRequest\022\023\n\013openOrClose\030\001" +
+      " \001(\010\"O\n\021ScImageParameters\022\022\n\nimageWidth\030" +
+      "\001 \001(\005\022\023\n\013imageHeight\030\002 \001(\005\022\021\n\trectWidth\030" +
+      "\003 \001(\005\"J\n\013ScImageInfo\022\014\n\004posX\030\001 \001(\005\022\014\n\004po" +
+      "sY\030\002 \001(\005\022\017\n\007tileNum\030\003 \001(\005\022\016\n\006m_data\030\004 \001(" +
+      "\014\"\"\n\017CsImageReceived\022\017\n\007TileNum\030\001 \001(\005\")\n" +
+      "\013CsMouseMove\022\014\n\004posX\030\001 \001(\005\022\014\n\004posY\030\002 \001(\005" +
+      "B2\n%com.javacgo.remote.qt.common.protoco" +
+      "lB\007BigPackH\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -10708,7 +9386,7 @@ public final class BigPack {
     internal_static_Exchange_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Exchange_descriptor,
-        new java.lang.String[] { "DataType", "ResourceId", "TargetId", "ErrorCode", "HostInfo", "QuestHost", "ResponseHost", "RequestAuth", "ResponseAuth", "RequestDesk", "CommandDesk", "ImageParameters", "Image", "ImageReceived", "MouseMove", "DataBody", });
+        new java.lang.String[] { "DataType", "ResourceId", "TargetId", "ErrorCode", "HostInfo", "QuestHost", "ResponseHost", "RequestAuth", "ResponseAuth", "RequestDesk", "ImageParameters", "Image", "ImageReceived", "MouseMove", "DataBody", });
     internal_static_WMHostInfo_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_WMHostInfo_fieldAccessorTable = new
@@ -10744,33 +9422,27 @@ public final class BigPack {
     internal_static_CsDeskRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CsDeskRequest_descriptor,
-        new java.lang.String[] { "DegreeClarity", "RcTargetBitrate", "RcMinQuantizer", "RcMaxQuantizer", });
-    internal_static_DSDeskCommand_descriptor =
-      getDescriptor().getMessageTypes().get(7);
-    internal_static_DSDeskCommand_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_DSDeskCommand_descriptor,
-        new java.lang.String[] { "OpenOrClose", "DegreeClarity", "RcTargetBitrate", "RcMinQuantizer", "RcMaxQuantizer", });
+        new java.lang.String[] { "OpenOrClose", });
     internal_static_ScImageParameters_descriptor =
-      getDescriptor().getMessageTypes().get(8);
+      getDescriptor().getMessageTypes().get(7);
     internal_static_ScImageParameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ScImageParameters_descriptor,
         new java.lang.String[] { "ImageWidth", "ImageHeight", "RectWidth", });
     internal_static_ScImageInfo_descriptor =
-      getDescriptor().getMessageTypes().get(9);
+      getDescriptor().getMessageTypes().get(8);
     internal_static_ScImageInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ScImageInfo_descriptor,
         new java.lang.String[] { "PosX", "PosY", "TileNum", "MData", });
     internal_static_CsImageReceived_descriptor =
-      getDescriptor().getMessageTypes().get(10);
+      getDescriptor().getMessageTypes().get(9);
     internal_static_CsImageReceived_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CsImageReceived_descriptor,
         new java.lang.String[] { "TileNum", });
     internal_static_CsMouseMove_descriptor =
-      getDescriptor().getMessageTypes().get(11);
+      getDescriptor().getMessageTypes().get(10);
     internal_static_CsMouseMove_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CsMouseMove_descriptor,

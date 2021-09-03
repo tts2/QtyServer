@@ -20,16 +20,14 @@ message Exchange {
 		TypeResponseAuth = 4 ;
 		//请求桌面
 		TypeRequestDesk = 5 ;
-		//桌面命令
-		TypeCommandDesk = 6 ;
 		//桌面参数
-		TypeImageParameters = 7 ;
+		TypeImageParameters = 6 ;
 		//截屏图片数据
-		TypeImage = 8 ;
+		TypeImage = 7 ;
 		//接收的瓷块
-		TypeImageReceived = 9 ;
+		TypeImageReceived = 8 ;
 		//鼠标移动
-		TypeMouseMove = 10 ;
+		TypeMouseMove = 9 ;
     }
 
     //用data_type 来标识传的是哪一个枚举类型
@@ -41,18 +39,19 @@ message Exchange {
     //表示每次枚举类型最多只能出现其中的一个, 节省空间
     oneof dataBody {
         WMHostInfo HostInfo = 5;
+		
         CsQueryHost questHost = 6 ;
         ScResponseHost responseHost = 7 ;
+		
         CsRequestAuth requestAuth = 8 ;
 		ScResponseAuth responseAuth = 9 ;
+		
 		CsDeskRequest  requestDesk = 10 ;
+		ScImageParameters imageParameters = 11 ;
+		ScImageInfo image = 12 ;
+		CsImageReceived imageReceived = 13 ;
 		
-		DSDeskCommand  commandDesk = 11 ;
-		
-		ScImageParameters imageParameters = 12 ;
-		ScImageInfo image = 13 ;
-		CsImageReceived imageReceived = 14 ;
-		CsMouseMove mouseMove = 15 ;
+		CsMouseMove mouseMove = 14 ;
     }
 
 }
@@ -77,34 +76,13 @@ message CsRequestAuth {
 }
 
 message ScResponseAuth {
-	int32 success = 1 ;
+	bool success = 1 ;
 
 }
 
 message CsDeskRequest{
-
-	//清晰度
-	int32 degreeClarity = 1;
-	//比特率
-	int32 rc_target_bitrate = 2 ;
-	int32 rc_min_quantizer  = 3;
-	int32 rc_max_quantizer = 4;
-	
+	bool openOrClose = 1 ;	
 }
-//double side
-message DSDeskCommand{
-	//开启或者关闭
-	int32 openOrClose = 1 ;
-	//清晰度
-	int32 degreeClarity = 2;
-	
-	int32 rc_target_bitrate = 3 ;
-	int32 rc_min_quantizer  = 4;
-	int32 rc_max_quantizer = 5;
-	
-}
-
-
 
 message ScImageParameters{
 	int32 imageWidth = 1 ;

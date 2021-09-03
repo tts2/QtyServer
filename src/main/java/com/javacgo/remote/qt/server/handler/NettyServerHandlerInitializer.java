@@ -37,7 +37,7 @@ public class NettyServerHandlerInitializer extends ChannelInitializer<Channel> {
                 .addLast(new ReadTimeoutHandler(READ_TIMEOUT_SECONDS, TimeUnit.SECONDS))
                 //入站
                 .addLast(new ProtobufFixed32FrameDecoderRedefine())
-                .addLast("Exchange decoder", new ProtobufDecoder(BigPack.Exchange.getDefaultInstance()))
+                .addLast("ExchangeProtobufferDecoder", new ProtobufDecoder(BigPack.Exchange.getDefaultInstance()))
                 //出站
                 .addLast(new ProtobufFixed32LengthFieldPrependerRedefine())
                 .addLast(new ProtobufEncoder())

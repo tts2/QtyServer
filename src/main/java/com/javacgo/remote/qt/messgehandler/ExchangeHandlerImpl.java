@@ -52,15 +52,16 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
                 nettyChnnelManager.send(targetId, msg);
                 break;
             case TypeResponseAuth:
-                if (1 == msg.getResponseAuth().getSuccess()) {
+                if (msg.getResponseAuth().getSuccess()) {
                     //认证成功，加入进来,隶属于关系
-                    nettyChnnelManager.connet(resourceId, targetId);
+                    nettyChnnelManager.connect(resourceId, targetId);
                 }
                 nettyChnnelManager.send(targetId, msg);
                 break;
             case TypeRequestDesk:
                 nettyChnnelManager.setNeedSendId(resourceId, targetId);
-                if (1 == msg.getCommandDesk().getOpenOrClose()) {
+                if (msg.getRequestDesk().getOpenOrClose()) {
+
                     nettyChnnelManager.send(targetId, msg);
                 }
                 break;
