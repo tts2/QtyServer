@@ -47,17 +47,33 @@ public class NettyChannelManager {
         resourceHost.addRelations(targetHost);
         targetHost.addRelations(resourceHost);
     }
+    public void disconnect(String resourceId, String targetId){
+        KeskHost resourceHost = deviceId_Host_Map.get(resourceId);
+        KeskHost targetHost = deviceId_Host_Map.get(targetId);
+        if (resourceHost == null || targetHost == null) {
+            logger.error("关联关系不存在");
+            return;
+        }
+        resourceHost.removeRelations(targetHost);
+        targetHost.removeRelations(resourceHost);
+        Set<KeskHost> relations  = targetHost.getRelations();
+        if (relations.isEmpty()) {
+            targetHost.getChannel().writeAndFlush(BigPack.Exchange.newBuilder()
+                    .setDataType(BigPack.Exchange.DataType.TypeRequestDesk)
+                    .setRequestDesk(BigPack.CsDeskRequest.newBuilder().setOpenOrClose(false))
+                    .build());
+        }
+    }
 
     public void remove(Channel channel) {
+        logger.info("============remove=================");
         //断开的主机设备ID
         String deviceId = channelId_DeviceID_Map.get(channel.id());
         channelId_DeviceID_Map.remove(channel.id());
         //断开的主机
         KeskHost host = deviceId_Host_Map.get(deviceId);
-        if(host==null){
-            logger.equals("================================");
-        }
         deviceId_Host_Map.remove(deviceId);
+
         deviceId_Host_Map.forEach((key, value) -> {
             Set<KeskHost> relations = value.getRelations();
             if (relations.contains(host)) {
@@ -73,7 +89,6 @@ public class NettyChannelManager {
             }
         });
 
-        // 移除 userChannels
         logger.info("[remove][一个连接({})离开]", deviceId);
     }
 

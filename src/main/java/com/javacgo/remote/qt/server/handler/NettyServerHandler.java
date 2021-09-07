@@ -45,14 +45,13 @@ public class NettyServerHandler  extends ChannelInboundHandlerAdapter {
     }
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
-        logger.error("[exceptionCaught][连接({}) 发生异常]", ctx.channel().id(), cause);
         //关闭通道
         if (cause instanceof CorruptedFrameException) {
-            //logger.warn(cause.getMessage());
+            logger.warn(cause.getMessage());
             return;
         }
+        logger.error("[自捕捉到][连接({}) 发生异常]", ctx.channel().id(), cause);
         // 断开连接
-        ctx.channel().close();
     }
     @Override
     public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
@@ -71,8 +70,8 @@ public class NettyServerHandler  extends ChannelInboundHandlerAdapter {
                     eventType = "读写空闲";
                     break;
             }
-            System.out.println(ctx.channel().remoteAddress() + "--超时时间--" + eventType);
-            System.out.println("服务器做相应处理..");
+//            System.out.println(ctx.channel().remoteAddress() + "--超时时间--" + eventType);
+//            System.out.println("服务器做相应处理..");
             //如果发生空闲，我们关闭通道
             // ctx.channel().close();
         }

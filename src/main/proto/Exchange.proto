@@ -1,5 +1,8 @@
 syntax = "proto3";
+package BigPack;  
+
 option optimize_for = SPEED; // 加快解析
+
 option java_package="com.javacgo.remote.qt.common.protocol";   //指定生成到哪个包下
 option java_outer_classname="BigPack"; // 外部类名
 
@@ -28,6 +31,10 @@ message Exchange {
 		TypeImageReceived = 8 ;
 		//鼠标移动
 		TypeMouseMove = 9 ;
+		//
+		TypeMouseKeys = 10 ;
+		//
+		TypeRequestLeaveLook = 11 ;
     }
 
     //用data_type 来标识传的是哪一个枚举类型
@@ -52,6 +59,7 @@ message Exchange {
 		CsImageReceived imageReceived = 13 ;
 		
 		CsMouseMove mouseMove = 14 ;
+		CsMouseKeys mouseKeys = 15 ;
     }
 
 }
@@ -102,4 +110,8 @@ message CsImageReceived{
 message CsMouseMove{
 	int32 posX = 1;
 	int32 posY = 2;
+}
+message CsMouseKeys{
+    int32 keyCode = 1;
+    bool state = 2 ;
 }

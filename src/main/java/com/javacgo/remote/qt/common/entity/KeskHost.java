@@ -38,7 +38,7 @@ public class KeskHost {
         this.relations.add(host);
     }
 
-    public void removeRelations(String host) {
+    public void removeRelations(KeskHost host) {
         this.relations.remove(host);
     }
 

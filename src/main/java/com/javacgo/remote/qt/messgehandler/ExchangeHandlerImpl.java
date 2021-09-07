@@ -58,6 +58,10 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
                 }
                 nettyChnnelManager.send(targetId, msg);
                 break;
+            case TypeRequestLeaveLook:
+                System.out.println("----------");
+                nettyChnnelManager.disconnect(resourceId, targetId);
+                break;
             case TypeRequestDesk:
                 nettyChnnelManager.setNeedSendId(resourceId, targetId);
                 if (msg.getRequestDesk().getOpenOrClose()) {
@@ -69,9 +73,12 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
             case TypeImage:
                 nettyChnnelManager.sendImage(resourceId, msg);
                 break;
+            case TypeMouseMove:
+            case TypeMouseKeys:
             case TypeImageReceived:
                 nettyChnnelManager.send(targetId, msg);
                 break;
+
         }
     }
 

@@ -9,6 +9,7 @@ import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.handler.codec.protobuf.ProtobufDecoder;
 import io.netty.handler.codec.protobuf.ProtobufEncoder;
+import io.netty.handler.timeout.IdleStateHandler;
 import io.netty.handler.timeout.ReadTimeoutHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -34,7 +35,8 @@ public class NettyServerHandlerInitializer extends ChannelInitializer<Channel> {
         // <2> 添加一堆 NettyServerHandler 到 ChannelPipeline 中
         channelPipeline
                 // 空闲检测
-                .addLast(new ReadTimeoutHandler(READ_TIMEOUT_SECONDS, TimeUnit.SECONDS))
+               // .addLast(new ReadTimeoutHandler(READ_TIMEOUT_SECONDS, TimeUnit.SECONDS))
+                .addLast(   new IdleStateHandler(7000,7000,10, TimeUnit.SECONDS))
                 //入站
                 .addLast(new ProtobufFixed32FrameDecoderRedefine())
                 .addLast("ExchangeProtobufferDecoder", new ProtobufDecoder(BigPack.Exchange.getDefaultInstance()))
