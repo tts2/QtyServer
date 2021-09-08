@@ -21,6 +21,7 @@ public class NettyServerHandler  extends ChannelInboundHandlerAdapter {
     private NettyChannelManager channelManager;
 
 
+
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
         // 从管理器中添加
@@ -33,6 +34,7 @@ public class NettyServerHandler  extends ChannelInboundHandlerAdapter {
     }
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
+
         logger.info(ctx.channel().remoteAddress() + " 网络连接上 " + ctx.channel().id().asLongText());
     }
 

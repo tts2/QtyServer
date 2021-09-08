@@ -16,11 +16,13 @@ import java.util.concurrent.ConcurrentMap;
 @Component
 public class NettyChannelManager {
     private Logger logger = LoggerFactory.getLogger(getClass());
-    //private final ExecutorService executor = Executors.newFixedThreadPool(200);
+
     //通过channelID 找到 设备 ID
     private ConcurrentMap<ChannelId, String> channelId_DeviceID_Map = new ConcurrentHashMap<>();
     //通过设备ID 找到 设备信息
     private ConcurrentMap<String, KeskHost> deviceId_Host_Map = new ConcurrentHashMap<>();
+    //在线人数
+    private  int countPeople = 0 ;
 
     public void addUser(String deviceID, KeskHost host) {
         if (deviceId_Host_Map.containsKey(deviceID)) {
@@ -28,13 +30,14 @@ public class NettyChannelManager {
             return;
         }
         deviceId_Host_Map.put(deviceID, host);
+        countPeople++ ;
         channelId_DeviceID_Map.put(host.getChannel().id(), deviceID);
         if(host.isActive()){
             logger.info("[add][主控连接 {} 登录]", deviceID);
         }else{
             logger.info("[add][被控连接 {} 登录]", deviceID);
         }
-
+        logger.info("[peopleCount] 在线人数 ：[{}]", countPeople);
     }
 
     public void connect(String resourceId, String targetId) {
@@ -66,7 +69,8 @@ public class NettyChannelManager {
     }
 
     public void remove(Channel channel) {
-        logger.info("============remove=================");
+        logger.info("====================remove======================");
+        countPeople--;
         //断开的主机设备ID
         String deviceId = channelId_DeviceID_Map.get(channel.id());
         channelId_DeviceID_Map.remove(channel.id());
@@ -89,7 +93,7 @@ public class NettyChannelManager {
             }
         });
 
-        logger.info("[remove][一个连接({})离开]", deviceId);
+        logger.info("=====[remove][一个连接({})离开]==============", deviceId);
     }
 
 

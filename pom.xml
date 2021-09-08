@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.javacgo.remote</groupId>
-    <artifactId>kkdeskserver</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>kkdeskserver</name>
+    <artifactId>QtyServer</artifactId>
+    <version>0.0.3-SNAPSHOT</version>
+    <name>QtyServer</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
