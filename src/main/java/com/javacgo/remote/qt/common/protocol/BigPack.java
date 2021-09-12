@@ -7808,16 +7808,28 @@ public final class BigPack {
     int getPosY();
 
     /**
-     * <code>int32 tileNum = 3;</code>
-     * @return The tileNum.
+     * <code>int32 imageWidth = 3;</code>
+     * @return The imageWidth.
      */
-    int getTileNum();
+    int getImageWidth();
 
     /**
-     * <code>bytes m_data = 4;</code>
+     * <code>int32 imageHeight = 4;</code>
+     * @return The imageHeight.
+     */
+    int getImageHeight();
+
+    /**
+     * <code>bytes m_data = 5;</code>
      * @return The mData.
      */
     com.google.protobuf.ByteString getMData();
+
+    /**
+     * <code>int32 tileNum = 6;</code>
+     * @return The tileNum.
+     */
+    int getTileNum();
   }
   /**
    * Protobuf type {@code BigPack.ScImageInfo}
@@ -7877,12 +7889,22 @@ public final class BigPack {
             }
             case 24: {
 
-              tileNum_ = input.readInt32();
+              imageWidth_ = input.readInt32();
               break;
             }
-            case 34: {
+            case 32: {
+
+              imageHeight_ = input.readInt32();
+              break;
+            }
+            case 42: {
 
               mData_ = input.readBytes();
+              break;
+            }
+            case 48: {
+
+              tileNum_ = input.readInt32();
               break;
             }
             default: {
@@ -7939,26 +7961,48 @@ public final class BigPack {
       return posY_;
     }
 
-    public static final int TILENUM_FIELD_NUMBER = 3;
-    private int tileNum_;
+    public static final int IMAGEWIDTH_FIELD_NUMBER = 3;
+    private int imageWidth_;
     /**
-     * <code>int32 tileNum = 3;</code>
-     * @return The tileNum.
+     * <code>int32 imageWidth = 3;</code>
+     * @return The imageWidth.
      */
     @java.lang.Override
-    public int getTileNum() {
-      return tileNum_;
+    public int getImageWidth() {
+      return imageWidth_;
     }
 
-    public static final int M_DATA_FIELD_NUMBER = 4;
+    public static final int IMAGEHEIGHT_FIELD_NUMBER = 4;
+    private int imageHeight_;
+    /**
+     * <code>int32 imageHeight = 4;</code>
+     * @return The imageHeight.
+     */
+    @java.lang.Override
+    public int getImageHeight() {
+      return imageHeight_;
+    }
+
+    public static final int M_DATA_FIELD_NUMBER = 5;
     private com.google.protobuf.ByteString mData_;
     /**
-     * <code>bytes m_data = 4;</code>
+     * <code>bytes m_data = 5;</code>
      * @return The mData.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString getMData() {
       return mData_;
+    }
+
+    public static final int TILENUM_FIELD_NUMBER = 6;
+    private int tileNum_;
+    /**
+     * <code>int32 tileNum = 6;</code>
+     * @return The tileNum.
+     */
+    @java.lang.Override
+    public int getTileNum() {
+      return tileNum_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -7981,11 +8025,17 @@ public final class BigPack {
       if (posY_ != 0) {
         output.writeInt32(2, posY_);
       }
-      if (tileNum_ != 0) {
-        output.writeInt32(3, tileNum_);
+      if (imageWidth_ != 0) {
+        output.writeInt32(3, imageWidth_);
+      }
+      if (imageHeight_ != 0) {
+        output.writeInt32(4, imageHeight_);
       }
       if (!mData_.isEmpty()) {
-        output.writeBytes(4, mData_);
+        output.writeBytes(5, mData_);
+      }
+      if (tileNum_ != 0) {
+        output.writeInt32(6, tileNum_);
       }
       unknownFields.writeTo(output);
     }
@@ -8004,13 +8054,21 @@ public final class BigPack {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(2, posY_);
       }
-      if (tileNum_ != 0) {
+      if (imageWidth_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, tileNum_);
+          .computeInt32Size(3, imageWidth_);
+      }
+      if (imageHeight_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(4, imageHeight_);
       }
       if (!mData_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(4, mData_);
+          .computeBytesSize(5, mData_);
+      }
+      if (tileNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(6, tileNum_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -8031,10 +8089,14 @@ public final class BigPack {
           != other.getPosX()) return false;
       if (getPosY()
           != other.getPosY()) return false;
-      if (getTileNum()
-          != other.getTileNum()) return false;
+      if (getImageWidth()
+          != other.getImageWidth()) return false;
+      if (getImageHeight()
+          != other.getImageHeight()) return false;
       if (!getMData()
           .equals(other.getMData())) return false;
+      if (getTileNum()
+          != other.getTileNum()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -8050,10 +8112,14 @@ public final class BigPack {
       hash = (53 * hash) + getPosX();
       hash = (37 * hash) + POSY_FIELD_NUMBER;
       hash = (53 * hash) + getPosY();
-      hash = (37 * hash) + TILENUM_FIELD_NUMBER;
-      hash = (53 * hash) + getTileNum();
+      hash = (37 * hash) + IMAGEWIDTH_FIELD_NUMBER;
+      hash = (53 * hash) + getImageWidth();
+      hash = (37 * hash) + IMAGEHEIGHT_FIELD_NUMBER;
+      hash = (53 * hash) + getImageHeight();
       hash = (37 * hash) + M_DATA_FIELD_NUMBER;
       hash = (53 * hash) + getMData().hashCode();
+      hash = (37 * hash) + TILENUM_FIELD_NUMBER;
+      hash = (53 * hash) + getTileNum();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -8191,9 +8257,13 @@ public final class BigPack {
 
         posY_ = 0;
 
-        tileNum_ = 0;
+        imageWidth_ = 0;
+
+        imageHeight_ = 0;
 
         mData_ = com.google.protobuf.ByteString.EMPTY;
+
+        tileNum_ = 0;
 
         return this;
       }
@@ -8223,8 +8293,10 @@ public final class BigPack {
         com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo result = new com.javacgo.remote.qt.common.protocol.BigPack.ScImageInfo(this);
         result.posX_ = posX_;
         result.posY_ = posY_;
-        result.tileNum_ = tileNum_;
+        result.imageWidth_ = imageWidth_;
+        result.imageHeight_ = imageHeight_;
         result.mData_ = mData_;
+        result.tileNum_ = tileNum_;
         onBuilt();
         return result;
       }
@@ -8279,11 +8351,17 @@ public final class BigPack {
         if (other.getPosY() != 0) {
           setPosY(other.getPosY());
         }
-        if (other.getTileNum() != 0) {
-          setTileNum(other.getTileNum());
+        if (other.getImageWidth() != 0) {
+          setImageWidth(other.getImageWidth());
+        }
+        if (other.getImageHeight() != 0) {
+          setImageHeight(other.getImageHeight());
         }
         if (other.getMData() != com.google.protobuf.ByteString.EMPTY) {
           setMData(other.getMData());
+        }
+        if (other.getTileNum() != 0) {
+          setTileNum(other.getTileNum());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -8376,40 +8454,71 @@ public final class BigPack {
         return this;
       }
 
-      private int tileNum_ ;
+      private int imageWidth_ ;
       /**
-       * <code>int32 tileNum = 3;</code>
-       * @return The tileNum.
+       * <code>int32 imageWidth = 3;</code>
+       * @return The imageWidth.
        */
       @java.lang.Override
-      public int getTileNum() {
-        return tileNum_;
+      public int getImageWidth() {
+        return imageWidth_;
       }
       /**
-       * <code>int32 tileNum = 3;</code>
-       * @param value The tileNum to set.
+       * <code>int32 imageWidth = 3;</code>
+       * @param value The imageWidth to set.
        * @return This builder for chaining.
        */
-      public Builder setTileNum(int value) {
+      public Builder setImageWidth(int value) {
         
-        tileNum_ = value;
+        imageWidth_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>int32 tileNum = 3;</code>
+       * <code>int32 imageWidth = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearTileNum() {
+      public Builder clearImageWidth() {
         
-        tileNum_ = 0;
+        imageWidth_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int imageHeight_ ;
+      /**
+       * <code>int32 imageHeight = 4;</code>
+       * @return The imageHeight.
+       */
+      @java.lang.Override
+      public int getImageHeight() {
+        return imageHeight_;
+      }
+      /**
+       * <code>int32 imageHeight = 4;</code>
+       * @param value The imageHeight to set.
+       * @return This builder for chaining.
+       */
+      public Builder setImageHeight(int value) {
+        
+        imageHeight_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 imageHeight = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearImageHeight() {
+        
+        imageHeight_ = 0;
         onChanged();
         return this;
       }
 
       private com.google.protobuf.ByteString mData_ = com.google.protobuf.ByteString.EMPTY;
       /**
-       * <code>bytes m_data = 4;</code>
+       * <code>bytes m_data = 5;</code>
        * @return The mData.
        */
       @java.lang.Override
@@ -8417,7 +8526,7 @@ public final class BigPack {
         return mData_;
       }
       /**
-       * <code>bytes m_data = 4;</code>
+       * <code>bytes m_data = 5;</code>
        * @param value The mData to set.
        * @return This builder for chaining.
        */
@@ -8431,12 +8540,43 @@ public final class BigPack {
         return this;
       }
       /**
-       * <code>bytes m_data = 4;</code>
+       * <code>bytes m_data = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearMData() {
         
         mData_ = getDefaultInstance().getMData();
+        onChanged();
+        return this;
+      }
+
+      private int tileNum_ ;
+      /**
+       * <code>int32 tileNum = 6;</code>
+       * @return The tileNum.
+       */
+      @java.lang.Override
+      public int getTileNum() {
+        return tileNum_;
+      }
+      /**
+       * <code>int32 tileNum = 6;</code>
+       * @param value The tileNum to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTileNum(int value) {
+        
+        tileNum_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 tileNum = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearTileNum() {
+        
+        tileNum_ = 0;
         onChanged();
         return this;
       }
@@ -10197,14 +10337,15 @@ public final class BigPack {
       "ScResponseAuth\022\017\n\007success\030\001 \001(\010\"$\n\rCsDes" +
       "kRequest\022\023\n\013openOrClose\030\001 \001(\010\"O\n\021ScImage" +
       "Parameters\022\022\n\nimageWidth\030\001 \001(\005\022\023\n\013imageH" +
-      "eight\030\002 \001(\005\022\021\n\trectWidth\030\003 \001(\005\"J\n\013ScImag" +
-      "eInfo\022\014\n\004posX\030\001 \001(\005\022\014\n\004posY\030\002 \001(\005\022\017\n\007til" +
-      "eNum\030\003 \001(\005\022\016\n\006m_data\030\004 \001(\014\"\"\n\017CsImageRec" +
-      "eived\022\017\n\007TileNum\030\001 \001(\005\")\n\013CsMouseMove\022\014\n" +
-      "\004posX\030\001 \001(\005\022\014\n\004posY\030\002 \001(\005\"-\n\013CsMouseKeys" +
-      "\022\017\n\007keyCode\030\001 \001(\005\022\r\n\005state\030\002 \001(\010B2\n%com." +
-      "javacgo.remote.qt.common.protocolB\007BigPa" +
-      "ckH\001b\006proto3"
+      "eight\030\002 \001(\005\022\021\n\trectWidth\030\003 \001(\005\"s\n\013ScImag" +
+      "eInfo\022\014\n\004posX\030\001 \001(\005\022\014\n\004posY\030\002 \001(\005\022\022\n\nima" +
+      "geWidth\030\003 \001(\005\022\023\n\013imageHeight\030\004 \001(\005\022\016\n\006m_" +
+      "data\030\005 \001(\014\022\017\n\007tileNum\030\006 \001(\005\"\"\n\017CsImageRe" +
+      "ceived\022\017\n\007TileNum\030\001 \001(\005\")\n\013CsMouseMove\022\014" +
+      "\n\004posX\030\001 \001(\005\022\014\n\004posY\030\002 \001(\005\"-\n\013CsMouseKey" +
+      "s\022\017\n\007keyCode\030\001 \001(\005\022\r\n\005state\030\002 \001(\010B2\n%com" +
+      ".javacgo.remote.qt.common.protocolB\007BigP" +
+      "ackH\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -10263,7 +10404,7 @@ public final class BigPack {
     internal_static_BigPack_ScImageInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_ScImageInfo_descriptor,
-        new java.lang.String[] { "PosX", "PosY", "TileNum", "MData", });
+        new java.lang.String[] { "PosX", "PosY", "ImageWidth", "ImageHeight", "MData", "TileNum", });
     internal_static_BigPack_CsImageReceived_descriptor =
       getDescriptor().getMessageTypes().get(9);
     internal_static_BigPack_CsImageReceived_fieldAccessorTable = new

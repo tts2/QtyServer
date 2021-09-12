@@ -30,16 +30,21 @@ public class KeskHost {
             return false;
         }
     }
-    public Set getRelations() {
-        return relations;
+    public Set<KeskHost>  getRelations(){
+        return this.relations;
     }
-
     public void addRelations(KeskHost host) {
         this.relations.add(host);
     }
 
-    public void removeRelations(KeskHost host) {
-        this.relations.remove(host);
+    public boolean removeRelations(KeskHost host) {
+        if(this.relations.contains(host)){
+            this.relations.remove(host);
+            return true ;
+        }else{
+            return false;
+        }
+
     }
 
     public KeskHost setDeviceID(String id) {
@@ -54,6 +59,10 @@ public class KeskHost {
     public Channel getChannel() {
         return this.channel;
     }
+    public KeskHost setChannel(Channel channel) {
+        this.channel = channel;
+        return this;
+    }
 
     public KeskHost setPcName(String pcName) {
         this.pcName = pcName;
@@ -67,11 +76,6 @@ public class KeskHost {
 
     public KeskHost setActiveOrPassive(int ap) {
         this.activeOrPassive = ap;
-        return this;
-    }
-
-    public KeskHost setChannel(Channel channel) {
-        this.channel = channel;
         return this;
     }
 

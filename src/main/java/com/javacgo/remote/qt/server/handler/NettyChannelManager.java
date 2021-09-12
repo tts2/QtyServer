@@ -59,13 +59,7 @@ public class NettyChannelManager {
         }
         resourceHost.removeRelations(targetHost);
         targetHost.removeRelations(resourceHost);
-        Set<KeskHost> relations  = targetHost.getRelations();
-        if (relations.isEmpty()) {
-            targetHost.getChannel().writeAndFlush(BigPack.Exchange.newBuilder()
-                    .setDataType(BigPack.Exchange.DataType.TypeRequestDesk)
-                    .setRequestDesk(BigPack.CsDeskRequest.newBuilder().setOpenOrClose(false))
-                    .build());
-        }
+
     }
 
     public void remove(Channel channel) {
@@ -79,18 +73,7 @@ public class NettyChannelManager {
         deviceId_Host_Map.remove(deviceId);
 
         deviceId_Host_Map.forEach((key, value) -> {
-            Set<KeskHost> relations = value.getRelations();
-            if (relations.contains(host)) {
-                relations.remove(host);
-            }
-            if (!value.isActive()) {
-                if (relations.isEmpty()) {
-                    value.getChannel().writeAndFlush(BigPack.Exchange.newBuilder()
-                            .setDataType(BigPack.Exchange.DataType.TypeRequestDesk)
-                            .setRequestDesk(BigPack.CsDeskRequest.newBuilder().setOpenOrClose(false))
-                            .build());
-                }
-            }
+            value.removeRelations(host);
         });
 
         logger.info("=====[remove][一个连接({})离开]==============", deviceId);

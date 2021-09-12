@@ -100,8 +100,12 @@ message ScImageParameters{
 message ScImageInfo {
     int32 posX = 1 ;
     int32 posY = 2 ;
-    int32 tileNum = 3;   
-	bytes m_data = 4 ;
+    int32 imageWidth = 3 ;
+    int32 imageHeight =4 ;
+    bytes m_data = 5 ;
+
+    int32 tileNum = 6;
+
 }
 message CsImageReceived{
 	int32 TileNum = 1;
