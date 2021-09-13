@@ -3,7 +3,7 @@ package BigPack;
 
 option optimize_for = SPEED; // 加快解析
 
-option java_package="com.javacgo.remote.qt.common.protocol";   //指定生成到哪个包下
+option java_package="com.javacgo.remote.qty.common.protocol";   //指定生成到哪个包下
 option java_outer_classname="BigPack"; // 外部类名
 
 //protobuf 可以使用message 管理其他的message 
@@ -35,6 +35,10 @@ message Exchange {
 		TypeMouseKeys = 10 ;
 		//
 		TypeRequestLeaveLook = 11 ;
+		//
+		TypeWheelEvent = 12 ;
+		//
+		TypeKeyBoard = 13 ;
     }
 
     //用data_type 来标识传的是哪一个枚举类型
@@ -60,6 +64,9 @@ message Exchange {
 		
 		CsMouseMove mouseMove = 14 ;
 		CsMouseKeys mouseKeys = 15 ;
+		CsWheelEvent wheelEvent = 16 ;
+
+		CsKeyboard keyboard = 17 ;
     }
 
 }
@@ -89,7 +96,7 @@ message ScResponseAuth {
 }
 
 message CsDeskRequest{
-	bool openOrClose = 1 ;	
+	int32 operation = 1 ;
 }
 
 message ScImageParameters{
@@ -116,6 +123,13 @@ message CsMouseMove{
 	int32 posY = 2;
 }
 message CsMouseKeys{
+    int32 keyCode = 1;
+    bool state = 2 ;
+}
+message CsWheelEvent{
+    bool deltaPos =1;
+}
+message CsKeyboard{
     int32 keyCode = 1;
     bool state = 2 ;
 }

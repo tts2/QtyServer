@@ -1,8 +1,8 @@
-package com.javacgo.remote.qt.server.handler;
+package com.javacgo.remote.qty.server.handler;
 
 
-import com.javacgo.remote.qt.common.entity.KeskHost;
-import com.javacgo.remote.qt.common.protocol.BigPack;
+import com.javacgo.remote.qty.common.entity.KeskHost;
+import com.javacgo.remote.qty.common.protocol.BigPack;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelId;
 import org.slf4j.Logger;
@@ -22,7 +22,7 @@ public class NettyChannelManager {
     //通过设备ID 找到 设备信息
     private ConcurrentMap<String, KeskHost> deviceId_Host_Map = new ConcurrentHashMap<>();
     //在线人数
-    private  int countPeople = 0 ;
+    private int countPeople = 0;
 
     public void addUser(String deviceID, KeskHost host) {
         if (deviceId_Host_Map.containsKey(deviceID)) {
@@ -30,14 +30,16 @@ public class NettyChannelManager {
             return;
         }
         deviceId_Host_Map.put(deviceID, host);
-        countPeople++ ;
+
         channelId_DeviceID_Map.put(host.getChannel().id(), deviceID);
-        if(host.isActive()){
+        if (host.isActive()) {
             logger.info("[add][主控连接 {} 登录]", deviceID);
-        }else{
+        } else {
+            countPeople++;
             logger.info("[add][被控连接 {} 登录]", deviceID);
+            logger.info("[被控设备] 在线人数 ：[{}]", countPeople);
         }
-        logger.info("[peopleCount] 在线人数 ：[{}]", countPeople);
+
     }
 
     public void connect(String resourceId, String targetId) {
@@ -49,8 +51,19 @@ public class NettyChannelManager {
         }
         resourceHost.addRelations(targetHost);
         targetHost.addRelations(resourceHost);
+        Set<KeskHost> relations = resourceHost.getRelations();
+        BigPack.Exchange.Builder exB = BigPack.Exchange.newBuilder();
+        exB.setDataType(BigPack.Exchange.DataType.TypeRequestDesk);
+        if (relations.size() == 1) {
+            exB.setRequestDesk(BigPack.CsDeskRequest.newBuilder().setOperation(1));
+        } else {
+            exB.setRequestDesk(BigPack.CsDeskRequest.newBuilder().setOperation(2));
+        }
+        resourceHost.getChannel().writeAndFlush(exB.build());
+
     }
-    public void disconnect(String resourceId, String targetId){
+
+    public void disconnect(String resourceId, String targetId) {
         KeskHost resourceHost = deviceId_Host_Map.get(resourceId);
         KeskHost targetHost = deviceId_Host_Map.get(targetId);
         if (resourceHost == null || targetHost == null) {
@@ -60,23 +73,34 @@ public class NettyChannelManager {
         resourceHost.removeRelations(targetHost);
         targetHost.removeRelations(resourceHost);
 
+
     }
 
     public void remove(Channel channel) {
         logger.info("====================remove======================");
-        countPeople--;
         //断开的主机设备ID
         String deviceId = channelId_DeviceID_Map.get(channel.id());
         channelId_DeviceID_Map.remove(channel.id());
         //断开的主机
         KeskHost host = deviceId_Host_Map.get(deviceId);
         deviceId_Host_Map.remove(deviceId);
-
+        if(!host.isActive()){
+            countPeople--;
+        }
         deviceId_Host_Map.forEach((key, value) -> {
             value.removeRelations(host);
+            if (!value.isActive()) {
+                Set<KeskHost> relations = value.getRelations();
+                if (relations.size() == 0) {
+                    BigPack.Exchange.Builder exB = BigPack.Exchange.newBuilder();
+                    exB.setDataType(BigPack.Exchange.DataType.TypeRequestDesk);
+                    exB.setRequestDesk(BigPack.CsDeskRequest.newBuilder().setOperation(0));
+                    value.getChannel().writeAndFlush(exB.build());
+                }
+            }
         });
 
-        logger.info("=====[remove][一个连接({})离开]==============", deviceId);
+        logger.info("[remove][一个连接({})离开]", deviceId);
     }
 
 
@@ -84,7 +108,7 @@ public class NettyChannelManager {
         KeskHost resourceHost = deviceId_Host_Map.get(resourceId);
         Set<KeskHost> hostSet = resourceHost.getRelations();
         for (KeskHost host : hostSet) {
-            if(host.getCurrentScreenDeviceId().equals(resourceId)){
+            if (host.getCurrentScreenDeviceId().equals(resourceId)) {
                 host.getChannel().writeAndFlush(msg);
             }
         }
@@ -101,11 +125,10 @@ public class NettyChannelManager {
         if (targetHost == null) {
             logger.error("[ifTargetUserExistDeal]不存在]{}", targetUser);
             exB.setResponseHost(BigPack.ScResponseHost.newBuilder().setIsExist(false));
-        }else{
+        } else {
             exB.setResponseHost(BigPack.ScResponseHost.newBuilder().setIsExist(true));
         }
         resourceHost.getChannel().writeAndFlush(exB.build());
-
     }
 
     public void send(String targetUser, BigPack.Exchange msg) {
@@ -128,7 +151,7 @@ public class NettyChannelManager {
         channel.writeAndFlush(msg);
     }
 
-    public void setNeedSendId(String sourceId,String targetId) {
+    public void setNeedSendId(String sourceId, String targetId) {
         KeskHost host = deviceId_Host_Map.get(sourceId);
         host.setCurrentScreenDeviceId(targetId);
     }

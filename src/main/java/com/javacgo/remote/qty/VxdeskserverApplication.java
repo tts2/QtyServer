@@ -1,4 +1,4 @@
-package com.javacgo.remote.qt;
+package com.javacgo.remote.qty;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

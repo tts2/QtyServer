@@ -1,9 +1,9 @@
-package com.javacgo.remote.qt.messgehandler;
+package com.javacgo.remote.qty.messgehandler;
 
-import com.javacgo.remote.qt.common.entity.KeskHost;
-import com.javacgo.remote.qt.common.protocol.BigPack;
-import com.javacgo.remote.qt.dispatcher.MessageHandler;
-import com.javacgo.remote.qt.server.handler.NettyChannelManager;
+import com.javacgo.remote.qty.common.entity.KeskHost;
+import com.javacgo.remote.qty.common.protocol.BigPack;
+import com.javacgo.remote.qty.dispatcher.MessageHandler;
+import com.javacgo.remote.qty.server.handler.NettyChannelManager;
 import io.netty.channel.ChannelHandlerContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -59,15 +59,10 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
                 nettyChnnelManager.send(targetId, msg);
                 break;
             case TypeRequestLeaveLook:
-                System.out.println("----------");
                 nettyChnnelManager.disconnect(resourceId, targetId);
                 break;
             case TypeRequestDesk:
                 nettyChnnelManager.setNeedSendId(resourceId, targetId);
-                if (msg.getRequestDesk().getOpenOrClose()) {
-
-                    nettyChnnelManager.send(targetId, msg);
-                }
                 break;
             case TypeImageParameters:
             case TypeImage:
@@ -75,6 +70,8 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
                 break;
             case TypeMouseMove:
             case TypeMouseKeys:
+            case TypeWheelEvent:
+            case TypeKeyBoard:
             case TypeImageReceived:
                 nettyChnnelManager.send(targetId, msg);
                 break;
@@ -86,7 +83,7 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
     public String getType() {
         // return HeartbeatRequest.TYPE;
         // return BigPack.Exchange.DataType.TypeHost.toString();
-        return "one";
+        return "BigPack.Exchange";
     }
 
 }

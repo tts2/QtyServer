@@ -1,4 +1,4 @@
-package com.javacgo.remote.qt.server.handler;
+package com.javacgo.remote.qty.server.handler;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandler;
@@ -34,8 +34,7 @@ public class NettyServerHandler  extends ChannelInboundHandlerAdapter {
     }
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
-
-        logger.info(ctx.channel().remoteAddress() + " 网络连接上 " + ctx.channel().id().asLongText());
+        //logger.info(ctx.channel().remoteAddress() + " 网络连接上 " + ctx.channel().id().asLongText());
     }
 
     //断开连接, 将xx客户离开信息推送给当前在线的客户
@@ -72,8 +71,8 @@ public class NettyServerHandler  extends ChannelInboundHandlerAdapter {
                     eventType = "读写空闲";
                     break;
             }
-//            System.out.println(ctx.channel().remoteAddress() + "--超时时间--" + eventType);
-//            System.out.println("服务器做相应处理..");
+            System.out.println(ctx.channel().remoteAddress() + "--超时时间--" + eventType);
+            System.out.println("服务器做相应处理..");
             //如果发生空闲，我们关闭通道
             // ctx.channel().close();
         }

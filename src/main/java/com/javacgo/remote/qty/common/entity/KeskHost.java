@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.javacgo.remote.qt.common.entity;
+package com.javacgo.remote.qty.common.entity;
 
 import io.netty.channel.Channel;
 import java.util.HashSet;

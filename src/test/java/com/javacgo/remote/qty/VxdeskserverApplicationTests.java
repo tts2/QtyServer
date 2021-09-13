@@ -1,4 +1,4 @@
-package com.javacgo.remote.qt;
+package com.javacgo.remote.qty;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

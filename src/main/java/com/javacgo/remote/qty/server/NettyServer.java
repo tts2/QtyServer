@@ -1,7 +1,7 @@
-package com.javacgo.remote.qt.server;
+package com.javacgo.remote.qty.server;
 
 
-import com.javacgo.remote.qt.server.handler.NettyServerHandlerInitializer;
+import com.javacgo.remote.qty.server.handler.NettyServerHandlerInitializer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;

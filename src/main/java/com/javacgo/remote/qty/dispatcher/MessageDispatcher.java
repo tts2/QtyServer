@@ -1,7 +1,7 @@
-package com.javacgo.remote.qt.dispatcher;
+package com.javacgo.remote.qty.dispatcher;
 
 
-import com.javacgo.remote.qt.common.protocol.BigPack;
+import com.javacgo.remote.qty.common.protocol.BigPack;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -21,7 +21,7 @@ public class MessageDispatcher extends SimpleChannelInboundHandler<BigPack.Excha
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, BigPack.Exchange exchange) throws Exception {
         // <3.1> 获得 type 对应的 MessageHandler 处理器
-         MessageHandler messageHandler = messageHandlerContainer.getMessageHandler("one");
+         MessageHandler messageHandler = messageHandlerContainer.getMessageHandler("BigPack.Exchange");
         // 获得  MessageHandler 处理器的消息类
         //Class<? extends Message> messageClass = MessageHandlerContainer.getMessageClass(messageHandler);
         // <3.2> 解析消息

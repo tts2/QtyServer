@@ -1,7 +1,7 @@
-package com.javacgo.remote.qt.config;
+package com.javacgo.remote.qty.config;
 
-import com.javacgo.remote.qt.dispatcher.MessageDispatcher;
-import com.javacgo.remote.qt.dispatcher.MessageHandlerContainer;
+import com.javacgo.remote.qty.dispatcher.MessageDispatcher;
+import com.javacgo.remote.qty.dispatcher.MessageHandlerContainer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

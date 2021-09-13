@@ -1,4 +1,4 @@
-package com.javacgo.remote.qt.dispatcher;
+package com.javacgo.remote.qty.dispatcher;
 
 import org.slf4j.Logger;
 import org.springframework.aop.framework.AopProxyUtils;

@@ -1,4 +1,4 @@
-package com.javacgo.remote.qt.dispatcher;
+package com.javacgo.remote.qty.dispatcher;
 
 
 import io.netty.channel.ChannelHandlerContext;
