@@ -32,16 +32,7 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
         }
         if (dataType == BigPack.Exchange.DataType.TypeHost) {
             BigPack.WMHostInfo wmhostInfo = msg.getHostInfo();
-            //加入设备
-            if (1 == wmhostInfo.getActiveOrpassive() || 0 == wmhostInfo.getActiveOrpassive()) {
-                KeskHost host = new KeskHost();
-                host.setDeviceID(resourceId).
-                        setMac(wmhostInfo.getMac()).
-                        setPcName(wmhostInfo.getPcName()).
-                        setActiveOrPassive(wmhostInfo.getActiveOrpassive()).
-                        setChannel(ctx.channel());
-                nettyChnnelManager.addUser(resourceId, host);
-            }
+            nettyChnnelManager.dealHostInfo(wmhostInfo, resourceId, ctx.channel());
         }
         switch (dataType) {
             case TypeQueryHost:

@@ -42,6 +42,11 @@ public class NettyChannelManager {
 
     }
 
+    public void timeoutHandling(Channel channel, String eventType) {
+        logger.warn(channel.remoteAddress() + "--超时时间--" + eventType);
+        channel.close();
+    }
+
     public void connect(String resourceId, String targetId) {
         KeskHost resourceHost = deviceId_Host_Map.get(resourceId);
         KeskHost targetHost = deviceId_Host_Map.get(targetId);
@@ -82,11 +87,15 @@ public class NettyChannelManager {
         String deviceId = channelId_DeviceID_Map.get(channel.id());
         channelId_DeviceID_Map.remove(channel.id());
         //断开的主机
+
         KeskHost host = deviceId_Host_Map.get(deviceId);
         deviceId_Host_Map.remove(deviceId);
-        if(!host.isActive()){
+
+        if (!host.isActive()) {
             countPeople--;
+
         }
+
         deviceId_Host_Map.forEach((key, value) -> {
             value.removeRelations(host);
             if (!value.isActive()) {
@@ -101,6 +110,7 @@ public class NettyChannelManager {
         });
 
         logger.info("[remove][一个连接({})离开]", deviceId);
+        logger.info("[被控设备] 在线人数 ：[{}]", countPeople);
     }
 
 
@@ -123,7 +133,7 @@ public class NettyChannelManager {
         exB.setResourceId(resourceId);
         exB.setTargetId(targetUser);
         if (targetHost == null) {
-            logger.error("[ifTargetUserExistDeal]不存在]{}", targetUser);
+            logger.error("[查询主机]不存在]{}", targetUser);
             exB.setResponseHost(BigPack.ScResponseHost.newBuilder().setIsExist(false));
         } else {
             exB.setResponseHost(BigPack.ScResponseHost.newBuilder().setIsExist(true));
@@ -154,5 +164,18 @@ public class NettyChannelManager {
     public void setNeedSendId(String sourceId, String targetId) {
         KeskHost host = deviceId_Host_Map.get(sourceId);
         host.setCurrentScreenDeviceId(targetId);
+    }
+    //注册主机信息
+    public void dealHostInfo(BigPack.WMHostInfo wmhostInfo,String resourceId,Channel channel) {
+        //加入设备
+        if (1 == wmhostInfo.getActiveOrpassive() || 0 == wmhostInfo.getActiveOrpassive()) {
+            KeskHost host = new KeskHost();
+            host.setDeviceID(resourceId).
+                    setMac(wmhostInfo.getMac()).
+                    setPcName(wmhostInfo.getPcName()).
+                    setActiveOrPassive(wmhostInfo.getActiveOrpassive()).
+                    setChannel(channel);
+            addUser(resourceId, host);
+        }
     }
 }

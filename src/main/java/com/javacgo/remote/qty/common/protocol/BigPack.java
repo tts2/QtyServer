@@ -564,216 +564,248 @@ public final class BigPack {
     public enum DataType
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
+       * <pre>
+       *主机信息
+       * </pre>
+       *
        * <code>TypeHost = 0;</code>
        */
       TypeHost(0),
       /**
        * <pre>
+       *心跳
+       * </pre>
+       *
+       * <code>TypeHeartbeat = 1;</code>
+       */
+      TypeHeartbeat(1),
+      /**
+       * <pre>
        *查询主机
        * </pre>
        *
-       * <code>TypeQueryHost = 1;</code>
+       * <code>TypeQueryHost = 2;</code>
        */
-      TypeQueryHost(1),
+      TypeQueryHost(2),
       /**
        * <pre>
        *主机发现回复
        * </pre>
        *
-       * <code>TypeResponseHost = 2;</code>
+       * <code>TypeResponseHost = 3;</code>
        */
-      TypeResponseHost(2),
+      TypeResponseHost(3),
       /**
        * <pre>
        *请求认证
        * </pre>
        *
-       * <code>TypeRequestAuth = 3;</code>
+       * <code>TypeRequestAuth = 4;</code>
        */
-      TypeRequestAuth(3),
+      TypeRequestAuth(4),
       /**
        * <pre>
        *回复认证
        * </pre>
        *
-       * <code>TypeResponseAuth = 4;</code>
+       * <code>TypeResponseAuth = 5;</code>
        */
-      TypeResponseAuth(4),
+      TypeResponseAuth(5),
       /**
        * <pre>
        *请求桌面
        * </pre>
        *
-       * <code>TypeRequestDesk = 5;</code>
+       * <code>TypeRequestDesk = 6;</code>
        */
-      TypeRequestDesk(5),
+      TypeRequestDesk(6),
       /**
        * <pre>
        *桌面参数
        * </pre>
        *
-       * <code>TypeImageParameters = 6;</code>
+       * <code>TypeImageParameters = 7;</code>
        */
-      TypeImageParameters(6),
+      TypeImageParameters(7),
       /**
        * <pre>
        *截屏图片数据
        * </pre>
        *
-       * <code>TypeImage = 7;</code>
+       * <code>TypeImage = 8;</code>
        */
-      TypeImage(7),
+      TypeImage(8),
       /**
        * <pre>
        *接收的瓷块
        * </pre>
        *
-       * <code>TypeImageReceived = 8;</code>
+       * <code>TypeImageReceived = 9;</code>
        */
-      TypeImageReceived(8),
+      TypeImageReceived(9),
       /**
        * <pre>
        *鼠标移动
        * </pre>
        *
-       * <code>TypeMouseMove = 9;</code>
+       * <code>TypeMouseMove = 10;</code>
        */
-      TypeMouseMove(9),
+      TypeMouseMove(10),
       /**
        * <pre>
+       *鼠标按键
        * </pre>
        *
-       * <code>TypeMouseKeys = 10;</code>
+       * <code>TypeMouseKeys = 11;</code>
        */
-      TypeMouseKeys(10),
+      TypeMouseKeys(11),
       /**
        * <pre>
+       *离开通知
        * </pre>
        *
-       * <code>TypeRequestLeaveLook = 11;</code>
+       * <code>TypeRequestLeaveLook = 12;</code>
        */
-      TypeRequestLeaveLook(11),
+      TypeRequestLeaveLook(12),
       /**
        * <pre>
+       *鼠标滑轮
        * </pre>
        *
-       * <code>TypeWheelEvent = 12;</code>
+       * <code>TypeWheelEvent = 13;</code>
        */
-      TypeWheelEvent(12),
+      TypeWheelEvent(13),
       /**
        * <pre>
+       *键盘
        * </pre>
        *
-       * <code>TypeKeyBoard = 13;</code>
+       * <code>TypeKeyBoard = 14;</code>
        */
-      TypeKeyBoard(13),
+      TypeKeyBoard(14),
       UNRECOGNIZED(-1),
       ;
 
       /**
+       * <pre>
+       *主机信息
+       * </pre>
+       *
        * <code>TypeHost = 0;</code>
        */
       public static final int TypeHost_VALUE = 0;
       /**
        * <pre>
+       *心跳
+       * </pre>
+       *
+       * <code>TypeHeartbeat = 1;</code>
+       */
+      public static final int TypeHeartbeat_VALUE = 1;
+      /**
+       * <pre>
        *查询主机
        * </pre>
        *
-       * <code>TypeQueryHost = 1;</code>
+       * <code>TypeQueryHost = 2;</code>
        */
-      public static final int TypeQueryHost_VALUE = 1;
+      public static final int TypeQueryHost_VALUE = 2;
       /**
        * <pre>
        *主机发现回复
        * </pre>
        *
-       * <code>TypeResponseHost = 2;</code>
+       * <code>TypeResponseHost = 3;</code>
        */
-      public static final int TypeResponseHost_VALUE = 2;
+      public static final int TypeResponseHost_VALUE = 3;
       /**
        * <pre>
        *请求认证
        * </pre>
        *
-       * <code>TypeRequestAuth = 3;</code>
+       * <code>TypeRequestAuth = 4;</code>
        */
-      public static final int TypeRequestAuth_VALUE = 3;
+      public static final int TypeRequestAuth_VALUE = 4;
       /**
        * <pre>
        *回复认证
        * </pre>
        *
-       * <code>TypeResponseAuth = 4;</code>
+       * <code>TypeResponseAuth = 5;</code>
        */
-      public static final int TypeResponseAuth_VALUE = 4;
+      public static final int TypeResponseAuth_VALUE = 5;
       /**
        * <pre>
        *请求桌面
        * </pre>
        *
-       * <code>TypeRequestDesk = 5;</code>
+       * <code>TypeRequestDesk = 6;</code>
        */
-      public static final int TypeRequestDesk_VALUE = 5;
+      public static final int TypeRequestDesk_VALUE = 6;
       /**
        * <pre>
        *桌面参数
        * </pre>
        *
-       * <code>TypeImageParameters = 6;</code>
+       * <code>TypeImageParameters = 7;</code>
        */
-      public static final int TypeImageParameters_VALUE = 6;
+      public static final int TypeImageParameters_VALUE = 7;
       /**
        * <pre>
        *截屏图片数据
        * </pre>
        *
-       * <code>TypeImage = 7;</code>
+       * <code>TypeImage = 8;</code>
        */
-      public static final int TypeImage_VALUE = 7;
+      public static final int TypeImage_VALUE = 8;
       /**
        * <pre>
        *接收的瓷块
        * </pre>
        *
-       * <code>TypeImageReceived = 8;</code>
+       * <code>TypeImageReceived = 9;</code>
        */
-      public static final int TypeImageReceived_VALUE = 8;
+      public static final int TypeImageReceived_VALUE = 9;
       /**
        * <pre>
        *鼠标移动
        * </pre>
        *
-       * <code>TypeMouseMove = 9;</code>
+       * <code>TypeMouseMove = 10;</code>
        */
-      public static final int TypeMouseMove_VALUE = 9;
+      public static final int TypeMouseMove_VALUE = 10;
       /**
        * <pre>
+       *鼠标按键
        * </pre>
        *
-       * <code>TypeMouseKeys = 10;</code>
+       * <code>TypeMouseKeys = 11;</code>
        */
-      public static final int TypeMouseKeys_VALUE = 10;
+      public static final int TypeMouseKeys_VALUE = 11;
       /**
        * <pre>
+       *离开通知
        * </pre>
        *
-       * <code>TypeRequestLeaveLook = 11;</code>
+       * <code>TypeRequestLeaveLook = 12;</code>
        */
-      public static final int TypeRequestLeaveLook_VALUE = 11;
+      public static final int TypeRequestLeaveLook_VALUE = 12;
       /**
        * <pre>
+       *鼠标滑轮
        * </pre>
        *
-       * <code>TypeWheelEvent = 12;</code>
+       * <code>TypeWheelEvent = 13;</code>
        */
-      public static final int TypeWheelEvent_VALUE = 12;
+      public static final int TypeWheelEvent_VALUE = 13;
       /**
        * <pre>
+       *键盘
        * </pre>
        *
-       * <code>TypeKeyBoard = 13;</code>
+       * <code>TypeKeyBoard = 14;</code>
        */
-      public static final int TypeKeyBoard_VALUE = 13;
+      public static final int TypeKeyBoard_VALUE = 14;
 
 
       public final int getNumber() {
@@ -801,19 +833,20 @@ public final class BigPack {
       public static DataType forNumber(int value) {
         switch (value) {
           case 0: return TypeHost;
-          case 1: return TypeQueryHost;
-          case 2: return TypeResponseHost;
-          case 3: return TypeRequestAuth;
-          case 4: return TypeResponseAuth;
-          case 5: return TypeRequestDesk;
-          case 6: return TypeImageParameters;
-          case 7: return TypeImage;
-          case 8: return TypeImageReceived;
-          case 9: return TypeMouseMove;
-          case 10: return TypeMouseKeys;
-          case 11: return TypeRequestLeaveLook;
-          case 12: return TypeWheelEvent;
-          case 13: return TypeKeyBoard;
+          case 1: return TypeHeartbeat;
+          case 2: return TypeQueryHost;
+          case 3: return TypeResponseHost;
+          case 4: return TypeRequestAuth;
+          case 5: return TypeResponseAuth;
+          case 6: return TypeRequestDesk;
+          case 7: return TypeImageParameters;
+          case 8: return TypeImage;
+          case 9: return TypeImageReceived;
+          case 10: return TypeMouseMove;
+          case 11: return TypeMouseKeys;
+          case 12: return TypeRequestLeaveLook;
+          case 13: return TypeWheelEvent;
+          case 14: return TypeKeyBoard;
           default: return null;
         }
       }
@@ -5193,6 +5226,424 @@ public final class BigPack {
 
     @java.lang.Override
     public com.javacgo.remote.qty.common.protocol.BigPack.WMHostInfo getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
+  public interface WMHeartbeatOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:BigPack.WMHeartbeat)
+      com.google.protobuf.MessageOrBuilder {
+  }
+  /**
+   * Protobuf type {@code BigPack.WMHeartbeat}
+   */
+  public static final class WMHeartbeat extends
+      com.google.protobuf.GeneratedMessageV3 implements
+      // @@protoc_insertion_point(message_implements:BigPack.WMHeartbeat)
+      WMHeartbeatOrBuilder {
+  private static final long serialVersionUID = 0L;
+    // Use WMHeartbeat.newBuilder() to construct.
+    private WMHeartbeat(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+      super(builder);
+    }
+    private WMHeartbeat() {
+    }
+
+    @java.lang.Override
+    @SuppressWarnings({"unused"})
+    protected java.lang.Object newInstance(
+        UnusedPrivateParameter unused) {
+      return new WMHeartbeat();
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return this.unknownFields;
+    }
+    private WMHeartbeat(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      this();
+      if (extensionRegistry == null) {
+        throw new java.lang.NullPointerException();
+      }
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(
+                  input, unknownFields, extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.javacgo.remote.qty.common.protocol.BigPack.internal_static_BigPack_WMHeartbeat_descriptor;
+    }
+
+    @java.lang.Override
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.javacgo.remote.qty.common.protocol.BigPack.internal_static_BigPack_WMHeartbeat_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat.class, com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat.Builder.class);
+    }
+
+    private byte memoizedIsInitialized = -1;
+    @java.lang.Override
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    @java.lang.Override
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      unknownFields.writeTo(output);
+    }
+
+    @java.lang.Override
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      size += unknownFields.getSerializedSize();
+      memoizedSize = size;
+      return size;
+    }
+
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat)) {
+        return super.equals(obj);
+      }
+      com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat other = (com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat) obj;
+
+      if (!unknownFields.equals(other.unknownFields)) return false;
+      return true;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseFrom(
+        java.nio.ByteBuffer data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseFrom(
+        java.nio.ByteBuffer data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input);
+    }
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    @java.lang.Override
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    @java.lang.Override
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code BigPack.WMHeartbeat}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:BigPack.WMHeartbeat)
+        com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeatOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.javacgo.remote.qty.common.protocol.BigPack.internal_static_BigPack_WMHeartbeat_descriptor;
+      }
+
+      @java.lang.Override
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.javacgo.remote.qty.common.protocol.BigPack.internal_static_BigPack_WMHeartbeat_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat.class, com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat.Builder.class);
+      }
+
+      // Construct using com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
+        }
+      }
+      @java.lang.Override
+      public Builder clear() {
+        super.clear();
+        return this;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.javacgo.remote.qty.common.protocol.BigPack.internal_static_BigPack_WMHeartbeat_descriptor;
+      }
+
+      @java.lang.Override
+      public com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat getDefaultInstanceForType() {
+        return com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat.getDefaultInstance();
+      }
+
+      @java.lang.Override
+      public com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat build() {
+        com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat buildPartial() {
+        com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat result = new com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat(this);
+        onBuilt();
+        return result;
+      }
+
+      @java.lang.Override
+      public Builder clone() {
+        return super.clone();
+      }
+      @java.lang.Override
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.setField(field, value);
+      }
+      @java.lang.Override
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return super.clearField(field);
+      }
+      @java.lang.Override
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return super.clearOneof(oneof);
+      }
+      @java.lang.Override
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, java.lang.Object value) {
+        return super.setRepeatedField(field, index, value);
+      }
+      @java.lang.Override
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.addRepeatedField(field, value);
+      }
+      @java.lang.Override
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat) {
+          return mergeFrom((com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat other) {
+        if (other == com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat.getDefaultInstance()) return this;
+        this.mergeUnknownFields(other.unknownFields);
+        onChanged();
+        return this;
+      }
+
+      @java.lang.Override
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      @java.lang.Override
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat) e.getUnfinishedMessage();
+          throw e.unwrapIOException();
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      @java.lang.Override
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.setUnknownFields(unknownFields);
+      }
+
+      @java.lang.Override
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.mergeUnknownFields(unknownFields);
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:BigPack.WMHeartbeat)
+    }
+
+    // @@protoc_insertion_point(class_scope:BigPack.WMHeartbeat)
+    private static final com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat();
+    }
+
+    public static com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<WMHeartbeat>
+        PARSER = new com.google.protobuf.AbstractParser<WMHeartbeat>() {
+      @java.lang.Override
+      public WMHeartbeat parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new WMHeartbeat(input, extensionRegistry);
+      }
+    };
+
+    public static com.google.protobuf.Parser<WMHeartbeat> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<WMHeartbeat> getParserForType() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.javacgo.remote.qty.common.protocol.BigPack.WMHeartbeat getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -11784,6 +12235,11 @@ public final class BigPack {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BigPack_WMHostInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_BigPack_WMHeartbeat_descriptor;
+  private static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_BigPack_WMHeartbeat_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BigPack_CsQueryHost_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
@@ -11852,7 +12308,7 @@ public final class BigPack {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016Exchange.proto\022\007BigPack\"\367\007\n\010Exchange\022," +
+      "\n\016Exchange.proto\022\007BigPack\"\212\010\n\010Exchange\022," +
       "\n\010dataType\030\001 \001(\0162\032.BigPack.Exchange.Data" +
       "Type\022\022\n\nresourceId\030\002 \001(\t\022\020\n\010targetId\030\003 \001" +
       "(\t\022\021\n\terrorCode\030\004 \001(\005\022\'\n\010HostInfo\030\005 \001(\0132" +
@@ -11870,32 +12326,33 @@ public final class BigPack {
       "oveH\000\022)\n\tmouseKeys\030\017 \001(\0132\024.BigPack.CsMou" +
       "seKeysH\000\022+\n\nwheelEvent\030\020 \001(\0132\025.BigPack.C" +
       "sWheelEventH\000\022\'\n\010keyboard\030\021 \001(\0132\023.BigPac" +
-      "k.CsKeyboardH\000\"\246\002\n\010DataType\022\014\n\010TypeHost\020" +
-      "\000\022\021\n\rTypeQueryHost\020\001\022\024\n\020TypeResponseHost" +
-      "\020\002\022\023\n\017TypeRequestAuth\020\003\022\024\n\020TypeResponseA" +
-      "uth\020\004\022\023\n\017TypeRequestDesk\020\005\022\027\n\023TypeImageP" +
-      "arameters\020\006\022\r\n\tTypeImage\020\007\022\025\n\021TypeImageR" +
-      "eceived\020\010\022\021\n\rTypeMouseMove\020\t\022\021\n\rTypeMous" +
-      "eKeys\020\n\022\030\n\024TypeRequestLeaveLook\020\013\022\022\n\016Typ" +
-      "eWheelEvent\020\014\022\020\n\014TypeKeyBoard\020\rB\n\n\010dataB" +
-      "ody\"B\n\nWMHostInfo\022\016\n\006pcName\030\001 \001(\t\022\013\n\003mac" +
-      "\030\002 \001(\t\022\027\n\017activeOrpassive\030\003 \001(\005\"\r\n\013CsQue" +
-      "ryHost\"!\n\016ScResponseHost\022\017\n\007isExist\030\001 \001(" +
-      "\010\"%\n\rCsRequestAuth\022\024\n\014targetPasswd\030\001 \001(\t" +
-      "\"!\n\016ScResponseAuth\022\017\n\007success\030\001 \001(\010\"\"\n\rC" +
-      "sDeskRequest\022\021\n\toperation\030\001 \001(\005\"O\n\021ScIma" +
-      "geParameters\022\022\n\nimageWidth\030\001 \001(\005\022\023\n\013imag" +
-      "eHeight\030\002 \001(\005\022\021\n\trectWidth\030\003 \001(\005\"s\n\013ScIm" +
-      "ageInfo\022\014\n\004posX\030\001 \001(\005\022\014\n\004posY\030\002 \001(\005\022\022\n\ni" +
-      "mageWidth\030\003 \001(\005\022\023\n\013imageHeight\030\004 \001(\005\022\016\n\006" +
-      "m_data\030\005 \001(\014\022\017\n\007tileNum\030\006 \001(\005\"\"\n\017CsImage" +
-      "Received\022\017\n\007TileNum\030\001 \001(\005\")\n\013CsMouseMove" +
-      "\022\014\n\004posX\030\001 \001(\005\022\014\n\004posY\030\002 \001(\005\"-\n\013CsMouseK" +
-      "eys\022\017\n\007keyCode\030\001 \001(\005\022\r\n\005state\030\002 \001(\010\" \n\014C" +
-      "sWheelEvent\022\020\n\010deltaPos\030\001 \001(\010\",\n\nCsKeybo" +
-      "ard\022\017\n\007keyCode\030\001 \001(\005\022\r\n\005state\030\002 \001(\010B3\n&c" +
-      "om.javacgo.remote.qty.common.protocolB\007B" +
-      "igPackH\001b\006proto3"
+      "k.CsKeyboardH\000\"\271\002\n\010DataType\022\014\n\010TypeHost\020" +
+      "\000\022\021\n\rTypeHeartbeat\020\001\022\021\n\rTypeQueryHost\020\002\022" +
+      "\024\n\020TypeResponseHost\020\003\022\023\n\017TypeRequestAuth" +
+      "\020\004\022\024\n\020TypeResponseAuth\020\005\022\023\n\017TypeRequestD" +
+      "esk\020\006\022\027\n\023TypeImageParameters\020\007\022\r\n\tTypeIm" +
+      "age\020\010\022\025\n\021TypeImageReceived\020\t\022\021\n\rTypeMous" +
+      "eMove\020\n\022\021\n\rTypeMouseKeys\020\013\022\030\n\024TypeReques" +
+      "tLeaveLook\020\014\022\022\n\016TypeWheelEvent\020\r\022\020\n\014Type" +
+      "KeyBoard\020\016B\n\n\010dataBody\"B\n\nWMHostInfo\022\016\n\006" +
+      "pcName\030\001 \001(\t\022\013\n\003mac\030\002 \001(\t\022\027\n\017activeOrpas" +
+      "sive\030\003 \001(\005\"\r\n\013WMHeartbeat\"\r\n\013CsQueryHost" +
+      "\"!\n\016ScResponseHost\022\017\n\007isExist\030\001 \001(\010\"%\n\rC" +
+      "sRequestAuth\022\024\n\014targetPasswd\030\001 \001(\t\"!\n\016Sc" +
+      "ResponseAuth\022\017\n\007success\030\001 \001(\010\"\"\n\rCsDeskR" +
+      "equest\022\021\n\toperation\030\001 \001(\005\"O\n\021ScImagePara" +
+      "meters\022\022\n\nimageWidth\030\001 \001(\005\022\023\n\013imageHeigh" +
+      "t\030\002 \001(\005\022\021\n\trectWidth\030\003 \001(\005\"s\n\013ScImageInf" +
+      "o\022\014\n\004posX\030\001 \001(\005\022\014\n\004posY\030\002 \001(\005\022\022\n\nimageWi" +
+      "dth\030\003 \001(\005\022\023\n\013imageHeight\030\004 \001(\005\022\016\n\006m_data" +
+      "\030\005 \001(\014\022\017\n\007tileNum\030\006 \001(\005\"\"\n\017CsImageReceiv" +
+      "ed\022\017\n\007TileNum\030\001 \001(\005\")\n\013CsMouseMove\022\014\n\004po" +
+      "sX\030\001 \001(\005\022\014\n\004posY\030\002 \001(\005\"-\n\013CsMouseKeys\022\017\n" +
+      "\007keyCode\030\001 \001(\005\022\r\n\005state\030\002 \001(\010\" \n\014CsWheel" +
+      "Event\022\020\n\010deltaPos\030\001 \001(\010\",\n\nCsKeyboard\022\017\n" +
+      "\007keyCode\030\001 \001(\005\022\r\n\005state\030\002 \001(\010B3\n&com.jav" +
+      "acgo.remote.qty.common.protocolB\007BigPack" +
+      "H\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -11913,74 +12370,80 @@ public final class BigPack {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_WMHostInfo_descriptor,
         new java.lang.String[] { "PcName", "Mac", "ActiveOrpassive", });
-    internal_static_BigPack_CsQueryHost_descriptor =
+    internal_static_BigPack_WMHeartbeat_descriptor =
       getDescriptor().getMessageTypes().get(2);
+    internal_static_BigPack_WMHeartbeat_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_BigPack_WMHeartbeat_descriptor,
+        new java.lang.String[] { });
+    internal_static_BigPack_CsQueryHost_descriptor =
+      getDescriptor().getMessageTypes().get(3);
     internal_static_BigPack_CsQueryHost_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_CsQueryHost_descriptor,
         new java.lang.String[] { });
     internal_static_BigPack_ScResponseHost_descriptor =
-      getDescriptor().getMessageTypes().get(3);
+      getDescriptor().getMessageTypes().get(4);
     internal_static_BigPack_ScResponseHost_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_ScResponseHost_descriptor,
         new java.lang.String[] { "IsExist", });
     internal_static_BigPack_CsRequestAuth_descriptor =
-      getDescriptor().getMessageTypes().get(4);
+      getDescriptor().getMessageTypes().get(5);
     internal_static_BigPack_CsRequestAuth_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_CsRequestAuth_descriptor,
         new java.lang.String[] { "TargetPasswd", });
     internal_static_BigPack_ScResponseAuth_descriptor =
-      getDescriptor().getMessageTypes().get(5);
+      getDescriptor().getMessageTypes().get(6);
     internal_static_BigPack_ScResponseAuth_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_ScResponseAuth_descriptor,
         new java.lang.String[] { "Success", });
     internal_static_BigPack_CsDeskRequest_descriptor =
-      getDescriptor().getMessageTypes().get(6);
+      getDescriptor().getMessageTypes().get(7);
     internal_static_BigPack_CsDeskRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_CsDeskRequest_descriptor,
         new java.lang.String[] { "Operation", });
     internal_static_BigPack_ScImageParameters_descriptor =
-      getDescriptor().getMessageTypes().get(7);
+      getDescriptor().getMessageTypes().get(8);
     internal_static_BigPack_ScImageParameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_ScImageParameters_descriptor,
         new java.lang.String[] { "ImageWidth", "ImageHeight", "RectWidth", });
     internal_static_BigPack_ScImageInfo_descriptor =
-      getDescriptor().getMessageTypes().get(8);
+      getDescriptor().getMessageTypes().get(9);
     internal_static_BigPack_ScImageInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_ScImageInfo_descriptor,
         new java.lang.String[] { "PosX", "PosY", "ImageWidth", "ImageHeight", "MData", "TileNum", });
     internal_static_BigPack_CsImageReceived_descriptor =
-      getDescriptor().getMessageTypes().get(9);
+      getDescriptor().getMessageTypes().get(10);
     internal_static_BigPack_CsImageReceived_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_CsImageReceived_descriptor,
         new java.lang.String[] { "TileNum", });
     internal_static_BigPack_CsMouseMove_descriptor =
-      getDescriptor().getMessageTypes().get(10);
+      getDescriptor().getMessageTypes().get(11);
     internal_static_BigPack_CsMouseMove_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_CsMouseMove_descriptor,
         new java.lang.String[] { "PosX", "PosY", });
     internal_static_BigPack_CsMouseKeys_descriptor =
-      getDescriptor().getMessageTypes().get(11);
+      getDescriptor().getMessageTypes().get(12);
     internal_static_BigPack_CsMouseKeys_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_CsMouseKeys_descriptor,
         new java.lang.String[] { "KeyCode", "State", });
     internal_static_BigPack_CsWheelEvent_descriptor =
-      getDescriptor().getMessageTypes().get(12);
+      getDescriptor().getMessageTypes().get(13);
     internal_static_BigPack_CsWheelEvent_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_CsWheelEvent_descriptor,
         new java.lang.String[] { "DeltaPos", });
     internal_static_BigPack_CsKeyboard_descriptor =
-      getDescriptor().getMessageTypes().get(13);
+      getDescriptor().getMessageTypes().get(14);
     internal_static_BigPack_CsKeyboard_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BigPack_CsKeyboard_descriptor,

@@ -1,4 +1,5 @@
-2021-09-12 11:44:01.480 [nioEventLoopGroup-3-1] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(fdb18893) 发生异常]
+2021-09-14 15:10:00.332 [pool-2-thread-3] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:46.576 [nioEventLoopGroup-3-6] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(cdefca2b) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -17,7 +18,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 11:44:01.480 [nioEventLoopGroup-3-2] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(6e2c8f60) 发生异常]
+2021-09-14 15:31:46.576 [nioEventLoopGroup-3-5] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(744727b9) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -36,7 +37,22 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 11:46:34.027 [nioEventLoopGroup-3-4] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(981ef5c0) 发生异常]
+2021-09-14 15:31:52.175 [pool-2-thread-9] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.191 [pool-2-thread-10] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.191 [pool-2-thread-11] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.206 [pool-2-thread-12] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.206 [pool-2-thread-13] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.222 [pool-2-thread-14] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.222 [pool-2-thread-15] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.237 [pool-2-thread-16] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.237 [pool-2-thread-17] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.253 [pool-2-thread-18] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.253 [pool-2-thread-19] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.269 [pool-2-thread-20] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.269 [pool-2-thread-21] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.284 [pool-2-thread-22] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:52.284 [pool-2-thread-23] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:31:55.363 [nioEventLoopGroup-3-8] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(33b1d741) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -55,7 +71,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 11:46:34.027 [nioEventLoopGroup-3-3] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(7e966815) 发生异常]
+2021-09-14 15:31:55.363 [nioEventLoopGroup-3-7] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(13ac9e94) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -74,7 +90,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 11:53:41.553 [nioEventLoopGroup-3-6] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(19737af2) 发生异常]
+2021-09-14 15:32:06.560 [nioEventLoopGroup-3-10] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(d645f0f1) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -93,7 +109,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 11:54:44.976 [nioEventLoopGroup-3-7] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(68a55b46) 发生异常]
+2021-09-14 15:32:06.560 [nioEventLoopGroup-3-9] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(3b0732bf) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -112,7 +128,20 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 11:54:44.976 [nioEventLoopGroup-3-8] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(b96c04e3) 发生异常]
+2021-09-14 15:32:19.630 [pool-2-thread-28] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.630 [pool-2-thread-29] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.646 [pool-2-thread-30] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.646 [pool-2-thread-31] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.708 [pool-2-thread-32] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.724 [pool-2-thread-33] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.724 [pool-2-thread-34] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.739 [pool-2-thread-35] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.739 [pool-2-thread-36] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.755 [pool-2-thread-37] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.771 [pool-2-thread-38] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.771 [pool-2-thread-39] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:19.786 [pool-2-thread-40] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:32:22.682 [nioEventLoopGroup-3-12] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(8ff39367) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -131,7 +160,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 11:58:09.558 [nioEventLoopGroup-3-9] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(e13014ce) 发生异常]
+2021-09-14 15:32:22.682 [nioEventLoopGroup-3-11] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(5bff37b0) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -150,7 +179,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 11:58:09.558 [nioEventLoopGroup-3-10] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(4946ba07) 发生异常]
+2021-09-14 15:33:29.666 [nioEventLoopGroup-3-4] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(b80d917b) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -169,7 +198,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 12:02:17.402 [nioEventLoopGroup-3-11] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(9a9bdfad) 发生异常]
+2021-09-14 15:33:29.666 [nioEventLoopGroup-3-3] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(c1ba2e9a) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -188,7 +217,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 12:02:17.402 [nioEventLoopGroup-3-12] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(d8bc5ecf) 发生异常]
+2021-09-14 15:34:58.545 [nioEventLoopGroup-3-7] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(398070a7) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -207,7 +236,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 12:13:34.829 [nioEventLoopGroup-3-13] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(7f01d68e) 发生异常]
+2021-09-14 15:34:58.545 [nioEventLoopGroup-3-8] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(e6bc3576) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -226,7 +255,110 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 12:13:34.829 [nioEventLoopGroup-3-14] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(acd23b02) 发生异常]
+2021-09-14 15:35:14.823 [pool-2-thread-11] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:14.932 [pool-2-thread-12] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:15.041 [pool-2-thread-13] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:15.151 [pool-2-thread-14] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:15.260 [pool-2-thread-15] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:15.370 [pool-2-thread-16] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:15.479 [pool-2-thread-17] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:15.589 [pool-2-thread-18] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:15.698 [pool-2-thread-19] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:15.808 [pool-2-thread-20] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:15.917 [pool-2-thread-21] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:16.026 [pool-2-thread-22] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:16.136 [pool-2-thread-23] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:16.245 [pool-2-thread-24] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:16.355 [pool-2-thread-25] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:16.464 [pool-2-thread-26] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:16.573 [pool-2-thread-27] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:16.683 [pool-2-thread-28] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:16.808 [pool-2-thread-29] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:16.904 [pool-2-thread-30] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:17.009 [pool-2-thread-31] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:17.121 [pool-2-thread-32] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:17.230 [pool-2-thread-33] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:17.340 [pool-2-thread-34] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:17.449 [pool-2-thread-35] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:17.558 [pool-2-thread-36] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:17.683 [pool-2-thread-37] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:17.777 [pool-2-thread-38] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:17.887 [pool-2-thread-39] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:17.996 [pool-2-thread-40] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:18.105 [pool-2-thread-41] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:18.215 [pool-2-thread-42] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:18.324 [pool-2-thread-43] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:18.434 [pool-2-thread-44] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:18.543 [pool-2-thread-45] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:18.653 [pool-2-thread-46] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:18.762 [pool-2-thread-47] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:18.871 [pool-2-thread-48] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:18.981 [pool-2-thread-49] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:19.090 [pool-2-thread-50] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:19.200 [pool-2-thread-51] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:19.309 [pool-2-thread-52] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:19.418 [pool-2-thread-53] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:19.528 [pool-2-thread-54] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:19.637 [pool-2-thread-55] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:19.747 [pool-2-thread-56] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:19.856 [pool-2-thread-57] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:19.965 [pool-2-thread-58] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:20.075 [pool-2-thread-59] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:20.184 [pool-2-thread-60] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:20.294 [pool-2-thread-61] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:20.403 [pool-2-thread-62] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:20.512 [pool-2-thread-63] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:20.622 [pool-2-thread-64] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:20.731 [pool-2-thread-65] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:20.841 [pool-2-thread-66] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:20.950 [pool-2-thread-67] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:21.060 [pool-2-thread-68] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:21.169 [pool-2-thread-69] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:21.278 [pool-2-thread-70] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:21.388 [pool-2-thread-71] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:21.497 [pool-2-thread-72] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:21.607 [pool-2-thread-73] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:21.716 [pool-2-thread-74] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:21.825 [pool-2-thread-75] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:21.935 [pool-2-thread-76] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:22.044 [pool-2-thread-77] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:22.156 [pool-2-thread-78] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:22.266 [pool-2-thread-79] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:22.375 [pool-2-thread-80] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:22.485 [pool-2-thread-81] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:22.594 [pool-2-thread-82] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:22.703 [pool-2-thread-83] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:22.812 [pool-2-thread-84] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:22.919 [pool-2-thread-85] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:23.033 [pool-2-thread-86] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:23.135 [pool-2-thread-87] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:23.243 [pool-2-thread-88] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:23.361 [pool-2-thread-89] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:23.467 [pool-2-thread-90] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:23.576 [pool-2-thread-91] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:23.686 [pool-2-thread-92] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:23.795 [pool-2-thread-93] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:23.904 [pool-2-thread-94] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:24.014 [pool-2-thread-95] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:24.123 [pool-2-thread-96] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:24.233 [pool-2-thread-97] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:24.342 [pool-2-thread-98] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:24.451 [pool-2-thread-99] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:24.561 [pool-2-thread-100] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:24.670 [pool-2-thread-101] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:24.780 [pool-2-thread-102] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:24.889 [pool-2-thread-103] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:24.998 [pool-2-thread-104] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:25.108 [pool-2-thread-105] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:25.217 [pool-2-thread-106] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:25.327 [pool-2-thread-107] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:25.436 [pool-2-thread-108] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:25.545 [pool-2-thread-109] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:25.655 [pool-2-thread-110] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:25.764 [pool-2-thread-111] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:25.874 [pool-2-thread-112] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:35:25.983 [pool-2-thread-113] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-14 15:46:54.418 [nioEventLoopGroup-3-1] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(46f7f6f3) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -235,7 +367,6 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
 	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:821)
 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
@@ -246,7 +377,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 12:25:03.760 [nioEventLoopGroup-3-15] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(37c73a66) 发生异常]
+2021-09-14 15:54:24.886 [nioEventLoopGroup-3-4] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(1f358100) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -265,7 +396,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 12:25:03.760 [nioEventLoopGroup-3-16] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(f475c6b7) 发生异常]
+2021-09-14 15:58:09.032 [nioEventLoopGroup-3-5] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(68afd876) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -284,7 +415,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 12:26:28.964 [nioEventLoopGroup-3-2] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(96e0ce0c) 发生异常]
+2021-09-14 15:58:09.032 [nioEventLoopGroup-3-6] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(4c481644) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -303,1428 +434,5 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 12:26:28.964 [nioEventLoopGroup-3-1] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(a8dc3077) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:47:44.504 [nioEventLoopGroup-3-2] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(baf50aa5) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:47:44.504 [nioEventLoopGroup-3-1] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(d85dab84) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:52:08.473 [nioEventLoopGroup-3-3] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(6fd6c07b) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:52:08.473 [nioEventLoopGroup-3-4] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(5e211573) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:55:04.119 [nioEventLoopGroup-3-6] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(8e1952ab) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:55:04.119 [nioEventLoopGroup-3-5] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(08d87a79) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:56:07.041 [nioEventLoopGroup-3-8] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(0d19d90b) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:56:07.041 [nioEventLoopGroup-3-7] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(de4b00e1) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:58:49.612 [nioEventLoopGroup-3-10] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(50689579) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:58:49.612 [nioEventLoopGroup-3-9] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(1a2c93a8) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:59:17.408 [nioEventLoopGroup-3-12] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(efa9224b) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 14:59:17.408 [nioEventLoopGroup-3-11] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(e59a4f5e) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:04:49.816 [nioEventLoopGroup-3-13] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(f52600ad) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:04:49.816 [nioEventLoopGroup-3-14] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(8dafc08b) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:05:39.802 [nioEventLoopGroup-3-16] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(047726fd) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:05:39.802 [nioEventLoopGroup-3-15] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(f051efd3) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:07:07.217 [nioEventLoopGroup-3-2] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(72549cf2) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:07:07.221 [nioEventLoopGroup-3-1] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(9eced13b) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:09:30.143 [nioEventLoopGroup-3-3] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(d0b6f75d) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:09:30.143 [nioEventLoopGroup-3-4] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(d86442d6) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:10:51.289 [nioEventLoopGroup-3-5] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(21b7628d) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:10:51.289 [nioEventLoopGroup-3-6] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(26ca9db6) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:18:35.057 [nioEventLoopGroup-3-7] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(d9ae3d75) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:18:35.057 [nioEventLoopGroup-3-8] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(07967394) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:20:37.642 [nioEventLoopGroup-3-10] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(240b78ce) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:20:37.642 [nioEventLoopGroup-3-9] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(751e0e46) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:23:37.038 [nioEventLoopGroup-3-11] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(cc7dd2fd) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:23:37.038 [nioEventLoopGroup-3-12] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(d91d7eec) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:24:50.240 [nioEventLoopGroup-3-14] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(98e8e4da) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:24:50.240 [nioEventLoopGroup-3-13] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(cbdcd62b) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:25:20.138 [nioEventLoopGroup-3-15] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(a5eedf96) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:25:20.138 [nioEventLoopGroup-3-16] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(44b40ac8) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:29:40.357 [nioEventLoopGroup-3-2] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(2f827b8b) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:29:40.357 [nioEventLoopGroup-3-1] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(73fcdc5b) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:33:26.284 [nioEventLoopGroup-3-3] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(0a549258) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:33:26.284 [nioEventLoopGroup-3-4] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(475a2249) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:37:50.597 [nioEventLoopGroup-3-5] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(786b1709) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:37:50.597 [nioEventLoopGroup-3-6] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(4b394d10) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:38:58.203 [nioEventLoopGroup-3-7] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(552239f9) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:38:58.203 [nioEventLoopGroup-3-8] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(249c3c12) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:40:06.519 [nioEventLoopGroup-3-10] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(4e37cb6c) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:40:06.519 [nioEventLoopGroup-3-9] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(cf5c0da7) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:41:08.649 [nioEventLoopGroup-3-12] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(1197ebb6) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:41:08.649 [nioEventLoopGroup-3-11] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(fbfce8c9) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:41:48.924 [nioEventLoopGroup-3-14] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(5296647b) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:41:48.924 [nioEventLoopGroup-3-13] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(d916f05b) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:43:09.487 [nioEventLoopGroup-3-16] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(d8332f5d) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:51:12.896 [nioEventLoopGroup-3-2] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(025e8b15) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:51:12.896 [nioEventLoopGroup-3-1] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(0c2021b6) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:53:48.266 [nioEventLoopGroup-3-4] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(34071f4e) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:53:48.266 [nioEventLoopGroup-3-3] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(5740fd9b) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:57:38.016 [nioEventLoopGroup-3-5] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(e6d9374e) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 15:57:38.016 [nioEventLoopGroup-3-6] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(ab9da7a3) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 16:08:22.144 [nioEventLoopGroup-3-7] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(c685118d) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 16:53:52.267 [nioEventLoopGroup-3-10] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(5d06d7dd) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 16:53:52.267 [nioEventLoopGroup-3-9] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(416bc12f) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 16:55:19.356 [nioEventLoopGroup-3-11] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(acb20aee) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 16:55:19.356 [nioEventLoopGroup-3-12] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(3e35931e) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 16:56:18.706 [nioEventLoopGroup-3-14] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(e0ba8d53) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 16:56:18.711 [nioEventLoopGroup-3-13] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(b69ebd50) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:03:42.846 [nioEventLoopGroup-3-15] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(8a2d3a4c) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:03:42.846 [nioEventLoopGroup-3-16] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(85361e0c) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:07:54.486 [nioEventLoopGroup-3-2] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(81a34aa0) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:07:54.486 [nioEventLoopGroup-3-1] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(74414896) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:08:16.698 [nioEventLoopGroup-3-4] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(5a0aecf6) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:08:16.698 [nioEventLoopGroup-3-3] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(292ff986) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:11:18.447 [nioEventLoopGroup-3-5] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(d2ee4970) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:11:18.447 [nioEventLoopGroup-3-6] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(58f63bc1) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:12:19.849 [nioEventLoopGroup-3-8] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(cadba6fb) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:12:19.849 [nioEventLoopGroup-3-7] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(df0814b7) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:14:53.885 [nioEventLoopGroup-3-9] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(91d0d2af) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:14:53.885 [nioEventLoopGroup-3-10] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(e7232e3e) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:19:31.583 [nioEventLoopGroup-3-13] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(44adb339) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-12 17:19:31.583 [nioEventLoopGroup-3-14] ERROR c.j.remote.qt.server.handler.NettyServerHandler - [自捕捉到][连接(fc4dae6c) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
+2021-09-14 15:58:24.270 [pool-2-thread-192] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-14 15:58:24.270 [pool-2-thread-193] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]

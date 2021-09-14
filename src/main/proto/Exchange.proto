@@ -12,33 +12,36 @@ message Exchange {
     //定义一个枚举类型
     //在proto3 要求enum的编号从0开始
     enum DataType {
+        //主机信息
         TypeHost = 0;
+        //心跳
+        TypeHeartbeat = 1 ;
 		//查询主机
-		TypeQueryHost = 1 ;
+		TypeQueryHost = 2 ;
 		//主机发现回复
-		TypeResponseHost = 2;
+		TypeResponseHost = 3;
 		//请求认证
-        TypeRequestAuth = 3 ;
+        TypeRequestAuth = 4 ;
 		//回复认证
-		TypeResponseAuth = 4 ;
+		TypeResponseAuth = 5 ;
 		//请求桌面
-		TypeRequestDesk = 5 ;
+		TypeRequestDesk = 6 ;
 		//桌面参数
-		TypeImageParameters = 6 ;
+		TypeImageParameters = 7 ;
 		//截屏图片数据
-		TypeImage = 7 ;
+		TypeImage = 8 ;
 		//接收的瓷块
-		TypeImageReceived = 8 ;
+		TypeImageReceived = 9 ;
 		//鼠标移动
-		TypeMouseMove = 9 ;
-		//
-		TypeMouseKeys = 10 ;
-		//
-		TypeRequestLeaveLook = 11 ;
-		//
-		TypeWheelEvent = 12 ;
-		//
-		TypeKeyBoard = 13 ;
+		TypeMouseMove = 10 ;
+		//鼠标按键
+		TypeMouseKeys = 11 ;
+		//离开通知
+		TypeRequestLeaveLook = 12 ;
+		//鼠标滑轮
+		TypeWheelEvent = 13 ;
+		//键盘
+		TypeKeyBoard = 14 ;
     }
 
     //用data_type 来标识传的是哪一个枚举类型
@@ -79,6 +82,9 @@ message WMHostInfo {
     string mac = 2;
 	//主控或者被控 1为主 2为被
 	int32 activeOrpassive = 3 ; 
+}
+message WMHeartbeat{
+
 }
 message CsQueryHost{
 }
