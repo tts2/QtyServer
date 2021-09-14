@@ -372,3 +372,20 @@
 2021-09-14 16:32:41.126 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
 2021-09-14 16:32:41.126 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(GrmtjEHei)离开]
 2021-09-14 16:32:41.126 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-14 17:15:49.250 [main] INFO  com.javacgo.remote.qty.VxdeskserverApplication - Starting VxdeskserverApplication using Java 1.8.0_271 on qytdesk with PID 5840 (C:\Users\zxl\Desktop\QdServer\target\classes started by zxl in C:\Users\zxl\Desktop\QdServer)
+2021-09-14 17:15:49.250 [main] INFO  com.javacgo.remote.qty.VxdeskserverApplication - The following profiles are active: dev
+2021-09-14 17:15:50.454 [main] INFO  c.j.remote.qty.dispatcher.MessageHandlerContainer - [afterPropertiesSet][消息处理器数量：1]
+2021-09-14 17:15:50.922 [main] INFO  com.javacgo.remote.qty.server.NettyServer - [start][Netty Server 启动在 443 端口]
+2021-09-14 17:15:51.047 [main] INFO  com.javacgo.remote.qty.VxdeskserverApplication - Started VxdeskserverApplication in 2.519 seconds (JVM running for 4.663)
+2021-09-14 17:15:51.260 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-14 17:16:14.592 [pool-2-thread-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 GrmtjEHeiXjENqnopFnVdw== 登录]
+2021-09-14 17:16:14.592 [pool-2-thread-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 GrmtjEHei 登录]
+2021-09-14 17:16:14.608 [pool-2-thread-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-14 17:16:29.796 [pool-2-thread-5] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - GrmtjEHeiXjENqnopFnVdw== 请求 GrmtjEHei 认证
+2021-09-14 17:16:38.023 [pool-2-thread-9] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - GrmtjEHeiXjENqnopFnVdw== 请求 GrmtjEHei 认证
+2021-09-14 17:16:53.744 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-14 17:16:53.744 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(GrmtjEHeiXjENqnopFnVdw==)离开]
+2021-09-14 17:16:53.744 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-14 17:16:53.791 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-14 17:16:53.791 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(GrmtjEHei)离开]
+2021-09-14 17:16:53.791 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
