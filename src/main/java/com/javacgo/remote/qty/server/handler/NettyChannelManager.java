@@ -25,23 +25,25 @@ public class NettyChannelManager {
     private int countPeople = 0;
 
     public void addUser(String deviceID, KeskHost host) {
+        boolean success = false ;
         if (deviceId_Host_Map.containsKey(deviceID)) {
             logger.error("设备已经登录过");
-            return;
-        }
-        deviceId_Host_Map.put(deviceID, host);
-
-        channelId_DeviceID_Map.put(host.getChannel().id(), deviceID);
-        if (host.isActive()) {
-            logger.info("[add][主控连接 {} 登录]", deviceID);
         } else {
-            countPeople++;
-            logger.info("[add][被控连接 {} 登录]", deviceID);
-            logger.info("[被控设备] 在线人数 ：[{}]", countPeople);
+            success = true ;
+            deviceId_Host_Map.put(deviceID, host);
+            channelId_DeviceID_Map.put(host.getChannel().id(), deviceID);
+
+            if (host.isActive()) {
+                logger.info("[add][主控连接 {} 登录]", deviceID);
+            } else {
+                countPeople++;
+                logger.info("[add][被控连接 {} 登录]", deviceID);
+                logger.info("[被控设备] 在线人数 ：[{}]", countPeople);
+            }
         }
         BigPack.Exchange.Builder exB = BigPack.Exchange.newBuilder();
         exB.setDataType(BigPack.Exchange.DataType.TypeReplyRegisterDetails);
-        exB.setReplyInfo(BigPack.ScReplyInfo.newBuilder().setSuccess(true).setRegisterId(deviceID));
+        exB.setReplyInfo(BigPack.ScReplyInfo.newBuilder().setSuccess(success).setRegisterId(deviceID));
         host.getChannel().writeAndFlush(exB.build());
 
     }
@@ -171,18 +173,18 @@ public class NettyChannelManager {
     }
 
     //注册主机信息
-    public void dealHostInfo(BigPack.CsHostInfo csHostInfo,  Channel channel) {
-        String deviceId ="";
+    public void dealHostInfo(BigPack.CsHostInfo csHostInfo, Channel channel) {
+        String deviceId = "";
         //加入设备
         KeskHost host = new KeskHost();
         if (0 == csHostInfo.getActiveOrpassive()) {
             //被控用CPUID作为设备ID
-            host.setDeviceID(csHostInfo.getCpuId());
-            deviceId = csHostInfo.getCpuId();
+            deviceId = csHostInfo.getCpuId().substring(0,9) ;
+            host.setDeviceID(deviceId);
         } else if (1 == csHostInfo.getActiveOrpassive()) {
             //主控用netty自带channel短ID
-            host.setDeviceID(channel.id().asShortText());
             deviceId = channel.id().asShortText();
+            host.setDeviceID(deviceId);
         } else {
             return;
         }

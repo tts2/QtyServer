@@ -729,3 +729,515 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at java.lang.Thread.run(Thread.java:748)
 2021-09-16 12:05:06.755 [pool-2-thread-135] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
 2021-09-16 12:17:13.840 [pool-2-thread-1] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:42.941 [pool-2-thread-3] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.146 [pool-2-thread-4] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.146 [pool-2-thread-5] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.162 [pool-2-thread-6] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.178 [pool-2-thread-7] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.178 [pool-2-thread-8] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.193 [pool-2-thread-9] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.193 [pool-2-thread-10] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.209 [pool-2-thread-11] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.209 [pool-2-thread-12] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.224 [pool-2-thread-13] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.224 [pool-2-thread-14] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.240 [pool-2-thread-15] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.240 [pool-2-thread-16] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.256 [pool-2-thread-17] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.256 [pool-2-thread-18] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.271 [pool-2-thread-19] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.271 [pool-2-thread-20] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.287 [pool-2-thread-21] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.287 [pool-2-thread-22] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.303 [pool-2-thread-23] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.303 [pool-2-thread-24] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.318 [pool-2-thread-25] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.318 [pool-2-thread-26] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.334 [pool-2-thread-27] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.334 [pool-2-thread-28] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.349 [pool-2-thread-29] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.365 [pool-2-thread-30] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.365 [pool-2-thread-31] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.381 [pool-2-thread-32] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.396 [pool-2-thread-33] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:50.396 [pool-2-thread-34] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:34:55.523 [pool-2-thread-36] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:36:13.488 [nioEventLoopGroup-3-1] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(24e1e6d4) 发生异常]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-16 16:37:16.010 [pool-2-thread-39] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:48.316 [pool-2-thread-41] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:48.863 [pool-2-thread-42] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:48.863 [pool-2-thread-43] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:48.879 [pool-2-thread-44] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:48.879 [pool-2-thread-45] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:48.894 [pool-2-thread-46] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.304 [pool-2-thread-47] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.304 [pool-2-thread-48] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.319 [pool-2-thread-49] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.319 [pool-2-thread-50] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.335 [pool-2-thread-51] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.335 [pool-2-thread-52] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.351 [pool-2-thread-53] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.351 [pool-2-thread-54] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.366 [pool-2-thread-55] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.366 [pool-2-thread-56] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.382 [pool-2-thread-57] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.382 [pool-2-thread-58] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.397 [pool-2-thread-59] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.413 [pool-2-thread-60] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.554 [pool-2-thread-61] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.554 [pool-2-thread-62] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.569 [pool-2-thread-63] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.569 [pool-2-thread-64] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.585 [pool-2-thread-65] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.585 [pool-2-thread-66] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.601 [pool-2-thread-67] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.601 [pool-2-thread-68] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.616 [pool-2-thread-69] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.616 [pool-2-thread-70] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.632 [pool-2-thread-71] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.632 [pool-2-thread-72] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.648 [pool-2-thread-73] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.648 [pool-2-thread-74] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.663 [pool-2-thread-75] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.663 [pool-2-thread-76] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.726 [pool-2-thread-77] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.851 [pool-2-thread-78] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.929 [pool-2-thread-79] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.945 [pool-2-thread-80] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.945 [pool-2-thread-81] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.961 [pool-2-thread-82] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.961 [pool-2-thread-83] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.976 [pool-2-thread-84] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.976 [pool-2-thread-85] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.991 [pool-2-thread-86] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:56.991 [pool-2-thread-87] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.007 [pool-2-thread-88] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.007 [pool-2-thread-89] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.023 [pool-2-thread-90] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.023 [pool-2-thread-91] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.038 [pool-2-thread-92] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.038 [pool-2-thread-93] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.054 [pool-2-thread-94] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.054 [pool-2-thread-95] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.070 [pool-2-thread-96] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.070 [pool-2-thread-97] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.085 [pool-2-thread-98] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.085 [pool-2-thread-99] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.101 [pool-2-thread-100] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.101 [pool-2-thread-101] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.116 [pool-2-thread-102] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.132 [pool-2-thread-103] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.132 [pool-2-thread-104] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.148 [pool-2-thread-105] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:37:57.163 [pool-2-thread-106] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:01.165 [pool-2-thread-108] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.556 [pool-2-thread-109] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.564 [pool-2-thread-110] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.573 [pool-2-thread-111] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.579 [pool-2-thread-112] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.588 [pool-2-thread-113] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.595 [pool-2-thread-114] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.603 [pool-2-thread-115] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.611 [pool-2-thread-116] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.619 [pool-2-thread-117] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.628 [pool-2-thread-118] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.636 [pool-2-thread-119] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.643 [pool-2-thread-120] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.652 [pool-2-thread-121] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.659 [pool-2-thread-122] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.667 [pool-2-thread-123] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.683 [pool-2-thread-124] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:38:05.716 [pool-2-thread-125] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:44.886 [pool-2-thread-132] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.635 [pool-2-thread-133] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.642 [pool-2-thread-134] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.650 [pool-2-thread-135] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.658 [pool-2-thread-136] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.666 [pool-2-thread-137] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.675 [pool-2-thread-138] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.682 [pool-2-thread-139] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.697 [pool-2-thread-140] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.698 [pool-2-thread-141] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.706 [pool-2-thread-142] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.714 [pool-2-thread-143] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.722 [pool-2-thread-144] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.729 [pool-2-thread-145] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.738 [pool-2-thread-146] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.745 [pool-2-thread-147] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.753 [pool-2-thread-148] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:47:45.762 [pool-2-thread-149] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:48:21.975 [nioEventLoopGroup-3-12] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(e1b9cf71) 发生异常]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-16 16:49:20.279 [pool-2-thread-152] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.294 [pool-2-thread-153] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.294 [pool-2-thread-154] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.310 [pool-2-thread-155] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.310 [pool-2-thread-156] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.326 [pool-2-thread-157] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.326 [pool-2-thread-158] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.341 [pool-2-thread-159] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.341 [pool-2-thread-160] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.357 [pool-2-thread-161] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.357 [pool-2-thread-162] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.372 [pool-2-thread-163] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.372 [pool-2-thread-164] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.388 [pool-2-thread-165] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.388 [pool-2-thread-166] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:20.404 [pool-2-thread-167] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.484 [pool-2-thread-168] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.484 [pool-2-thread-169] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.500 [pool-2-thread-170] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.500 [pool-2-thread-171] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.515 [pool-2-thread-172] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.531 [pool-2-thread-173] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.547 [pool-2-thread-174] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.562 [pool-2-thread-175] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.578 [pool-2-thread-176] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.578 [pool-2-thread-177] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.593 [pool-2-thread-178] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.593 [pool-2-thread-179] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.609 [pool-2-thread-180] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.609 [pool-2-thread-181] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.625 [pool-2-thread-182] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.625 [pool-2-thread-183] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.640 [pool-2-thread-184] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.640 [pool-2-thread-185] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.656 [pool-2-thread-186] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.656 [pool-2-thread-187] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.672 [pool-2-thread-188] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.672 [pool-2-thread-189] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.687 [pool-2-thread-190] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.687 [pool-2-thread-191] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.704 [pool-2-thread-192] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.704 [pool-2-thread-193] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.718 [pool-2-thread-194] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:26.718 [pool-2-thread-195] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.787 [pool-2-thread-197] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.794 [pool-2-thread-198] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.802 [pool-2-thread-199] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.810 [pool-2-thread-200] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.817 [pool-2-thread-1] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.825 [pool-2-thread-3] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.833 [pool-2-thread-2] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.849 [pool-2-thread-4] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.857 [pool-2-thread-5] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.865 [pool-2-thread-6] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.873 [pool-2-thread-7] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.881 [pool-2-thread-8] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.897 [pool-2-thread-9] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.905 [pool-2-thread-10] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:49:36.914 [pool-2-thread-11] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:51:37.458 [nioEventLoopGroup-3-1] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(8155c85a) 发生异常]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-16 16:52:20.612 [pool-2-thread-15] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.612 [pool-2-thread-16] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.627 [pool-2-thread-17] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.627 [pool-2-thread-18] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.643 [pool-2-thread-19] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.643 [pool-2-thread-20] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.659 [pool-2-thread-21] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.659 [pool-2-thread-22] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.674 [pool-2-thread-23] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.674 [pool-2-thread-24] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.690 [pool-2-thread-25] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.690 [pool-2-thread-26] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.706 [pool-2-thread-27] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.706 [pool-2-thread-28] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.721 [pool-2-thread-29] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.737 [pool-2-thread-30] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.737 [pool-2-thread-31] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.752 [pool-2-thread-32] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.752 [pool-2-thread-33] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.768 [pool-2-thread-34] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.768 [pool-2-thread-36] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.784 [pool-2-thread-35] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.784 [pool-2-thread-37] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.800 [pool-2-thread-38] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.800 [pool-2-thread-39] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.815 [pool-2-thread-41] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.815 [pool-2-thread-40] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:20.831 [pool-2-thread-42] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.021 [pool-2-thread-43] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.036 [pool-2-thread-44] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.036 [pool-2-thread-45] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.052 [pool-2-thread-46] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.052 [pool-2-thread-47] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.068 [pool-2-thread-48] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.068 [pool-2-thread-49] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.083 [pool-2-thread-50] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.083 [pool-2-thread-51] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.099 [pool-2-thread-52] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.099 [pool-2-thread-53] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.115 [pool-2-thread-54] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.131 [pool-2-thread-55] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.146 [pool-2-thread-56] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.161 [pool-2-thread-57] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.161 [pool-2-thread-58] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.177 [pool-2-thread-59] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.177 [pool-2-thread-60] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.208 [pool-2-thread-61] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.208 [pool-2-thread-62] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.224 [pool-2-thread-63] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.255 [pool-2-thread-64] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.255 [pool-2-thread-65] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.271 [pool-2-thread-66] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.271 [pool-2-thread-67] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.286 [pool-2-thread-68] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:29.286 [pool-2-thread-69] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.137 [pool-2-thread-71] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.145 [pool-2-thread-72] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.152 [pool-2-thread-73] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.160 [pool-2-thread-74] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.169 [pool-2-thread-75] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.178 [pool-2-thread-76] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.185 [pool-2-thread-77] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.192 [pool-2-thread-78] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.200 [pool-2-thread-79] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.209 [pool-2-thread-80] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.216 [pool-2-thread-81] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.225 [pool-2-thread-82] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.232 [pool-2-thread-83] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.241 [pool-2-thread-84] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.249 [pool-2-thread-85] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.257 [pool-2-thread-86] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.264 [pool-2-thread-87] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.272 [pool-2-thread-88] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.281 [pool-2-thread-89] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.298 [pool-2-thread-90] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.314 [pool-2-thread-91] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.320 [pool-2-thread-92] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.329 [pool-2-thread-93] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.337 [pool-2-thread-94] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.344 [pool-2-thread-95] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.353 [pool-2-thread-96] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.360 [pool-2-thread-97] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.369 [pool-2-thread-98] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.377 [pool-2-thread-99] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.384 [pool-2-thread-100] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.393 [pool-2-thread-101] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.401 [pool-2-thread-102] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.409 [pool-2-thread-103] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.416 [pool-2-thread-104] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:52:49.425 [pool-2-thread-105] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:53:05.536 [pool-2-thread-107] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 16:55:02.227 [pool-2-thread-111] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [查询主机]不存在]178BFBFF0
+2021-09-16 16:55:11.969 [pool-2-thread-112] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:11.976 [pool-2-thread-113] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:11.985 [pool-2-thread-114] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:11.992 [pool-2-thread-115] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.001 [pool-2-thread-116] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.008 [pool-2-thread-117] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.016 [pool-2-thread-118] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.024 [pool-2-thread-119] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.032 [pool-2-thread-120] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.040 [pool-2-thread-121] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.049 [pool-2-thread-122] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.056 [pool-2-thread-123] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.066 [pool-2-thread-124] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.072 [pool-2-thread-125] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.081 [pool-2-thread-126] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.088 [pool-2-thread-127] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.097 [pool-2-thread-128] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.112 [pool-2-thread-129] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.129 [pool-2-thread-130] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:12.136 [pool-2-thread-132] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:51.646 [pool-2-thread-137] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:51.646 [pool-2-thread-138] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:51.662 [pool-2-thread-139] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:51.662 [pool-2-thread-140] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:51.678 [pool-2-thread-141] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:51.678 [pool-2-thread-142] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:51.693 [pool-2-thread-143] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:51.708 [pool-2-thread-144] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:51.756 [pool-2-thread-145] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 16:55:51.756 [pool-2-thread-146] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:01:10.931 [pool-2-thread-26] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 17:05:37.018 [pool-2-thread-72] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [查询主机]不存在]178BFBFF01
+2021-09-16 17:05:38.304 [pool-2-thread-73] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.310 [pool-2-thread-74] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.318 [pool-2-thread-75] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.327 [pool-2-thread-76] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.335 [pool-2-thread-77] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.343 [pool-2-thread-78] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.351 [pool-2-thread-79] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.359 [pool-2-thread-80] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.367 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.375 [pool-2-thread-82] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.383 [pool-2-thread-83] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.391 [pool-2-thread-84] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.400 [pool-2-thread-85] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.407 [pool-2-thread-86] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.415 [pool-2-thread-87] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.423 [pool-2-thread-88] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.430 [pool-2-thread-89] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.438 [pool-2-thread-90] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.446 [pool-2-thread-91] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.454 [pool-2-thread-92] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.462 [pool-2-thread-93] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.470 [pool-2-thread-94] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.478 [pool-2-thread-95] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.487 [pool-2-thread-96] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.495 [pool-2-thread-97] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.502 [pool-2-thread-98] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.510 [pool-2-thread-99] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.519 [pool-2-thread-100] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.526 [pool-2-thread-101] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.534 [pool-2-thread-102] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.542 [pool-2-thread-103] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.551 [pool-2-thread-104] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.558 [pool-2-thread-105] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.567 [pool-2-thread-106] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:38.574 [pool-2-thread-107] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:39.906 [pool-2-thread-109] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [查询主机]不存在]178BFBFF01
+2021-09-16 17:05:41.151 [pool-2-thread-110] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.158 [pool-2-thread-111] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.167 [pool-2-thread-112] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.175 [pool-2-thread-113] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.182 [pool-2-thread-114] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.191 [pool-2-thread-115] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.199 [pool-2-thread-116] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.207 [pool-2-thread-117] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.214 [pool-2-thread-118] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.230 [pool-2-thread-121] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.238 [pool-2-thread-119] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.247 [pool-2-thread-120] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.254 [pool-2-thread-122] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.262 [pool-2-thread-123] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.270 [pool-2-thread-124] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.279 [pool-2-thread-125] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.294 [pool-2-thread-126] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.310 [pool-2-thread-127] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.326 [pool-2-thread-129] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.334 [pool-2-thread-130] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.343 [pool-2-thread-128] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.351 [pool-2-thread-131] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.359 [pool-2-thread-133] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:05:41.375 [pool-2-thread-132] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 17:10:01.209 [nioEventLoopGroup-3-12] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(bc833d39) 发生异常]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-16 17:20:28.153 [nioEventLoopGroup-3-1] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(68248295) 发生异常]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-16 17:25:58.070 [nioEventLoopGroup-3-7] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(961b7cf6) 发生异常]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-16 17:28:21.378 [nioEventLoopGroup-3-11] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(99be5e69) 发生异常]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)

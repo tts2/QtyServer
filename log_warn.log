@@ -119,3 +119,12 @@ Caused by: java.lang.NullPointerException: null
 	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
 	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
 	... 17 common frames omitted
+2021-09-16 16:40:01.128 [nioEventLoopGroup-3-4] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:50270--超时时间--读写空闲
+2021-09-16 16:42:01.185 [nioEventLoopGroup-3-8] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:50286--超时时间--读写空闲
+2021-09-16 16:44:01.239 [nioEventLoopGroup-3-9] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:50294--超时时间--读写空闲
+2021-09-16 16:46:01.293 [nioEventLoopGroup-3-10] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:50303--超时时间--读写空闲
+2021-09-16 16:51:32.205 [nioEventLoopGroup-3-14] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:50322--超时时间--读写空闲
+2021-09-16 16:58:13.585 [nioEventLoopGroup-3-9] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:50349--超时时间--读写空闲
+2021-09-16 17:00:13.623 [nioEventLoopGroup-3-12] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:50360--超时时间--读写空闲
+2021-09-16 17:23:47.372 [nioEventLoopGroup-3-4] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:64934--超时时间--读写空闲
+2021-09-16 17:25:47.411 [nioEventLoopGroup-3-6] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:64942--超时时间--读写空闲

@@ -300,3 +300,289 @@
 2021-09-16 12:19:07.909 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
 2021-09-16 12:19:07.924 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
 2021-09-16 12:19:07.924 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:34:35.979 [main] INFO  com.javacgo.remote.qty.VxdeskserverApplication - Starting VxdeskserverApplication using Java 1.8.0_271 on qytdesk with PID 5404 (C:\Users\zxl\Desktop\QdServer\target\classes started by zxl in C:\Users\zxl\Desktop\QdServer)
+2021-09-16 16:34:35.995 [main] INFO  com.javacgo.remote.qty.VxdeskserverApplication - The following profiles are active: dev
+2021-09-16 16:34:37.308 [main] INFO  c.j.remote.qty.dispatcher.MessageHandlerContainer - [afterPropertiesSet][消息处理器数量：1]
+2021-09-16 16:34:37.792 [main] INFO  com.javacgo.remote.qty.server.NettyServer - [start][Netty Server 启动在 443 端口]
+2021-09-16 16:34:37.949 [main] INFO  com.javacgo.remote.qty.VxdeskserverApplication - Started VxdeskserverApplication in 2.995 seconds (JVM running for 6.463)
+2021-09-16 16:34:38.105 [pool-2-thread-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:34:38.105 [pool-2-thread-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:34:42.957 [pool-2-thread-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 342b3734 登录]
+2021-09-16 16:34:50.646 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:34:50.662 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(342b3734)离开]
+2021-09-16 16:34:50.662 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:34:55.523 [pool-2-thread-35] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 1be0461f 登录]
+2021-09-16 16:35:03.578 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:35:03.578 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(1be0461f)离开]
+2021-09-16 16:35:03.578 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:36:13.490 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:36:13.491 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:36:13.491 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:36:40.373 [pool-2-thread-37] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:36:40.373 [pool-2-thread-37] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:37:16.009 [pool-2-thread-38] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 44f5a6fb 登录]
+2021-09-16 16:37:41.771 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:37:41.771 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(44f5a6fb)离开]
+2021-09-16 16:37:41.771 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:37:48.316 [pool-2-thread-40] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 37fe61b5 登录]
+2021-09-16 16:37:57.601 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:37:57.601 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(37fe61b5)离开]
+2021-09-16 16:37:57.601 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:38:01.149 [pool-2-thread-107] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 0a7b98ad 登录]
+2021-09-16 16:38:06.098 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:38:06.098 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(0a7b98ad)离开]
+2021-09-16 16:38:06.098 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:40:01.128 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:40:01.128 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:40:01.128 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:40:06.176 [pool-2-thread-126] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:40:06.176 [pool-2-thread-126] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:42:01.185 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:42:01.185 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:42:01.185 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:42:06.233 [pool-2-thread-127] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:42:06.233 [pool-2-thread-127] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:44:01.240 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:44:01.241 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:44:01.242 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:44:06.278 [pool-2-thread-128] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:44:06.278 [pool-2-thread-128] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:46:01.294 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:46:01.295 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:46:01.295 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:46:06.327 [pool-2-thread-129] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:46:06.328 [pool-2-thread-129] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:47:28.021 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:47:28.022 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:47:28.022 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:47:41.431 [pool-2-thread-130] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:47:41.431 [pool-2-thread-130] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:47:44.886 [pool-2-thread-131] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 da0af4f1 登录]
+2021-09-16 16:47:46.090 [nioEventLoopGroup-3-13] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:47:46.091 [nioEventLoopGroup-3-13] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(da0af4f1)离开]
+2021-09-16 16:47:46.092 [nioEventLoopGroup-3-13] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:48:21.976 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:48:21.977 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:48:21.977 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:49:13.568 [pool-2-thread-150] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:49:13.568 [pool-2-thread-150] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:49:16.714 [pool-2-thread-151] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 11efa503 登录]
+2021-09-16 16:49:27.000 [nioEventLoopGroup-3-15] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:49:27.000 [nioEventLoopGroup-3-15] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(11efa503)离开]
+2021-09-16 16:49:27.000 [nioEventLoopGroup-3-15] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:49:32.111 [pool-2-thread-196] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 0061c994 登录]
+2021-09-16 16:49:37.193 [nioEventLoopGroup-3-16] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:49:37.193 [nioEventLoopGroup-3-16] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(0061c994)离开]
+2021-09-16 16:49:37.193 [nioEventLoopGroup-3-16] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:51:32.205 [nioEventLoopGroup-3-14] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:51:32.205 [nioEventLoopGroup-3-14] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:51:32.205 [nioEventLoopGroup-3-14] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:51:37.239 [pool-2-thread-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:51:37.240 [pool-2-thread-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:51:37.459 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:51:37.460 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:51:37.460 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:52:03.704 [pool-2-thread-13] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:52:03.704 [pool-2-thread-13] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:52:19.752 [pool-2-thread-14] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 563827f1 登录]
+2021-09-16 16:52:29.552 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:52:29.552 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(563827f1)离开]
+2021-09-16 16:52:29.552 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:52:48.214 [pool-2-thread-70] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 128d6697 登录]
+2021-09-16 16:52:49.737 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:52:49.738 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(128d6697)离开]
+2021-09-16 16:52:49.739 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:53:01.690 [pool-2-thread-106] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 eed19c30 登录]
+2021-09-16 16:53:05.739 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:53:05.754 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(eed19c30)离开]
+2021-09-16 16:53:05.754 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:53:34.282 [pool-2-thread-108] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 870589aa 登录]
+2021-09-16 16:54:48.935 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:54:48.935 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:54:48.935 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(870589aa)离开]
+2021-09-16 16:54:48.935 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:54:48.935 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:54:48.935 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:54:58.606 [pool-2-thread-109] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:54:58.606 [pool-2-thread-109] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:55:02.227 [pool-2-thread-110] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 a6ed2bfb 登录]
+2021-09-16 16:55:12.748 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:55:12.748 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(a6ed2bfb)离开]
+2021-09-16 16:55:12.748 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:55:26.363 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:55:26.363 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:55:26.363 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:55:30.533 [pool-2-thread-131] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:55:30.533 [pool-2-thread-131] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:55:43.435 [pool-2-thread-133] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 f4cbf087 登录]
+2021-09-16 16:55:47.909 [pool-2-thread-135] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - f4cbf087 请求 178BFBFF00810F81 认证
+2021-09-16 16:55:52.036 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:55:52.036 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(f4cbf087)离开]
+2021-09-16 16:55:52.036 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:55:58.145 [pool-2-thread-147] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 d1925d58 登录]
+2021-09-16 16:55:59.740 [pool-2-thread-149] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - d1925d58 请求 178BFBFF00810F81 认证
+2021-09-16 16:56:18.314 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:56:18.314 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(d1925d58)离开]
+2021-09-16 16:56:18.314 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 16:58:13.585 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 16:58:13.585 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 16:58:13.585 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 16:58:18.618 [pool-2-thread-19] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 16:58:18.618 [pool-2-thread-19] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:00:13.623 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:00:13.623 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 17:00:13.623 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:00:18.640 [pool-2-thread-20] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF00810F81 登录]
+2021-09-16 17:00:18.640 [pool-2-thread-20] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:00:25.352 [nioEventLoopGroup-3-13] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:00:25.352 [nioEventLoopGroup-3-13] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF00810F81)离开]
+2021-09-16 17:00:25.352 [nioEventLoopGroup-3-13] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:00:45.990 [main] INFO  com.javacgo.remote.qty.VxdeskserverApplication - Starting VxdeskserverApplication using Java 1.8.0_271 on qytdesk with PID 2904 (C:\Users\zxl\Desktop\QdServer\target\classes started by zxl in C:\Users\zxl\Desktop\QdServer)
+2021-09-16 17:00:46.005 [main] INFO  com.javacgo.remote.qty.VxdeskserverApplication - The following profiles are active: dev
+2021-09-16 17:00:47.163 [main] INFO  c.j.remote.qty.dispatcher.MessageHandlerContainer - [afterPropertiesSet][消息处理器数量：1]
+2021-09-16 17:00:47.620 [main] INFO  com.javacgo.remote.qty.server.NettyServer - [start][Netty Server 启动在 443 端口]
+2021-09-16 17:00:47.804 [main] INFO  com.javacgo.remote.qty.VxdeskserverApplication - Started VxdeskserverApplication in 3.576 seconds (JVM running for 5.661)
+2021-09-16 17:00:48.023 [pool-2-thread-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF0 登录]
+2021-09-16 17:00:48.023 [pool-2-thread-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:00:55.774 [pool-2-thread-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 9b199b5c 登录]
+2021-09-16 17:00:56.837 [pool-2-thread-4] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 9b199b5c 请求 178BFBFF0 认证
+2021-09-16 17:00:58.509 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:00:58.509 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(9b199b5c)离开]
+2021-09-16 17:00:58.509 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:01:10.915 [pool-2-thread-25] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 dfd2c63c 登录]
+2021-09-16 17:01:11.743 [pool-2-thread-28] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - dfd2c63c 请求 178BFBFF0 认证
+2021-09-16 17:01:13.416 [pool-2-thread-49] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 cfae1d1e 登录]
+2021-09-16 17:01:14.198 [pool-2-thread-55] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - cfae1d1e 请求 178BFBFF0 认证
+2021-09-16 17:01:14.198 [pool-2-thread-54] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - dfd2c63c 请求 178BFBFF0 认证
+2021-09-16 17:02:50.631 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:02:50.631 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(cfae1d1e)离开]
+2021-09-16 17:02:50.631 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:02:53.272 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:02:53.272 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(dfd2c63c)离开]
+2021-09-16 17:02:53.272 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:02:56.969 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:02:56.969 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF0)离开]
+2021-09-16 17:02:56.969 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:05:26.471 [pool-2-thread-30] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF0 登录]
+2021-09-16 17:05:26.472 [pool-2-thread-30] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:05:29.955 [pool-2-thread-31] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 f7259b8f 登录]
+2021-09-16 17:05:33.744 [pool-2-thread-33] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - f7259b8f 请求 178BFBFF0 认证
+2021-09-16 17:05:35.910 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:05:35.910 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(f7259b8f)离开]
+2021-09-16 17:05:35.910 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:05:37.016 [pool-2-thread-71] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 ff38b9ef 登录]
+2021-09-16 17:05:39.160 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:05:39.160 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(ff38b9ef)离开]
+2021-09-16 17:05:39.160 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:05:39.898 [pool-2-thread-108] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 88822921 登录]
+2021-09-16 17:05:42.018 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:05:42.033 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(88822921)离开]
+2021-09-16 17:05:42.033 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:05:51.145 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:05:51.145 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF0)离开]
+2021-09-16 17:05:51.145 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:07:55.607 [pool-2-thread-134] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF0 登录]
+2021-09-16 17:07:55.623 [pool-2-thread-134] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:07:58.850 [pool-2-thread-138] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 3ca41170 登录]
+2021-09-16 17:08:01.727 [pool-2-thread-135] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 3ca41170 请求 178BFBFF0 认证
+2021-09-16 17:08:02.977 [pool-2-thread-154] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 ba54d167 登录]
+2021-09-16 17:08:11.985 [pool-2-thread-189] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - ba54d167 请求 178BFBFF0 认证
+2021-09-16 17:08:11.985 [pool-2-thread-188] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 3ca41170 请求 178BFBFF0 认证
+2021-09-16 17:08:23.266 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:08:23.266 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(ba54d167)离开]
+2021-09-16 17:08:23.266 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:08:26.110 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:08:26.110 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(3ca41170)离开]
+2021-09-16 17:08:26.110 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:09:34.152 [pool-2-thread-174] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 bc833d39 登录]
+2021-09-16 17:09:38.702 [pool-2-thread-177] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - bc833d39 请求 178BFBFF0 认证
+2021-09-16 17:09:42.882 [pool-2-thread-18] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 d465f570 登录]
+2021-09-16 17:09:51.941 [pool-2-thread-23] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - d465f570 请求 178BFBFF0 认证
+2021-09-16 17:09:51.941 [pool-2-thread-24] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - bc833d39 请求 178BFBFF0 认证
+2021-09-16 17:09:53.984 [nioEventLoopGroup-3-13] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:09:53.984 [nioEventLoopGroup-3-13] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(d465f570)离开]
+2021-09-16 17:09:53.984 [nioEventLoopGroup-3-13] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:10:00.927 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:10:00.927 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF0)离开]
+2021-09-16 17:10:00.927 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:10:01.209 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:10:01.209 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(bc833d39)离开]
+2021-09-16 17:10:01.209 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:17:45.565 [pool-2-thread-154] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF0 登录]
+2021-09-16 17:17:45.565 [pool-2-thread-154] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:17:51.428 [pool-2-thread-156] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 475b4cfe 登录]
+2021-09-16 17:17:54.349 [pool-2-thread-157] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 475b4cfe 请求 178BFBFF0 认证
+2021-09-16 17:19:24.032 [nioEventLoopGroup-3-15] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:19:24.032 [nioEventLoopGroup-3-15] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(475b4cfe)离开]
+2021-09-16 17:19:24.032 [nioEventLoopGroup-3-15] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:19:33.697 [nioEventLoopGroup-3-14] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:19:33.697 [nioEventLoopGroup-3-14] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF0)离开]
+2021-09-16 17:19:33.697 [nioEventLoopGroup-3-14] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:20:13.343 [pool-2-thread-166] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF0 登录]
+2021-09-16 17:20:13.343 [pool-2-thread-166] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:20:19.329 [pool-2-thread-168] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 68248295 登录]
+2021-09-16 17:20:22.109 [pool-2-thread-170] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 68248295 请求 178BFBFF0 认证
+2021-09-16 17:20:27.965 [nioEventLoopGroup-3-16] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:20:27.965 [nioEventLoopGroup-3-16] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF0)离开]
+2021-09-16 17:20:27.965 [nioEventLoopGroup-3-16] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:20:28.153 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:20:28.153 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(68248295)离开]
+2021-09-16 17:20:28.153 [nioEventLoopGroup-3-1] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:20:56.432 [pool-2-thread-30] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF0 登录]
+2021-09-16 17:20:56.432 [pool-2-thread-30] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:21:10.117 [pool-2-thread-31] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 90d2b9ce 登录]
+2021-09-16 17:21:13.134 [pool-2-thread-33] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 90d2b9ce 请求 178BFBFF0 认证
+2021-09-16 17:21:29.903 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:21:29.903 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:21:29.904 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(90d2b9ce)离开]
+2021-09-16 17:21:29.904 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF0)离开]
+2021-09-16 17:21:29.904 [nioEventLoopGroup-3-3] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:21:29.904 [nioEventLoopGroup-3-2] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:21:39.929 [pool-2-thread-141] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF0 登录]
+2021-09-16 17:21:39.929 [pool-2-thread-141] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:21:43.505 [pool-2-thread-140] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 e7063fa2 登录]
+2021-09-16 17:21:47.813 [pool-2-thread-143] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - e7063fa2 请求 178BFBFF0 认证
+2021-09-16 17:21:52.276 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:21:52.277 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(e7063fa2)离开]
+2021-09-16 17:21:52.278 [nioEventLoopGroup-3-5] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:23:47.372 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:23:47.372 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF0)离开]
+2021-09-16 17:23:47.372 [nioEventLoopGroup-3-4] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:23:52.390 [pool-2-thread-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF0 登录]
+2021-09-16 17:23:52.390 [pool-2-thread-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:25:47.412 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:25:47.413 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF0)离开]
+2021-09-16 17:25:47.414 [nioEventLoopGroup-3-6] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:25:52.422 [pool-2-thread-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF0 登录]
+2021-09-16 17:25:52.422 [pool-2-thread-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:25:58.070 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:25:58.070 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF0)离开]
+2021-09-16 17:25:58.070 [nioEventLoopGroup-3-7] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:26:09.739 [pool-2-thread-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][被控连接 178BFBFF0 登录]
+2021-09-16 17:26:09.739 [pool-2-thread-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:26:12.912 [pool-2-thread-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 22d7be87 登录]
+2021-09-16 17:26:15.436 [pool-2-thread-12] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 22d7be87 请求 178BFBFF0 认证
+2021-09-16 17:26:21.538 [pool-2-thread-99] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 fbdc547c 登录]
+2021-09-16 17:26:22.521 [pool-2-thread-119] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - fbdc547c 请求 178BFBFF0 认证
+2021-09-16 17:26:22.521 [pool-2-thread-121] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 22d7be87 请求 178BFBFF0 认证
+2021-09-16 17:26:41.621 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:26:41.621 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(fbdc547c)离开]
+2021-09-16 17:26:41.621 [nioEventLoopGroup-3-10] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:26:57.318 [pool-2-thread-134] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 99be5e69 登录]
+2021-09-16 17:27:03.398 [pool-2-thread-30] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 22d7be87 请求 178BFBFF0 认证
+2021-09-16 17:27:03.398 [pool-2-thread-31] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 99be5e69 请求 178BFBFF0 认证
+2021-09-16 17:27:20.108 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:27:20.108 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(22d7be87)离开]
+2021-09-16 17:27:20.108 [nioEventLoopGroup-3-9] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:27:26.423 [pool-2-thread-76] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [add][主控连接 f96f253a 登录]
+2021-09-16 17:27:29.456 [pool-2-thread-82] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - f96f253a 请求 178BFBFF0 认证
+2021-09-16 17:27:29.456 [pool-2-thread-81] INFO  c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 99be5e69 请求 178BFBFF0 认证
+2021-09-16 17:28:03.725 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:28:03.725 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(f96f253a)离开]
+2021-09-16 17:28:03.725 [nioEventLoopGroup-3-12] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[1]
+2021-09-16 17:28:21.175 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:28:21.175 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(178BFBFF0)离开]
+2021-09-16 17:28:21.175 [nioEventLoopGroup-3-8] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
+2021-09-16 17:28:21.394 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - ====================remove======================
+2021-09-16 17:28:21.394 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [remove][一个连接(99be5e69)离开]
+2021-09-16 17:28:21.394 [nioEventLoopGroup-3-11] INFO  c.j.remote.qty.server.handler.NettyChannelManager - [被控设备] 在线人数 ：[0]
