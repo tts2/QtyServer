@@ -39,6 +39,10 @@ public class NettyChannelManager {
             logger.info("[add][被控连接 {} 登录]", deviceID);
             logger.info("[被控设备] 在线人数 ：[{}]", countPeople);
         }
+        BigPack.Exchange.Builder exB = BigPack.Exchange.newBuilder();
+        exB.setDataType(BigPack.Exchange.DataType.TypeReplyRegisterDetails);
+        exB.setReplyInfo(BigPack.ScReplyInfo.newBuilder().setSuccess(true).setRegisterId(deviceID));
+        host.getChannel().writeAndFlush(exB.build());
 
     }
 
@@ -165,17 +169,28 @@ public class NettyChannelManager {
         KeskHost host = deviceId_Host_Map.get(sourceId);
         host.setCurrentScreenDeviceId(targetId);
     }
+
     //注册主机信息
-    public void dealHostInfo(BigPack.WMHostInfo wmhostInfo,String resourceId,Channel channel) {
+    public void dealHostInfo(BigPack.CsHostInfo csHostInfo,  Channel channel) {
+        String deviceId ="";
         //加入设备
-        if (1 == wmhostInfo.getActiveOrpassive() || 0 == wmhostInfo.getActiveOrpassive()) {
-            KeskHost host = new KeskHost();
-            host.setDeviceID(resourceId).
-                    setMac(wmhostInfo.getMac()).
-                    setPcName(wmhostInfo.getPcName()).
-                    setActiveOrPassive(wmhostInfo.getActiveOrpassive()).
-                    setChannel(channel);
-            addUser(resourceId, host);
+        KeskHost host = new KeskHost();
+        if (0 == csHostInfo.getActiveOrpassive()) {
+            //被控用CPUID作为设备ID
+            host.setDeviceID(csHostInfo.getCpuId());
+            deviceId = csHostInfo.getCpuId();
+        } else if (1 == csHostInfo.getActiveOrpassive()) {
+            //主控用netty自带channel短ID
+            host.setDeviceID(channel.id().asShortText());
+            deviceId = channel.id().asShortText();
+        } else {
+            return;
         }
+        host.setMac(csHostInfo.getMac()).
+                setCpuID(csHostInfo.getCpuId()).
+                setActiveOrPassive(csHostInfo.getActiveOrpassive()).
+                setChannel(channel);
+        addUser(deviceId, host);
     }
+
 }

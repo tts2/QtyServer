@@ -15,9 +15,9 @@ public class KeskHost {
     //channel传输
     private Channel channel;
     //pc名字
-    private String pcName;
+    private String cpuID;
     //mac地址
-    private String mac;
+    private String macAddress;
     //被动主动
     private int activeOrPassive;
     
@@ -64,13 +64,13 @@ public class KeskHost {
         return this;
     }
 
-    public KeskHost setPcName(String pcName) {
-        this.pcName = pcName;
+    public KeskHost setCpuID(String cpuID) {
+        this.cpuID = cpuID;
         return this;
     }
 
     public KeskHost setMac(String mac) {
-        this.mac = this.mac;
+        this.macAddress = mac;
         return this;
     }
 

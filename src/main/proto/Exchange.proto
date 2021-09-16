@@ -12,36 +12,38 @@ message Exchange {
     //定义一个枚举类型
     //在proto3 要求enum的编号从0开始
     enum DataType {
-        //主机信息
-        TypeHost = 0;
         //心跳
-        TypeHeartbeat = 1 ;
+        TypeHeartbeat = 0 ;
+        //注册主机信息
+        TypeRegisterHost = 1;
+        //回复注册情况
+        TypeReplyRegisterDetails = 2 ;
 		//查询主机
-		TypeQueryHost = 2 ;
+		TypeQueryHost = 3 ;
 		//主机发现回复
-		TypeResponseHost = 3;
+		TypeResponseHost = 4;
 		//请求认证
-        TypeRequestAuth = 4 ;
+        TypeRequestAuth = 5 ;
 		//回复认证
-		TypeResponseAuth = 5 ;
+		TypeResponseAuth = 6 ;
 		//请求桌面
-		TypeRequestDesk = 6 ;
-		//桌面参数
-		TypeImageParameters = 7 ;
+		TypeRequestDesk = 7 ;
+		//图片参数
+		TypeImageParameters = 8 ;
 		//截屏图片数据
-		TypeImage = 8 ;
+		TypeImage = 9 ;
 		//接收的瓷块
-		TypeImageReceived = 9 ;
+		TypeImageReceived = 10 ;
 		//鼠标移动
-		TypeMouseMove = 10 ;
+		TypeMouseMove = 11 ;
 		//鼠标按键
-		TypeMouseKeys = 11 ;
+		TypeMouseKeys = 12 ;
 		//离开通知
-		TypeRequestLeaveLook = 12 ;
+		TypeRequestLeaveLook = 13 ;
 		//鼠标滑轮
-		TypeWheelEvent = 13 ;
+		TypeWheelEvent = 14 ;
 		//键盘
-		TypeKeyBoard = 14 ;
+		TypeKeyBoard = 15 ;
     }
 
     //用data_type 来标识传的是哪一个枚举类型
@@ -52,40 +54,46 @@ message Exchange {
 
     //表示每次枚举类型最多只能出现其中的一个, 节省空间
     oneof dataBody {
-        WMHostInfo HostInfo = 5;
-		
-        CsQueryHost questHost = 6 ;
-        ScResponseHost responseHost = 7 ;
-		
-        CsRequestAuth requestAuth = 8 ;
-		ScResponseAuth responseAuth = 9 ;
-		
-		CsDeskRequest  requestDesk = 10 ;
-		ScImageParameters imageParameters = 11 ;
-		ScImageInfo image = 12 ;
-		CsImageReceived imageReceived = 13 ;
-		
-		CsMouseMove mouseMove = 14 ;
-		CsMouseKeys mouseKeys = 15 ;
-		CsWheelEvent wheelEvent = 16 ;
 
-		CsKeyboard keyboard = 17 ;
+        CsHostInfo HostInfo = 5;
+		ScReplyInfo replyInfo = 6 ;
+
+        CsQueryHost questHost = 7 ;
+        ScResponseHost responseHost = 8 ;
+		
+        CsRequestAuth requestAuth = 9 ;
+		ScResponseAuth responseAuth = 10 ;
+		
+		CsDeskRequest  requestDesk = 11 ;
+		ScImageParameters imageParameters = 12 ;
+		ScImageInfo image = 13 ;
+		CsImageReceived imageReceived = 14 ;
+		
+		CsMouseMove mouseMove = 15 ;
+		CsMouseKeys mouseKeys = 16 ;
+		CsWheelEvent wheelEvent = 17 ;
+
+		CsKeyboard keyboard = 18 ;
     }
 
 }
 
+message WMHeartbeat{
 
-message WMHostInfo {
+}
+message CsHostInfo {
     //电脑名称
-    string pcName = 1; 
+    string cpuId = 1;
     //mac地址
     string mac = 2;
 	//主控或者被控 1为主 2为被
 	int32 activeOrpassive = 3 ; 
 }
-message WMHeartbeat{
-
+message ScReplyInfo{
+    bool success = 1 ;
+    string registerId = 2 ;
 }
+
 message CsQueryHost{
 }
 

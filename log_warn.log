@@ -1,352 +1,11 @@
-2021-09-14 15:10:08.866 [nioEventLoopGroup-3-1] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:90)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:10:10.351 [nioEventLoopGroup-3-2] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:90)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:10:23.918 [nioEventLoopGroup-3-3] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:90)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:10:25.388 [nioEventLoopGroup-3-4] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:90)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:10:38.939 [nioEventLoopGroup-3-5] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:90)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:10:40.408 [nioEventLoopGroup-3-6] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:90)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:10:53.974 [nioEventLoopGroup-3-7] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:90)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:10:55.428 [nioEventLoopGroup-3-8] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:90)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:13:07.087 [nioEventLoopGroup-3-1] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at java.util.concurrent.ConcurrentHashMap.containsKey(ConcurrentHashMap.java:964)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:92)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:13:07.087 [nioEventLoopGroup-3-2] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at java.util.concurrent.ConcurrentHashMap.containsKey(ConcurrentHashMap.java:964)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:92)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:13:22.132 [nioEventLoopGroup-3-3] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at java.util.concurrent.ConcurrentHashMap.containsKey(ConcurrentHashMap.java:964)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:92)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:13:22.132 [nioEventLoopGroup-3-4] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
-	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
-	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
-	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
-	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException: null
-	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at java.util.concurrent.ConcurrentHashMap.containsKey(ConcurrentHashMap.java:964)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:92)
-	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
-	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
-	... 17 common frames omitted
-2021-09-14 15:30:43.363 [nioEventLoopGroup-3-2] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61034--超时时间--读写空闲
-2021-09-14 15:30:43.363 [nioEventLoopGroup-3-1] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61033--超时时间--读写空闲
-2021-09-14 15:31:18.388 [nioEventLoopGroup-3-3] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61037--超时时间--读写空闲
-2021-09-14 15:31:18.388 [nioEventLoopGroup-3-4] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61038--超时时间--读写空闲
-2021-09-14 15:33:08.201 [nioEventLoopGroup-3-2] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61127--超时时间--读写空闲
-2021-09-14 15:33:08.201 [nioEventLoopGroup-3-1] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61128--超时时间--读写空闲
-2021-09-14 15:34:40.760 [nioEventLoopGroup-3-6] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61136--超时时间--读写空闲
-2021-09-14 15:34:40.760 [nioEventLoopGroup-3-5] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61135--超时时间--读写空闲
-2021-09-14 15:46:52.605 [nioEventLoopGroup-3-2] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:60479--超时时间--读写空闲
-2021-09-14 15:54:23.622 [nioEventLoopGroup-3-3] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:54517--超时时间--读写空闲
-2021-09-14 15:58:34.294 [nioEventLoopGroup-3-8] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:63979--超时时间--读写空闲
-2021-09-14 15:58:44.300 [nioEventLoopGroup-3-7] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:63978--超时时间--读写空闲
-2021-09-14 16:01:57.821 [nioEventLoopGroup-3-9] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:63656--超时时间--读写空闲
-2021-09-14 16:02:07.833 [nioEventLoopGroup-3-10] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:63657--超时时间--读写空闲
-2021-09-14 16:06:06.802 [nioEventLoopGroup-3-12] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:62313--超时时间--读写空闲
-2021-09-14 16:06:21.838 [nioEventLoopGroup-3-13] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:62314--超时时间--读写空闲
-2021-09-14 16:06:36.862 [nioEventLoopGroup-3-14] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:62316--超时时间--读写空闲
-2021-09-14 16:07:38.001 [nioEventLoopGroup-3-1] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:62324--超时时间--读写空闲
-2021-09-14 16:07:53.026 [nioEventLoopGroup-3-2] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:62325--超时时间--读写空闲
-2021-09-14 16:08:08.060 [nioEventLoopGroup-3-3] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:62327--超时时间--读写空闲
-2021-09-14 17:15:51.262 [nioEventLoopGroup-3-1] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+2021-09-16 11:15:11.136 [nioEventLoopGroup-3-10] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:54978--超时时间--读写空闲
+2021-09-16 11:22:29.370 [nioEventLoopGroup-3-12] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:58781--超时时间--读写空闲
+2021-09-16 11:22:29.370 [nioEventLoopGroup-3-13] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:58783--超时时间--读写空闲
+2021-09-16 11:23:14.139 [nioEventLoopGroup-3-16] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:55113--超时时间--读写空闲
+2021-09-16 11:24:43.813 [nioEventLoopGroup-3-1] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:60992--超时时间--读写空闲
+2021-09-16 11:24:45.418 [nioEventLoopGroup-3-2] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:60994--超时时间--读写空闲
+2021-09-16 11:29:31.384 [nioEventLoopGroup-3-6] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61018--超时时间--读写空闲
+2021-09-16 11:31:17.779 [nioEventLoopGroup-3-3] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
 io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
 	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
 	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
@@ -368,7 +27,94 @@ io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.NullPointerException: null
 	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:91)
+	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:95)
+	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
+	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
+	... 17 common frames omitted
+2021-09-16 11:31:17.779 [nioEventLoopGroup-3-2] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
+	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
+	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
+	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
+	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
+	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
+	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:95)
+	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
+	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
+	... 17 common frames omitted
+2021-09-16 11:31:45.732 [nioEventLoopGroup-3-5] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61143--超时时间--读写空闲
+2021-09-16 11:33:09.684 [nioEventLoopGroup-3-9] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61151--超时时间--读写空闲
+2021-09-16 11:35:14.923 [nioEventLoopGroup-3-2] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61243--超时时间--读写空闲
+2021-09-16 11:37:44.245 [nioEventLoopGroup-3-4] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61255--超时时间--读写空闲
+2021-09-16 11:45:49.785 [nioEventLoopGroup-3-7] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61367--超时时间--读写空闲
+2021-09-16 11:47:49.837 [nioEventLoopGroup-3-10] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:61385--超时时间--读写空闲
+2021-09-16 12:04:53.911 [nioEventLoopGroup-3-12] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
+	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
+	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
+	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
+	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
+	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
+	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:95)
+	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
+	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)
+	... 17 common frames omitted
+2021-09-16 12:05:36.292 [nioEventLoopGroup-3-13] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.channel.ChannelPipelineException: com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved() has thrown an exception.
+	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:640)
+	at io.netty.channel.DefaultChannelPipeline.destroyDown(DefaultChannelPipeline.java:876)
+	at io.netty.channel.DefaultChannelPipeline.destroyUp(DefaultChannelPipeline.java:844)
+	at io.netty.channel.DefaultChannelPipeline.destroy(DefaultChannelPipeline.java:836)
+	at io.netty.channel.DefaultChannelPipeline.access$700(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelUnregistered(DefaultChannelPipeline.java:1392)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:198)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:184)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:821)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:839)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:497)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
+	at com.javacgo.remote.qty.server.handler.NettyChannelManager.remove(NettyChannelManager.java:95)
 	at com.javacgo.remote.qty.server.handler.NettyServerHandler.handlerRemoved(NettyServerHandler.java:44)
 	at io.netty.channel.AbstractChannelHandlerContext.callHandlerRemoved(AbstractChannelHandlerContext.java:946)
 	at io.netty.channel.DefaultChannelPipeline.callHandlerRemoved0(DefaultChannelPipeline.java:637)

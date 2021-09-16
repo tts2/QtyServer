@@ -1,5 +1,4 @@
-2021-09-14 15:10:00.332 [pool-2-thread-3] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:46.576 [nioEventLoopGroup-3-6] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(cdefca2b) 发生异常]
+2021-09-16 11:11:14.765 [nioEventLoopGroup-3-1] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(cfa4c5e1) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -18,7 +17,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:31:46.576 [nioEventLoopGroup-3-5] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(744727b9) 发生异常]
+2021-09-16 11:12:02.502 [nioEventLoopGroup-3-3] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(a748d3b0) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -37,22 +36,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:31:52.175 [pool-2-thread-9] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.191 [pool-2-thread-10] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.191 [pool-2-thread-11] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.206 [pool-2-thread-12] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.206 [pool-2-thread-13] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.222 [pool-2-thread-14] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.222 [pool-2-thread-15] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.237 [pool-2-thread-16] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.237 [pool-2-thread-17] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.253 [pool-2-thread-18] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.253 [pool-2-thread-19] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.269 [pool-2-thread-20] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.269 [pool-2-thread-21] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.284 [pool-2-thread-22] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:52.284 [pool-2-thread-23] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:31:55.363 [nioEventLoopGroup-3-8] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(33b1d741) 发生异常]
+2021-09-16 11:12:15.837 [nioEventLoopGroup-3-5] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(77cbea5e) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -71,7 +55,23 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:31:55.363 [nioEventLoopGroup-3-7] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(13ac9e94) 发生异常]
+2021-09-16 11:12:21.718 [pool-2-thread-70] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [查询主机]不存在]1
+2021-09-16 11:12:24.853 [pool-2-thread-71] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.853 [pool-2-thread-72] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.869 [pool-2-thread-73] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.869 [pool-2-thread-74] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.885 [pool-2-thread-75] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.885 [pool-2-thread-76] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.900 [pool-2-thread-77] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.900 [pool-2-thread-78] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.916 [pool-2-thread-79] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.916 [pool-2-thread-80] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.931 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.931 [pool-2-thread-82] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.947 [pool-2-thread-83] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.947 [pool-2-thread-84] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:24.963 [pool-2-thread-85] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:12:35.835 [nioEventLoopGroup-3-8] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(17326c5d) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -90,7 +90,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:32:06.560 [nioEventLoopGroup-3-10] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(d645f0f1) 发生异常]
+2021-09-16 11:18:28.758 [nioEventLoopGroup-3-3] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(34350378) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -109,7 +109,343 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:32:06.560 [nioEventLoopGroup-3-9] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(3b0732bf) 发生异常]
+2021-09-16 11:18:35.051 [pool-2-thread-8] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [查询主机]不存在]1
+2021-09-16 11:18:39.097 [pool-2-thread-9] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.101 [pool-2-thread-10] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.110 [pool-2-thread-11] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.117 [pool-2-thread-12] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.125 [pool-2-thread-13] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.133 [pool-2-thread-14] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.141 [pool-2-thread-15] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.149 [pool-2-thread-16] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.157 [pool-2-thread-17] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.165 [pool-2-thread-18] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.173 [pool-2-thread-19] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.181 [pool-2-thread-20] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.190 [pool-2-thread-21] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.197 [pool-2-thread-22] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.205 [pool-2-thread-23] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.213 [pool-2-thread-24] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.221 [pool-2-thread-25] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.229 [pool-2-thread-26] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.245 [pool-2-thread-27] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.253 [pool-2-thread-28] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.269 [pool-2-thread-29] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.285 [pool-2-thread-30] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.293 [pool-2-thread-31] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.301 [pool-2-thread-32] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:39.309 [pool-2-thread-33] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:40.186 [pool-2-thread-35] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [查询主机]不存在]1
+2021-09-16 11:18:42.245 [pool-2-thread-37] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.253 [pool-2-thread-38] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.261 [pool-2-thread-39] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.269 [pool-2-thread-40] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.277 [pool-2-thread-41] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.285 [pool-2-thread-42] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.293 [pool-2-thread-43] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.301 [pool-2-thread-44] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.314 [pool-2-thread-45] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.317 [pool-2-thread-46] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.333 [pool-2-thread-47] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.341 [pool-2-thread-48] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.349 [pool-2-thread-49] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.363 [pool-2-thread-50] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.369 [pool-2-thread-51] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.373 [pool-2-thread-52] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.381 [pool-2-thread-53] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.389 [pool-2-thread-54] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.405 [pool-2-thread-55] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.421 [pool-2-thread-56] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.429 [pool-2-thread-57] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.437 [pool-2-thread-58] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.445 [pool-2-thread-59] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:42.453 [pool-2-thread-60] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:43.539 [pool-2-thread-62] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [查询主机]不存在]1
+2021-09-16 11:18:45.054 [pool-2-thread-63] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.061 [pool-2-thread-64] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.069 [pool-2-thread-65] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.077 [pool-2-thread-66] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.085 [pool-2-thread-67] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.093 [pool-2-thread-68] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.101 [pool-2-thread-69] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.109 [pool-2-thread-70] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.117 [pool-2-thread-71] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.125 [pool-2-thread-72] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.133 [pool-2-thread-73] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.142 [pool-2-thread-74] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.157 [pool-2-thread-75] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.173 [pool-2-thread-76] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.198 [pool-2-thread-77] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.205 [pool-2-thread-78] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.213 [pool-2-thread-79] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.221 [pool-2-thread-80] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.229 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.238 [pool-2-thread-82] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.245 [pool-2-thread-83] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.253 [pool-2-thread-84] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.261 [pool-2-thread-85] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.270 [pool-2-thread-86] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.277 [pool-2-thread-87] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:45.286 [pool-2-thread-88] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:46.331 [pool-2-thread-90] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [查询主机]不存在]1
+2021-09-16 11:18:47.722 [pool-2-thread-91] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.722 [pool-2-thread-92] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.738 [pool-2-thread-93] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.738 [pool-2-thread-94] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.754 [pool-2-thread-95] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.754 [pool-2-thread-96] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.769 [pool-2-thread-97] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.769 [pool-2-thread-98] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.785 [pool-2-thread-99] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.785 [pool-2-thread-100] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.801 [pool-2-thread-101] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.801 [pool-2-thread-102] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.816 [pool-2-thread-103] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.816 [pool-2-thread-104] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.832 [pool-2-thread-105] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.832 [pool-2-thread-106] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.847 [pool-2-thread-107] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.847 [pool-2-thread-108] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.863 [pool-2-thread-109] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.863 [pool-2-thread-110] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.879 [pool-2-thread-111] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.879 [pool-2-thread-112] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.894 [pool-2-thread-113] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.894 [pool-2-thread-114] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.910 [pool-2-thread-115] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.910 [pool-2-thread-116] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.926 [pool-2-thread-117] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.941 [pool-2-thread-118] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.941 [pool-2-thread-119] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.957 [pool-2-thread-120] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.957 [pool-2-thread-121] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:47.972 [pool-2-thread-122] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:48.004 [pool-2-thread-123] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.183 [pool-2-thread-127] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.199 [pool-2-thread-128] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.199 [pool-2-thread-129] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.215 [pool-2-thread-130] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.215 [pool-2-thread-131] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.230 [pool-2-thread-132] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.230 [pool-2-thread-133] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.246 [pool-2-thread-134] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.246 [pool-2-thread-135] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.262 [pool-2-thread-136] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.277 [pool-2-thread-137] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.277 [pool-2-thread-138] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.293 [pool-2-thread-139] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.293 [pool-2-thread-140] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.308 [pool-2-thread-141] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.308 [pool-2-thread-142] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.324 [pool-2-thread-143] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.324 [pool-2-thread-144] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.340 [pool-2-thread-145] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.340 [pool-2-thread-146] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.355 [pool-2-thread-147] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.355 [pool-2-thread-148] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.371 [pool-2-thread-149] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.371 [pool-2-thread-150] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.387 [pool-2-thread-151] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.387 [pool-2-thread-152] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.402 [pool-2-thread-153] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.402 [pool-2-thread-154] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.418 [pool-2-thread-155] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.418 [pool-2-thread-156] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.433 [pool-2-thread-157] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.433 [pool-2-thread-158] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.449 [pool-2-thread-159] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.449 [pool-2-thread-160] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.465 [pool-2-thread-161] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.465 [pool-2-thread-162] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.480 [pool-2-thread-163] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.480 [pool-2-thread-164] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.496 [pool-2-thread-165] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.496 [pool-2-thread-166] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.512 [pool-2-thread-167] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.512 [pool-2-thread-168] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.527 [pool-2-thread-169] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.527 [pool-2-thread-170] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.543 [pool-2-thread-171] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.543 [pool-2-thread-172] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.558 [pool-2-thread-173] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.574 [pool-2-thread-174] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.574 [pool-2-thread-175] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.590 [pool-2-thread-176] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.605 [pool-2-thread-177] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.605 [pool-2-thread-178] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.621 [pool-2-thread-179] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.621 [pool-2-thread-180] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.637 [pool-2-thread-181] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.652 [pool-2-thread-182] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.652 [pool-2-thread-183] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.668 [pool-2-thread-184] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.668 [pool-2-thread-185] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.684 [pool-2-thread-186] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.684 [pool-2-thread-187] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.699 [pool-2-thread-188] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.699 [pool-2-thread-189] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.715 [pool-2-thread-190] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.715 [pool-2-thread-191] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.730 [pool-2-thread-192] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.746 [pool-2-thread-193] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.762 [pool-2-thread-194] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.777 [pool-2-thread-195] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.777 [pool-2-thread-196] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.793 [pool-2-thread-197] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.793 [pool-2-thread-198] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.809 [pool-2-thread-199] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:18:59.824 [pool-2-thread-200] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.885 [pool-2-thread-5] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.893 [pool-2-thread-4] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.901 [pool-2-thread-6] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.909 [pool-2-thread-7] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.917 [pool-2-thread-8] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.925 [pool-2-thread-9] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.933 [pool-2-thread-10] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.941 [pool-2-thread-11] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.948 [pool-2-thread-12] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.957 [pool-2-thread-13] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.965 [pool-2-thread-14] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.973 [pool-2-thread-15] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.981 [pool-2-thread-16] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.989 [pool-2-thread-17] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:02.997 [pool-2-thread-18] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.005 [pool-2-thread-19] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.013 [pool-2-thread-20] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.020 [pool-2-thread-21] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.029 [pool-2-thread-22] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.037 [pool-2-thread-23] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.045 [pool-2-thread-24] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.053 [pool-2-thread-25] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.061 [pool-2-thread-26] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.068 [pool-2-thread-27] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.077 [pool-2-thread-28] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.085 [pool-2-thread-29] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.093 [pool-2-thread-30] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.101 [pool-2-thread-31] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.109 [pool-2-thread-32] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.117 [pool-2-thread-33] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:19:03.125 [pool-2-thread-35] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:56.290 [pool-2-thread-63] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:56.290 [pool-2-thread-59] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:57.649 [pool-2-thread-67] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:57.649 [pool-2-thread-65] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:56.290 [pool-2-thread-61] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:57.649 [pool-2-thread-59] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:57.649 [pool-2-thread-64] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:56.290 [pool-2-thread-62] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-64] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-62] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:57.649 [pool-2-thread-66] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:57.649 [pool-2-thread-68] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-59] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-68] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:57.649 [pool-2-thread-67] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-70] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-68] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-67] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:57.649 [pool-2-thread-63] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-69] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-62] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-71] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-70] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-72] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-67] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-85] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-80] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-82] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-64] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-88] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-90] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-90] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-82] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-64] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-90] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-78] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-79] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-93] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-75] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-79] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-72] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-75] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-77] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-61] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-94] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-93] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-94] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-77] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-93] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-62] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-94] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-93] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-77] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-61] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-94] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-78] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-71] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-71] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-65] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-75] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-73] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-74] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-63] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-59] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-79] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-76] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-62] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-77] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-70] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-93] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-95] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-89] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-58] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-90] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-82] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-87] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-69] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-85] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:58.228 [pool-2-thread-68] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-96] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-60] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [nioEventLoopGroup-3-15] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(f498dd08) 发生异常]
+java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-16 11:22:59.134 [pool-2-thread-94] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-78] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-97] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-61] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-92] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-91] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-64] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-80] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-86] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-84] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-83] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:22:59.134 [pool-2-thread-66] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:24:03.912 [nioEventLoopGroup-3-14] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(7d39daab) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -128,20 +464,97 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:32:19.630 [pool-2-thread-28] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.630 [pool-2-thread-29] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.646 [pool-2-thread-30] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.646 [pool-2-thread-31] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.708 [pool-2-thread-32] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.724 [pool-2-thread-33] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.724 [pool-2-thread-34] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.739 [pool-2-thread-35] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.739 [pool-2-thread-36] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.755 [pool-2-thread-37] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.771 [pool-2-thread-38] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.771 [pool-2-thread-39] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:19.786 [pool-2-thread-40] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:32:22.682 [nioEventLoopGroup-3-12] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(8ff39367) 发生异常]
+2021-09-16 11:31:17.779 [pool-2-thread-6] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-8] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-14] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-15] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-10] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-13] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-18] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-19] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-11] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-20] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-26] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-23] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-17] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-16] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-27] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-12] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-21] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-25] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-24] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-22] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-34] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-32] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-28] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-31] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-38] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-35] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-39] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-40] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-30] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-33] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-36] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-37] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-29] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:17.779 [pool-2-thread-41] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:29.576 [pool-2-thread-44] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [查询主机]不存在]GrmtjEHei1
+2021-09-16 11:31:30.660 [pool-2-thread-45] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:30.667 [pool-2-thread-46] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:30.676 [pool-2-thread-47] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:30.683 [pool-2-thread-48] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:30.691 [pool-2-thread-49] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:30.705 [pool-2-thread-50] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:30.711 [pool-2-thread-51] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:30.715 [pool-2-thread-52] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:30.724 [pool-2-thread-53] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:31:30.731 [pool-2-thread-54] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:00.612 [pool-2-thread-60] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:00.620 [pool-2-thread-61] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:00.627 [pool-2-thread-62] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:00.635 [pool-2-thread-63] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:00.644 [pool-2-thread-64] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:00.651 [pool-2-thread-65] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:00.659 [pool-2-thread-66] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:03.477 [pool-2-thread-68] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:03.509 [pool-2-thread-69] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:03.509 [pool-2-thread-70] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:03.540 [pool-2-thread-71] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:03.540 [pool-2-thread-72] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:03.587 [pool-2-thread-73] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:03.602 [pool-2-thread-74] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:03.634 [pool-2-thread-75] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:03.681 [pool-2-thread-76] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:03.712 [pool-2-thread-77] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:03.727 [pool-2-thread-78] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.572 [pool-2-thread-79] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.587 [pool-2-thread-80] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.587 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.603 [pool-2-thread-82] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.603 [pool-2-thread-83] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.619 [pool-2-thread-84] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.619 [pool-2-thread-85] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.634 [pool-2-thread-86] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.634 [pool-2-thread-87] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.650 [pool-2-thread-88] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.650 [pool-2-thread-89] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.665 [pool-2-thread-90] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.665 [pool-2-thread-91] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.681 [pool-2-thread-92] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.681 [pool-2-thread-93] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.697 [pool-2-thread-94] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.697 [pool-2-thread-95] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.712 [pool-2-thread-96] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.712 [pool-2-thread-97] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.728 [pool-2-thread-98] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.728 [pool-2-thread-99] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.744 [pool-2-thread-100] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.744 [pool-2-thread-101] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.759 [pool-2-thread-102] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.759 [pool-2-thread-103] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.775 [pool-2-thread-104] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:05.775 [pool-2-thread-105] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:32:48.118 [nioEventLoopGroup-3-6] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(67fb528e) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -160,7 +573,79 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:32:22.682 [nioEventLoopGroup-3-11] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(5bff37b0) 发生异常]
+2021-09-16 11:39:23.509 [pool-2-thread-4] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.514 [pool-2-thread-5] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.522 [pool-2-thread-6] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.530 [pool-2-thread-7] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.538 [pool-2-thread-8] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.547 [pool-2-thread-9] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.554 [pool-2-thread-10] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.562 [pool-2-thread-11] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.570 [pool-2-thread-12] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.578 [pool-2-thread-13] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.586 [pool-2-thread-14] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.602 [pool-2-thread-15] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.618 [pool-2-thread-16] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.634 [pool-2-thread-17] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.642 [pool-2-thread-18] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.650 [pool-2-thread-19] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.658 [pool-2-thread-20] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:23.665 [pool-2-thread-21] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.643 [pool-2-thread-24] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.650 [pool-2-thread-25] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.658 [pool-2-thread-26] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.666 [pool-2-thread-27] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.674 [pool-2-thread-28] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.682 [pool-2-thread-29] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.690 [pool-2-thread-30] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.699 [pool-2-thread-31] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.706 [pool-2-thread-32] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.714 [pool-2-thread-33] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.722 [pool-2-thread-34] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.730 [pool-2-thread-35] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.738 [pool-2-thread-36] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.746 [pool-2-thread-37] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.754 [pool-2-thread-38] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.762 [pool-2-thread-39] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.770 [pool-2-thread-40] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.778 [pool-2-thread-41] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.786 [pool-2-thread-42] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.794 [pool-2-thread-43] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.802 [pool-2-thread-44] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.810 [pool-2-thread-45] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.818 [pool-2-thread-46] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.826 [pool-2-thread-47] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.834 [pool-2-thread-48] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.842 [pool-2-thread-49] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.850 [pool-2-thread-50] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.858 [pool-2-thread-51] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.866 [pool-2-thread-52] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.874 [pool-2-thread-53] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.894 [pool-2-thread-55] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.894 [pool-2-thread-54] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.898 [pool-2-thread-56] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.906 [pool-2-thread-57] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.914 [pool-2-thread-58] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.922 [pool-2-thread-59] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.946 [pool-2-thread-60] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.954 [pool-2-thread-61] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.962 [pool-2-thread-62] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.970 [pool-2-thread-63] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.978 [pool-2-thread-64] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.986 [pool-2-thread-65] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:30.994 [pool-2-thread-66] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:31.002 [pool-2-thread-67] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:31.018 [pool-2-thread-68] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:39:31.026 [pool-2-thread-69] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:40:26.987 [pool-2-thread-75] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:40:26.987 [pool-2-thread-76] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:40:26.987 [pool-2-thread-77] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:40:29.175 [pool-2-thread-78] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:40:29.175 [pool-2-thread-79] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:40:31.097 [pool-2-thread-74] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:40:33.114 [pool-2-thread-80] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:40:42.585 [pool-2-thread-81] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:41:55.189 [nioEventLoopGroup-3-1] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(bbc4d81f) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -179,7 +664,51 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:33:29.666 [nioEventLoopGroup-3-4] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(b80d917b) 发生异常]
+2021-09-16 11:43:49.307 [pool-2-thread-87] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.307 [pool-2-thread-88] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.323 [pool-2-thread-89] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.323 [pool-2-thread-90] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.338 [pool-2-thread-91] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.464 [pool-2-thread-92] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.479 [pool-2-thread-93] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.479 [pool-2-thread-94] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.495 [pool-2-thread-95] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.495 [pool-2-thread-96] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.510 [pool-2-thread-97] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.510 [pool-2-thread-98] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.526 [pool-2-thread-99] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.542 [pool-2-thread-100] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.542 [pool-2-thread-101] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.542 [pool-2-thread-102] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.557 [pool-2-thread-103] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.557 [pool-2-thread-104] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.573 [pool-2-thread-105] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.589 [pool-2-thread-106] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.604 [pool-2-thread-107] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.620 [pool-2-thread-108] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.635 [pool-2-thread-109] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.635 [pool-2-thread-110] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.651 [pool-2-thread-111] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.651 [pool-2-thread-112] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.667 [pool-2-thread-113] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.667 [pool-2-thread-114] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.682 [pool-2-thread-115] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.682 [pool-2-thread-116] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.698 [pool-2-thread-117] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.698 [pool-2-thread-118] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.714 [pool-2-thread-119] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:49.729 [pool-2-thread-120] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:54.289 [pool-2-thread-123] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:54.298 [pool-2-thread-124] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:54.305 [pool-2-thread-125] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:54.313 [pool-2-thread-126] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:54.321 [pool-2-thread-127] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:54.329 [pool-2-thread-128] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:54.337 [pool-2-thread-129] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:54.345 [pool-2-thread-130] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 11:43:54.353 [pool-2-thread-131] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
+2021-09-16 12:03:59.506 [pool-2-thread-134] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 12:04:53.911 [nioEventLoopGroup-3-12] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(de8d6427) 发生异常]
 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
@@ -198,260 +727,5 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:33:29.666 [nioEventLoopGroup-3-3] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(c1ba2e9a) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:34:58.545 [nioEventLoopGroup-3-7] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(398070a7) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:34:58.545 [nioEventLoopGroup-3-8] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(e6bc3576) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:35:14.823 [pool-2-thread-11] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:14.932 [pool-2-thread-12] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:15.041 [pool-2-thread-13] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:15.151 [pool-2-thread-14] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:15.260 [pool-2-thread-15] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:15.370 [pool-2-thread-16] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:15.479 [pool-2-thread-17] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:15.589 [pool-2-thread-18] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:15.698 [pool-2-thread-19] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:15.808 [pool-2-thread-20] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:15.917 [pool-2-thread-21] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:16.026 [pool-2-thread-22] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:16.136 [pool-2-thread-23] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:16.245 [pool-2-thread-24] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:16.355 [pool-2-thread-25] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:16.464 [pool-2-thread-26] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:16.573 [pool-2-thread-27] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:16.683 [pool-2-thread-28] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:16.808 [pool-2-thread-29] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:16.904 [pool-2-thread-30] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:17.009 [pool-2-thread-31] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:17.121 [pool-2-thread-32] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:17.230 [pool-2-thread-33] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:17.340 [pool-2-thread-34] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:17.449 [pool-2-thread-35] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:17.558 [pool-2-thread-36] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:17.683 [pool-2-thread-37] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:17.777 [pool-2-thread-38] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:17.887 [pool-2-thread-39] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:17.996 [pool-2-thread-40] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:18.105 [pool-2-thread-41] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:18.215 [pool-2-thread-42] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:18.324 [pool-2-thread-43] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:18.434 [pool-2-thread-44] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:18.543 [pool-2-thread-45] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:18.653 [pool-2-thread-46] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:18.762 [pool-2-thread-47] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:18.871 [pool-2-thread-48] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:18.981 [pool-2-thread-49] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:19.090 [pool-2-thread-50] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:19.200 [pool-2-thread-51] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:19.309 [pool-2-thread-52] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:19.418 [pool-2-thread-53] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:19.528 [pool-2-thread-54] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:19.637 [pool-2-thread-55] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:19.747 [pool-2-thread-56] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:19.856 [pool-2-thread-57] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:19.965 [pool-2-thread-58] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:20.075 [pool-2-thread-59] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:20.184 [pool-2-thread-60] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:20.294 [pool-2-thread-61] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:20.403 [pool-2-thread-62] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:20.512 [pool-2-thread-63] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:20.622 [pool-2-thread-64] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:20.731 [pool-2-thread-65] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:20.841 [pool-2-thread-66] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:20.950 [pool-2-thread-67] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:21.060 [pool-2-thread-68] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:21.169 [pool-2-thread-69] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:21.278 [pool-2-thread-70] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:21.388 [pool-2-thread-71] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:21.497 [pool-2-thread-72] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:21.607 [pool-2-thread-73] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:21.716 [pool-2-thread-74] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:21.825 [pool-2-thread-75] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:21.935 [pool-2-thread-76] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:22.044 [pool-2-thread-77] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:22.156 [pool-2-thread-78] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:22.266 [pool-2-thread-79] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:22.375 [pool-2-thread-80] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:22.485 [pool-2-thread-81] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:22.594 [pool-2-thread-82] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:22.703 [pool-2-thread-83] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:22.812 [pool-2-thread-84] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:22.919 [pool-2-thread-85] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:23.033 [pool-2-thread-86] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:23.135 [pool-2-thread-87] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:23.243 [pool-2-thread-88] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:23.361 [pool-2-thread-89] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:23.467 [pool-2-thread-90] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:23.576 [pool-2-thread-91] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:23.686 [pool-2-thread-92] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:23.795 [pool-2-thread-93] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:23.904 [pool-2-thread-94] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:24.014 [pool-2-thread-95] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:24.123 [pool-2-thread-96] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:24.233 [pool-2-thread-97] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:24.342 [pool-2-thread-98] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:24.451 [pool-2-thread-99] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:24.561 [pool-2-thread-100] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:24.670 [pool-2-thread-101] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:24.780 [pool-2-thread-102] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:24.889 [pool-2-thread-103] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:24.998 [pool-2-thread-104] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:25.108 [pool-2-thread-105] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:25.217 [pool-2-thread-106] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:25.327 [pool-2-thread-107] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:25.436 [pool-2-thread-108] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:25.545 [pool-2-thread-109] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:25.655 [pool-2-thread-110] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:25.764 [pool-2-thread-111] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:25.874 [pool-2-thread-112] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:35:25.983 [pool-2-thread-113] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
-2021-09-14 15:46:54.418 [nioEventLoopGroup-3-1] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(46f7f6f3) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:54:24.886 [nioEventLoopGroup-3-4] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(1f358100) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:58:09.032 [nioEventLoopGroup-3-5] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(68afd876) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:58:09.032 [nioEventLoopGroup-3-6] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(4c481644) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-14 15:58:24.270 [pool-2-thread-192] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 15:58:24.270 [pool-2-thread-193] ERROR c.j.remote.qty.server.handler.NettyChannelManager - [send][targetHost不存在]
-2021-09-14 17:15:51.237 [nioEventLoopGroup-3-1] ERROR c.j.remote.qty.server.handler.NettyServerHandler - [自捕捉到][连接(2c8e088f) 发生异常]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
+2021-09-16 12:05:06.755 [pool-2-thread-135] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！
+2021-09-16 12:17:13.840 [pool-2-thread-1] ERROR c.j.remote.qty.messgehandler.ExchangeHandlerImpl - 协议类型为空 或者 resourceId没有携带,不处理！

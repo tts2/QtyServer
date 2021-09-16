@@ -1,6 +1,5 @@
 package com.javacgo.remote.qty.messgehandler;
 
-import com.javacgo.remote.qty.common.entity.KeskHost;
 import com.javacgo.remote.qty.common.protocol.BigPack;
 import com.javacgo.remote.qty.dispatcher.MessageHandler;
 import com.javacgo.remote.qty.server.handler.NettyChannelManager;
@@ -16,12 +15,17 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
 
     private Logger logger = LoggerFactory.getLogger(getClass());
     @Autowired
-    NettyChannelManager nettyChnnelManager;
+    NettyChannelManager nettyChannelManager;
 
     @Override
     public void execute(ChannelHandlerContext ctx, BigPack.Exchange msg) {
         //根据dataType 来显示不同的信息
         BigPack.Exchange.DataType dataType = msg.getDataType();
+        if (dataType == BigPack.Exchange.DataType.TypeRegisterHost) {
+            BigPack.CsHostInfo csHostInfo = msg.getHostInfo();
+            nettyChannelManager.dealHostInfo(csHostInfo,ctx.channel());
+            return ;
+        }
         //源ID
         String resourceId = msg.getResourceId();
         //目标ID
@@ -30,41 +34,37 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
             logger.error("协议类型为空 或者 resourceId没有携带,不处理！");
             return;
         }
-        if (dataType == BigPack.Exchange.DataType.TypeHost) {
-            BigPack.WMHostInfo wmhostInfo = msg.getHostInfo();
-            nettyChnnelManager.dealHostInfo(wmhostInfo, resourceId, ctx.channel());
-        }
         switch (dataType) {
             case TypeQueryHost:
-                nettyChnnelManager.dealQuestHost(resourceId, targetId);
+                nettyChannelManager.dealQuestHost(resourceId, targetId);
                 break;
             case TypeRequestAuth:
                 logger.info("{} 请求 {} 认证", resourceId, targetId);
-                nettyChnnelManager.send(targetId, msg);
+                nettyChannelManager.send(targetId, msg);
                 break;
             case TypeResponseAuth:
                 if (msg.getResponseAuth().getSuccess()) {
                     //认证成功，加入进来,隶属于关系
-                    nettyChnnelManager.connect(resourceId, targetId);
+                    nettyChannelManager.connect(resourceId, targetId);
                 }
-                nettyChnnelManager.send(targetId, msg);
+                nettyChannelManager.send(targetId, msg);
                 break;
             case TypeRequestLeaveLook:
-                nettyChnnelManager.disconnect(resourceId, targetId);
+                nettyChannelManager.disconnect(resourceId, targetId);
                 break;
             case TypeRequestDesk:
-                nettyChnnelManager.setNeedSendId(resourceId, targetId);
+                nettyChannelManager.setNeedSendId(resourceId, targetId);
                 break;
             case TypeImageParameters:
             case TypeImage:
-                nettyChnnelManager.sendImage(resourceId, msg);
+                nettyChannelManager.sendImage(resourceId, msg);
                 break;
             case TypeMouseMove:
             case TypeMouseKeys:
             case TypeWheelEvent:
             case TypeKeyBoard:
             case TypeImageReceived:
-                nettyChnnelManager.send(targetId, msg);
+                nettyChannelManager.send(targetId, msg);
                 break;
 
         }
