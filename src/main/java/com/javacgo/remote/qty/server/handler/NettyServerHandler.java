@@ -34,7 +34,7 @@ public class NettyServerHandler  extends ChannelInboundHandlerAdapter {
     }
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
-        //logger.info(ctx.channel().remoteAddress() + " 网络连接上 " + ctx.channel().id().asLongText());
+        logger.info(ctx.channel().remoteAddress() + " 网络连接上 " + ctx.channel().id().asLongText());
     }
 
     //断开连接, 将xx客户离开信息推送给当前在线的客户

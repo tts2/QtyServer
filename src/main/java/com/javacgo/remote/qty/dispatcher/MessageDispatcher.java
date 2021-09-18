@@ -21,7 +21,7 @@ public class MessageDispatcher extends SimpleChannelInboundHandler<BigPack.Excha
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, BigPack.Exchange exchange) throws Exception {
         // <3.1> 获得 type 对应的 MessageHandler 处理器
-         MessageHandler messageHandler = messageHandlerContainer.getMessageHandler("BigPack.Exchange");
+         MessageHandler messageHandler = messageHandlerContainer.getMessageHandler(BigPack.Exchange.class.toGenericString());
         // 获得  MessageHandler 处理器的消息类
         //Class<? extends Message> messageClass = MessageHandlerContainer.getMessageClass(messageHandler);
         // <3.2> 解析消息

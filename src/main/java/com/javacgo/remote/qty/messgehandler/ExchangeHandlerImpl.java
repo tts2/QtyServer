@@ -21,6 +21,7 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
     public void execute(ChannelHandlerContext ctx, BigPack.Exchange msg) {
         //根据dataType 来显示不同的信息
         BigPack.Exchange.DataType dataType = msg.getDataType();
+        //注册设备
         if (dataType == BigPack.Exchange.DataType.TypeRegisterHost) {
             BigPack.CsHostInfo csHostInfo = msg.getHostInfo();
             nettyChannelManager.dealHostInfo(csHostInfo,ctx.channel());
@@ -66,7 +67,6 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
             case TypeImageReceived:
                 nettyChannelManager.send(targetId, msg);
                 break;
-
         }
     }
 
@@ -74,7 +74,7 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
     public String getType() {
         // return HeartbeatRequest.TYPE;
         // return BigPack.Exchange.DataType.TypeHost.toString();
-        return "BigPack.Exchange";
+        return BigPack.Exchange.class.toGenericString();
     }
 
 }

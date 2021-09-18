@@ -14,7 +14,7 @@ public class KeskHost {
     private String deviceID;
     //channel传输
     private Channel channel;
-    //pc名字
+    //cpu ID
     private String cpuID;
     //mac地址
     private String macAddress;
@@ -79,16 +79,12 @@ public class KeskHost {
         return this;
     }
 
-    /**
-     * @return the currentScreenDeviceId
-     */
+
     public String getCurrentScreenDeviceId() {
         return currentScreenDeviceId;
     }
 
-    /**
-     * @param currentScreenDeviceId the currentScreenDeviceId to set
-     */
+
     public void setCurrentScreenDeviceId(String currentScreenDeviceId) {
         this.currentScreenDeviceId = currentScreenDeviceId;
     }
