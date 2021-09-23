@@ -124,9 +124,9 @@ public class NettyChannelManager {
         KeskHost resourceHost = deviceId_Host_Map.get(resourceId);
         Set<KeskHost> hostSet = resourceHost.getRelations();
         for (KeskHost host : hostSet) {
-            if (host.getCurrentScreenDeviceId().equals(resourceId)) {
+           // if (host.getCurrentScreenDeviceId().equals(resourceId)) {
                 host.getChannel().writeAndFlush(msg);
-            }
+           // }
         }
     }
 

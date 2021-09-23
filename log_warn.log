@@ -1,6 +1,0 @@
-2021-09-18 17:30:42.842 [nioEventLoopGroup-3-1] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:55751--超时时间--读写空闲
-2021-09-18 17:34:32.482 [nioEventLoopGroup-3-1] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:55845--超时时间--读写空闲
-2021-09-18 17:36:32.514 [nioEventLoopGroup-3-2] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:55859--超时时间--读写空闲
-2021-09-18 17:59:50.035 [nioEventLoopGroup-3-11] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:55956--超时时间--读写空闲
-2021-09-18 18:01:50.071 [nioEventLoopGroup-3-12] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:55963--超时时间--读写空闲
-2021-09-18 18:05:38.499 [nioEventLoopGroup-3-13] WARN  c.j.remote.qty.server.handler.NettyChannelManager - /0:0:0:0:0:0:0:1:55973--超时时间--读写空闲
