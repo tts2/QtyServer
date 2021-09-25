@@ -35,7 +35,7 @@ public class NettyServerHandlerInitializer extends ChannelInitializer<Channel> {
         channelPipeline
                 // 空闲检测
                 //.addLast(new ReadTimeoutHandler(READ_TIMEOUT_SECONDS, TimeUnit.SECONDS))
-                .addLast(new IdleStateHandler(7000, 7000, 90, TimeUnit.SECONDS))
+                .addLast(new IdleStateHandler(7000, 7000, 60, TimeUnit.SECONDS))
                 //入站
                 .addLast(new ProtobufFixed32FrameDecoderRedefine())
                 .addLast("ExchangeProtobufferDecoder", new ProtobufDecoder(BigPack.Exchange.getDefaultInstance()))

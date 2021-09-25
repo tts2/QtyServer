@@ -60,9 +60,9 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
             case TypeImage:
                 nettyChannelManager.sendImage(resourceId, msg);
                 break;
+            case TypeWheelEvent:
             case TypeMouseMove:
             case TypeMouseKeys:
-            case TypeWheelEvent:
             case TypeKeyBoard:
             case TypeImageReceived:
                 nettyChannelManager.send(targetId, msg);
