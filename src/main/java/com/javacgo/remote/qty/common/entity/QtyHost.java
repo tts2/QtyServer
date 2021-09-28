@@ -1,15 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.javacgo.remote.qty.common.entity;
 
 import io.netty.channel.Channel;
 import java.util.HashSet;
 import java.util.Set;
 
-public class KeskHost {
+public class QtyHost {
     //设备ID
     private String deviceID;
     //channel传输
@@ -22,7 +17,7 @@ public class KeskHost {
     private int activeOrPassive;
     
     private String currentScreenDeviceId ;
-    private Set<KeskHost> relations = new HashSet();
+    private Set<QtyHost> relations = new HashSet();
     public boolean isActive() {
         if (1 == activeOrPassive) {
             return true;
@@ -30,14 +25,14 @@ public class KeskHost {
             return false;
         }
     }
-    public Set<KeskHost>  getRelations(){
+    public Set<QtyHost>  getRelations(){
         return this.relations;
     }
-    public void addRelations(KeskHost host) {
+    public void addRelations(QtyHost host) {
         this.relations.add(host);
     }
 
-    public boolean removeRelations(KeskHost host) {
+    public boolean removeRelations(QtyHost host) {
         if(this.relations.contains(host)){
             this.relations.remove(host);
             return true ;
@@ -47,7 +42,7 @@ public class KeskHost {
 
     }
 
-    public KeskHost setDeviceID(String id) {
+    public QtyHost setDeviceID(String id) {
         this.deviceID = id;
         return this;
     }
@@ -59,22 +54,22 @@ public class KeskHost {
     public Channel getChannel() {
         return this.channel;
     }
-    public KeskHost setChannel(Channel channel) {
+    public QtyHost setChannel(Channel channel) {
         this.channel = channel;
         return this;
     }
 
-    public KeskHost setCpuID(String cpuID) {
+    public QtyHost setCpuID(String cpuID) {
         this.cpuID = cpuID;
         return this;
     }
 
-    public KeskHost setMac(String mac) {
+    public QtyHost setMac(String mac) {
         this.macAddress = mac;
         return this;
     }
 
-    public KeskHost setActiveOrPassive(int ap) {
+    public QtyHost setActiveOrPassive(int ap) {
         this.activeOrPassive = ap;
         return this;
     }

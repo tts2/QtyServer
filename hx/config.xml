@@ -1,0 +1,28 @@
+<config>
+    <input>
+        <jar in="QtyServer-0.1.5-SNAPSHOT.jar" out="QtyServer-0.1.5-h.jar"/>
+      
+    </input>
+
+	<ignore-classes>
+		<!--不混淆 引入的第三方jar包-->
+		<class template="class *org*" />
+		<!--不混淆的类-->
+		<class template="class *com.softkey*" />
+		<class template="class *com.gdpt.beans*" />
+		<class template="class *javax.jms*" />
+		<class template="class *javax.mail*" />
+		<class template="class *com.gdpt.utils.MD5Utils*" />
+		<class template="class com.javacgo.remote.qty.QtyDeskServerApplication" />
+		
+	</ignore-classes>
+
+    <keep-names>
+        <class access="protected+">
+            <field access="protected+"/>
+            <method access="protected+"/>
+        </class>
+    </keep-names>
+
+    <property name="log-file" value="log.xml"/>
+</config>
