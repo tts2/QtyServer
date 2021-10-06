@@ -120,7 +120,15 @@ public class NettyChannelManager {
 
 
     public void sendImage(String resourceId, BigPack.Exchange msg) {
+        //得到源设备
         QtyHost resourceHost = deviceId_Host_Map.get(resourceId);
+        //接受了多少
+        int sendNum = msg.getImage().getSendNum() ;
+        BigPack.Exchange.Builder exB = BigPack.Exchange.newBuilder();
+        exB.setDataType(BigPack.Exchange.DataType.TypeImageReceived);
+        exB.setImageReceived(BigPack.CsImageReceived.newBuilder().setTileNum(sendNum));
+        resourceHost.getChannel().writeAndFlush(exB.build());
+        //发送图片
         Set<QtyHost> hostSet = resourceHost.getRelations();
         for (QtyHost host : hostSet) {
            // if (host.getCurrentScreenDeviceId().equals(resourceId)) {
@@ -138,7 +146,7 @@ public class NettyChannelManager {
         exB.setResourceId(resourceId);
         exB.setTargetId(targetUser);
         if (targetHost == null) {
-            logger.error("[查询主机]不存在{}", targetUser);
+            logger.warn("[查询主机]不存在{}", targetUser);
             exB.setResponseHost(BigPack.ScResponseHost.newBuilder().setIsExist(false));
         } else {
             exB.setResponseHost(BigPack.ScResponseHost.newBuilder().setIsExist(true));

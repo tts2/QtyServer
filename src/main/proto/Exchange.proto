@@ -32,7 +32,7 @@ message Exchange {
 		TypeImageParameters = 8 ;
 		//截屏图片数据
 		TypeImage = 9 ;
-		//接收的瓷块
+		//接收的图片数
 		TypeImageReceived = 10 ;
 		//鼠标移动
 		TypeMouseMove = 11 ;
@@ -116,7 +116,6 @@ message CsDeskRequest{
 message ScImageParameters{
 	int32 imageWidth = 1 ;
 	int32 imageHeight =2 ;
-	int32 rectWidth = 3;
 }
 message ScImageInfo {
     int32 posX = 1 ;
@@ -124,8 +123,8 @@ message ScImageInfo {
     int32 imageWidth = 3 ;
     int32 imageHeight =4 ;
     bytes m_data = 5 ;
-
-    int32 tileNum = 6;
+    //
+    int32 sendNum = 6;
 
 }
 message CsImageReceived{

@@ -15,9 +15,10 @@ public class QtyHost {
     private String macAddress;
     //被动主动
     private int activeOrPassive;
-    
+    //现在发送屏幕设备（减少带宽，暂时不需要）
     private String currentScreenDeviceId ;
     private Set<QtyHost> relations = new HashSet();
+    //是否主动设备
     public boolean isActive() {
         if (1 == activeOrPassive) {
             return true;

@@ -11,10 +11,6 @@ import io.netty.handler.codec.ByteToMessageDecoder;
 import io.netty.handler.codec.CorruptedFrameException;
 import java.util.List;
 
-/**
- *
- * @author zxl
- */
 public class ProtobufFixed32FrameDecoderRedefine extends ByteToMessageDecoder {
 
     public ProtobufFixed32FrameDecoderRedefine() {
@@ -29,8 +25,10 @@ public class ProtobufFixed32FrameDecoderRedefine extends ByteToMessageDecoder {
         if (in.readableBytes() < 4) {   
             throw new CorruptedFrameException("less min length[4]: " + in.readableBytes());
         }
-        in.readBytes(frontBytes);  //读取前4个字节
-        int length = bytesToInt(frontBytes); //自定义字节序获取前四个字节表示的长度
+        //读取前4个字节
+        in.readBytes(frontBytes);
+        //自定义字节序获取前四个字节表示的长度
+        int length = bytesToInt(frontBytes);
         if (preIndex != in.readerIndex()) {
             if (length < 0) {
                 throw new CorruptedFrameException("negative length: " + length);
@@ -40,7 +38,6 @@ public class ProtobufFixed32FrameDecoderRedefine extends ByteToMessageDecoder {
                 } else {
                     out.add(in.readRetainedSlice(length));  //读取相应长度的数据
                 }
-
             }
         }
     }
@@ -51,6 +48,4 @@ public class ProtobufFixed32FrameDecoderRedefine extends ByteToMessageDecoder {
                 | (b[1] & 0xff) << 16
                 | (b[0] & 0xff) << 24;
     }
-
-  
 }

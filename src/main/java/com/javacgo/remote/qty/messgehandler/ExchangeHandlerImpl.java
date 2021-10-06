@@ -64,7 +64,8 @@ public class ExchangeHandlerImpl implements MessageHandler<BigPack.Exchange> {
             case TypeMouseMove:
             case TypeMouseKeys:
             case TypeKeyBoard:
-            case TypeImageReceived:
+            //case TypeImageReceived:
+                //这里需要验证
                 nettyChannelManager.send(targetId, msg);
                 break;
         }

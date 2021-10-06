@@ -26,8 +26,10 @@ public class MessageHandlerContainer implements InitializingBean {
     @Override
     public void afterPropertiesSet() throws Exception {
         // 通过 ApplicationContext 获得所有 MessageHandler Bean
-        applicationContext.getBeansOfType(MessageHandler.class).values() // 获得所有 MessageHandler Bean
-                .forEach(messageHandler -> handlers.put(messageHandler.getType(), messageHandler)); // 添加到 handlers 中
+        // 获得所有 MessageHandler Bean
+        // 添加到 handlers 中
+        applicationContext.getBeansOfType(MessageHandler.class).values()
+                .forEach(messageHandler -> handlers.put(messageHandler.getType(), messageHandler));
         logger.info("[afterPropertiesSet][消息处理器数量：{}]", handlers.size());
     }
     /**

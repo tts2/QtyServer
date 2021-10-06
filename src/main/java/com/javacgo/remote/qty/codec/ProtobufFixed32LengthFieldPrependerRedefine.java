@@ -18,12 +18,15 @@ public class ProtobufFixed32LengthFieldPrependerRedefine extends MessageToByteEn
     protected void encode(ChannelHandlerContext ctx, ByteBuf msg, ByteBuf out) throws Exception {
         int bodyLen = msg.readableBytes();
         int headerLen = 4;
-        out.ensureWritable(headerLen + bodyLen);  //前4个字节+数据长度
-        writeRawVarint32(out, bodyLen);  //把body的长度写到前四个字节，int转为网络需
+        //前4个字节+数据长度
+        out.ensureWritable(headerLen + bodyLen);
+        //把body的长度写到前四个字节，int转为网络字节
+        writeRawVarint32(out, bodyLen);
         out.writeBytes(msg, msg.readerIndex(), bodyLen);
     }
     static void writeRawVarint32(ByteBuf out, int value) {
-        byte[] frontBytes = intToBytes(value);  //int转为网络序
+        //int转为网络序
+        byte[] frontBytes = intToBytes(value);
         out.writeBytes(frontBytes);
     }
     //写入的时候，把 int 转化为网络序
