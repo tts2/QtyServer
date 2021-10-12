@@ -13,10 +13,11 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
+
 @Component
 public class NettyChannelManager {
     private Logger logger = LoggerFactory.getLogger(getClass());
-
+    //
     //通过channelID 找到 设备 ID
     private ConcurrentMap<ChannelId, String> channelId_DeviceID_Map = new ConcurrentHashMap<>();
     //通过设备ID 找到 设备信息
@@ -25,20 +26,18 @@ public class NettyChannelManager {
     private int countPeople = 0;
 
     public void addUser(String deviceID, QtyHost host) {
-        boolean success = false ;
+        boolean success = false;
         if (deviceId_Host_Map.containsKey(deviceID)) {
             logger.warn("设备已经登录过");
         } else {
-            success = true ;
+            success = true;
             deviceId_Host_Map.put(deviceID, host);
             channelId_DeviceID_Map.put(host.getChannel().id(), deviceID);
-
             if (host.isActive()) {
                 logger.info("[主控连接 {} 登录]", deviceID);
             } else {
                 countPeople++;
                 logger.info("[被控连接 {} 登录]", deviceID);
-                logger.info("[被控设备] 在线人数 ：[{}]", countPeople);
             }
         }
         BigPack.Exchange.Builder exB = BigPack.Exchange.newBuilder();
@@ -46,6 +45,7 @@ public class NettyChannelManager {
         exB.setReplyInfo(BigPack.ScReplyInfo.newBuilder().setSuccess(success).setRegisterId(deviceID));
         host.getChannel().writeAndFlush(exB.build());
 
+        logger.info("[被控设备] 在线人数 ：[{}]", countPeople);
     }
 
     public void timeoutHandling(Channel channel, String eventType) {
@@ -84,26 +84,23 @@ public class NettyChannelManager {
         resourceHost.removeRelations(targetHost);
         targetHost.removeRelations(resourceHost);
 
-
     }
 
     public void remove(Channel channel) {
-        logger.info("====================remove======================");
         //断开的主机设备ID
         String deviceId = channelId_DeviceID_Map.get(channel.id());
         channelId_DeviceID_Map.remove(channel.id());
         //断开的主机
-
         QtyHost host = deviceId_Host_Map.get(deviceId);
         deviceId_Host_Map.remove(deviceId);
 
         if (!host.isActive()) {
             countPeople--;
-
         }
 
         deviceId_Host_Map.forEach((key, value) -> {
             value.removeRelations(host);
+            //通知关闭截图
             if (!value.isActive()) {
                 Set<QtyHost> relations = value.getRelations();
                 if (relations.size() == 0) {
@@ -123,7 +120,7 @@ public class NettyChannelManager {
         //得到源设备
         QtyHost resourceHost = deviceId_Host_Map.get(resourceId);
         //接受了多少
-        int sendNum = msg.getImage().getSendNum() ;
+        int sendNum = msg.getImage().getSendNum();
         BigPack.Exchange.Builder exB = BigPack.Exchange.newBuilder();
         exB.setDataType(BigPack.Exchange.DataType.TypeImageReceived);
         exB.setImageReceived(BigPack.CsImageReceived.newBuilder().setTileNum(sendNum));
@@ -131,9 +128,9 @@ public class NettyChannelManager {
         //发送图片
         Set<QtyHost> hostSet = resourceHost.getRelations();
         for (QtyHost host : hostSet) {
-           // if (host.getCurrentScreenDeviceId().equals(resourceId)) {
-                host.getChannel().writeAndFlush(msg);
-           // }
+            // if (host.getCurrentScreenDeviceId().equals(resourceId)) {
+            host.getChannel().writeAndFlush(msg);
+            // }
         }
     }
 
@@ -158,16 +155,16 @@ public class NettyChannelManager {
         // 获得用户对应的 Channel
         QtyHost host = deviceId_Host_Map.get(targetUser);
         if (host == null) {
-            logger.error("[send][targetHost不存在]{}", targetUser);
+            logger.error("[targetHost不存在]{}", targetUser);
             return;
         }
         Channel channel = host.getChannel();
         if (channel == null) {
-            logger.error("[send][连接不存在]");
+            logger.error("[channel连接不存在]");
             return;
         }
         if (!channel.isActive()) {
-            logger.error("[send][连接({})未激活]", channel.id());
+            logger.error("[连接({})未激活]", channel.id());
             return;
         }
         // 发送消息
@@ -181,12 +178,12 @@ public class NettyChannelManager {
 
     //注册主机信息
     public void dealHostInfo(BigPack.CsHostInfo csHostInfo, Channel channel) {
-        String deviceId = "";
+        String deviceId;
         //加入设备
         QtyHost host = new QtyHost();
         if (0 == csHostInfo.getActiveOrpassive()) {
             //被控用CPUID作为设备ID
-            deviceId = csHostInfo.getCpuId().substring(0,9) ;
+            deviceId = csHostInfo.getCpuId().substring(0, 9);
             host.setDeviceID(deviceId);
         } else if (1 == csHostInfo.getActiveOrpassive()) {
             //主控用netty自带channel短ID

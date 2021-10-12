@@ -17,6 +17,7 @@ public class QtyHost {
     private int activeOrPassive;
     //现在发送屏幕设备（减少带宽，暂时不需要）
     private String currentScreenDeviceId ;
+    //？共享资源是否锁
     private Set<QtyHost> relations = new HashSet();
     //是否主动设备
     public boolean isActive() {
@@ -70,8 +71,8 @@ public class QtyHost {
         return this;
     }
 
-    public QtyHost setActiveOrPassive(int ap) {
-        this.activeOrPassive = ap;
+    public QtyHost setActiveOrPassive(int aOrP) {
+        this.activeOrPassive = aOrP;
         return this;
     }
 
